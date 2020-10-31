@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>秘密の小屋</title>
+  
+  <subtitle>闻柒</subtitle>
+  <link href="http://wenqiofficial.github.io/atom.xml" rel="self"/>
+  
+  <link href="http://wenqiofficial.github.io/"/>
+  <updated>2020-10-31T14:37:58.518Z</updated>
+  <id>http://wenqiofficial.github.io/</id>
+  
+  <author>
+    <name>Wenqi</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>P站的正确进入方法OxO</title>
+    <link href="http://wenqiofficial.github.io/2020/10/25/P%E7%AB%99%E7%9A%84%E6%AD%A3%E7%A1%AE%E8%BF%9B%E5%85%A5%E6%96%B9%E6%B3%95OxO/"/>
+    <id>http://wenqiofficial.github.io/2020/10/25/P%E7%AB%99%E7%9A%84%E6%AD%A3%E7%A1%AE%E8%BF%9B%E5%85%A5%E6%96%B9%E6%B3%95OxO/</id>
+    <published>2020-10-25T07:29:27.000Z</published>
+    <updated>2020-10-31T14:37:58.518Z</updated>
+    
+    <content type="html"><![CDATA[<p>Pixiv,一个令人向往却又被不明的墙壁隔阂的地方…</p><h1 id="前期准备"><a href="#前期准备" class="headerlink" title="前期准备"></a>前期准备</h1><p>嗯…电脑手机浏览器，有线WiFi开4G（被打</p><h1 id="正片开始！"><a href="#正片开始！" class="headerlink" title="正片开始！"></a>正片开始！</h1><h2 id="方法1-“我绕个路还不行吗！”"><a href="#方法1-“我绕个路还不行吗！”" class="headerlink" title="方法1:“我绕个路还不行吗！”"></a>方法1:“我绕个路还不行吗！”</h2><p>该方法则是使用搭建的 “国内版”Pixiv<br>但是因为是“国内版”，所以大多数的R18内容都是被屏蔽的</p><h3 id="电脑"><a href="#电脑" class="headerlink" title="电脑"></a>电脑</h3>]]></content>
+    
+    
+    <summary type="html">是看图片的那个P站哦！</summary>
+    
+    
+    
+    <category term="技术" scheme="http://wenqiofficial.github.io/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+    <category term="Pixiv" scheme="http://wenqiofficial.github.io/tags/Pixiv/"/>
+    
+    <category term="LSP" scheme="http://wenqiofficial.github.io/tags/LSP/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>你好! 这里闻柒!</title>
+    <link href="http://wenqiofficial.github.io/2020/09/05/%E4%BD%A0%E5%A5%BD!%20%E8%BF%99%E9%87%8C%E9%97%BB%E6%9F%92!/"/>
+    <id>http://wenqiofficial.github.io/2020/09/05/%E4%BD%A0%E5%A5%BD!%20%E8%BF%99%E9%87%8C%E9%97%BB%E6%9F%92!/</id>
+    <published>2020-09-05T13:21:40.000Z</published>
+    <updated>2020-10-25T09:13:45.585Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="你好！这里闻柒！"><a href="#你好！这里闻柒！" class="headerlink" title="你好！这里闻柒！"></a>你好！这里闻柒！</h1><h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>我是这个博客的博主，闻柒。</p><p>这是我自己搭建起来的第一个博客，可能看起来还不是特别好，但是你可以看见它的逐渐成熟。</p><h2 id="基于"><a href="#基于" class="headerlink" title="基于"></a>基于</h2><p>嗯…你可以看见，这个博客是基于”HEXO”搭建，目前是托管在”GitHub”上的，使用的主题为”Sakura”。<br>由于我是第一次使用”HEXO”搭建博客，作为博客小白所以还有很多的地方是自己不了解的，可能会出现一些瑕疵。但是欢迎将来你们能提出意见。<br>（评论区要实名所以暂时用不了，正在努力寻找解决方法o(╥﹏╥)o）</p><h2 id="为什么要搭建"><a href="#为什么要搭建" class="headerlink" title="为什么要搭建"></a>为什么要搭建</h2><p>说到这个…其实还是闲得慌(bushi</p><p>还有看到别人做的博客，就想拥有属于自己的博客，但是经历了风风雨雨，走过无数坑才最终到这里；一开始用的是手机上的KSWeb搭配鲶鱼CMS，到后面因为很多的问题于是放弃掉了。无意之中想起了之前看过的博客于是便决定再用Hexo试一次。于是你便能看见这个博客了。</p><h2 id="今后的发展？"><a href="#今后的发展？" class="headerlink" title="今后的发展？"></a>今后的发展？</h2><p>今后这个博客将会作为我的个人发布平台之一，我将会在上面发布一些关于技术、游戏等方面的文章或是资源分享。<br>当然也会对这个博客进行更加的优化，也会添加评论系统以此来让大家能够在欣赏的同时分享出自己的见解。</p><h2 id="后言"><a href="#后言" class="headerlink" title="后言"></a>后言</h2><p>以上便是我想说的话了，还有部分会在“关于我”中阐述，今后可能还会进行补充。</p><p>总之，これからもよろしくお願いします！</p><p>2020-09-05<br>闻柒</p>]]></content>
+    
+    
+    <summary type="html">(*￣︶￣)</summary>
+    
+    
+    
+    <category term="随想" scheme="http://wenqiofficial.github.io/categories/%E9%9A%8F%E6%83%B3/"/>
+    
+    
+    <category term="最初的开始" scheme="http://wenqiofficial.github.io/tags/%E6%9C%80%E5%88%9D%E7%9A%84%E5%BC%80%E5%A7%8B/"/>
+    
+    <category term="你好" scheme="http://wenqiofficial.github.io/tags/%E4%BD%A0%E5%A5%BD/"/>
+    
+  </entry>
+  
+</feed>
