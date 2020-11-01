@@ -7,16 +7,6 @@
   url('//at.alicdn.com/t/font_679578_dishi1yoavm.svg?t=1544347866779#iconfont') format('svg'); /* iOS 4.1- */
 }
 
-@font-face {font-family: "shoujo";
-  src: url('https://cdn.jsdelivr.net/gh/WenqiOfficial/wenqicdn/fonts/shoujo.eot'); /* IE9*/
-  src: url('https://cdn.jsdelivr.net/gh/WenqiOfficial/wenqicdn/fonts/shoujo.eot#iefix') format('embedded-opentype'), /* IE6-IE8 */
-  url('https://cdn.jsdelivr.net/gh/WenqiOfficial/wenqicdn/fonts/shoujo.woff') format('woff'),
-  url('https://cdn.jsdelivr.net/gh/WenqiOfficial/wenqicdn/fonts/shoujo.ttf') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
-  url('https://cdn.jsdelivr.net/gh/WenqiOfficial/wenqicdn/fonts/shoujo.svg#shoujo') format('svg'); /* iOS 4.1- */
-  font-style: normal;
-  font-weight: normal;
-}
-
 .iconfont {
   font-family:"iconfont" !important;
   font-size:16px;

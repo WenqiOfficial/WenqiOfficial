@@ -4101,7 +4101,7 @@ li.feature-2 {
 }
 .header-info p {
     margin:0;
-    font-family:'Ubuntu',sans-serif;
+    font-family:'shoujo',sans-serif;
     font-weight:700
 }
 .top-social {
@@ -6119,7 +6119,7 @@ button.botui-actions-buttons-button {
     border-radius:5px;
     font-size:13px;
     cursor:pointer;
-    font-family:'Ubuntu'
+    font-family:'shoujo'
 }
 @media(min-width:861px) {
     .live2d-tool {
@@ -6269,7 +6269,7 @@ button.botui-actions-buttons-button {
     width:auto;
     height:auto;
     z-index:99;
-    font-family:'Ubuntu';
+    font-family:'shoujo';
     padding:10px 20px;
     transition-property:right;
     transition-duration:.3s,.3s
@@ -6383,7 +6383,7 @@ to {
 }
 .center-text {
     margin:auto;
-    font-family:'Ubuntu',sans-serif;
+    font-family:'shoujo',sans-serif;
     font-size:80px;
     text-transform:uppercase
 }
@@ -7170,7 +7170,8 @@ to {
 .top-feature-row {
     width:100%;
     height:auto;
-    margin-top:55px
+    font-family: 'Merriweather Sans';/*这边用原来字体主要是怕聚焦图错位*/
+	margin-top:55px
 }
 .top-feature-v2 {
     display:inline-block
@@ -7354,7 +7355,7 @@ to {
     margin-top:-35px;
     left:0;
     width:100%;
-    font-family:'Ubuntu',sans-serif;
+    font-family:'shoujo',sans-serif;
     font-weight:bold;
     padding:0 80px;
     text-indent:15px;
@@ -7474,15 +7475,15 @@ to {
 .code-font {
     font-family:'Source Code Pro',monospace
 }
-.Ubuntu-font {
-    font-family:'Ubuntu',sans-serif
+.shoujo-font {
+    font-family:'shoujo',sans-serif
 }
 .serif {
-    font-family:'Source Han Serif SC','Source Han Serif','source-han-serif-sc','PT Serif','SongTi SC','MicroSoft Yahei',Georgia,serif
+    font-family: shoujo, 'Source Han Serif SC','Source Han Serif','source-han-serif-sc','PT Serif','SongTi SC','MicroSoft Yahei',Georgia,serif
 }
 @media(max-width:860px) {
     .serif {
-    font-family:'Merriweather Sans',Helvetica,Tahoma,Arial,'PingFang SC','Hiragino Sans GB','Microsoft Yahei','WenQuanYi Micro Hei',sans-serif
+    font-family: shoujo, 'Merriweather Sans',Helvetica,Tahoma,Arial,'PingFang SC','Hiragino Sans GB','Microsoft Yahei','WenQuanYi Micro Hei',sans-serif
 }
 }.moe-mashiro {
     font-family:'Moe-Mashiro','Merriweather Sans',Helvetica,Tahoma,Arial,'PingFang SC','Hiragino Sans GB','Microsoft Yahei','WenQuanYi Micro Hei',sans-serif
@@ -7497,7 +7498,7 @@ to {
     background-color:#fff;
     box-shadow:0 1px 40px -8px rgba(0,0,0,.5);
     z-index:99;
-    font-family:'Ubuntu',sans-serif;
+    font-family:'shoujo',sans-serif;
     transform:scaleX(0);
     transition-property:transform,background;
     transition-duration:.3s,.3s
@@ -7565,10 +7566,13 @@ to {
     color:#fff
 }
 .control-btn-serif {
-    font-family:'Noto Serif CJK SC','Noto Serif CJK',serif
+    font-family:shoujo
 }
 .control-btn-sans-serif {
-    font-family:'Ubuntu',sans-serif
+    font-family:'shoujo',sans-serif
+}
+.control-btn-shoujo {
+	font-family:'shoujo',shoujo
 }
 .lazyload {
     -webkit-filter:blur(0px);
