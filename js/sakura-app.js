@@ -440,7 +440,7 @@ function checkBgImgCookie () {
       $('.blank').css('background-color', 'rgba(255,255,255,1)')
       $('.pattern-center').removeClass('pattern-center').addClass('pattern-center-sakura')
       $('.headertop-bar').removeClass('headertop-bar').addClass('headertop-bar-sakura')
-    } else if (bgurl == 'https://api.shino.cc/bing/') {
+    } else if (bgurl == 'https://api.xygeng.cn/Bing/') {
       mashiro_global.variables.skinSecter = true
       mashiro_global.variables.isNight = true
       $('#night-mode-cover').css('visibility', 'hidden')
@@ -504,7 +504,7 @@ $(document).ready(function () {
   changeBG('#pixiv-bg', 'https://cdn.jsdelivr.net/gh/WenqiOfficial/wenqicdn/img/themebg/star.png')
   changeBG('#KAdots-bg', 'https://cdn.jsdelivr.net/gh/WenqiOfficial/wenqicdn/img/themebg/point.png')
   changeBG('#totem-bg', 'https://cdn.jsdelivr.net/gh/WenqiOfficial/wenqicdn/img/themebg/little-monster.png')
-  changeBGnoTrans('#bing-bg', 'https://api.shino.cc/bing/')
+  changeBGnoTrans('#bing-bg', 'https://api.xygeng.cn/Bing/')
   $('.skin-menu #white-bg').click(function () {
     mashiro_global.variables.skinSecter = false
     mashiro_global.variables.isNight = false
@@ -1610,8 +1610,9 @@ $(function () {
     $(this).postLike()
   })
   console.log('%c Mashiro %c', 'background:#24272A; color:#ffffff', '', 'https://2heng.xin/')
-  console.log('%c hojun %c', 'background:#24272A; color:#ffffff', '', 'https://www.hojun.cn/')
-  console.log('%c Github %c', 'background:#24272A; color:#ffffff', '', 'https://github.com/honjun/hexo-theme-sakura')
+  /*console.log('%c hojun %c', 'background:#24272A; color:#ffffff', '', 'https://www.hojun.cn/')*/
+  console.log('%c Github %c', 'background:#24272A; color:#ffffff', '', 'https://github.com/WenqiOfficial/')
+  console.log('%c 怎么了？ %c', 'background:#24272A; color:#ffffff', '', '这里闻柒，应该没有被发现吧...')
 })
 var isWebkit = navigator.userAgent.toLowerCase().indexOf('webkit') > -1,
   isOpera = navigator.userAgent.toLowerCase().indexOf('opera') > -1,
