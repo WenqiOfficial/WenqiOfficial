@@ -1373,7 +1373,8 @@ a:hover,a:active {
     position:relative;
     height:75px;
     line-height:75px;
-    margin-left:-6px
+    margin-left:-6px;
+	margin-top:-4px
 }
 .site-title {
     margin:0
@@ -1422,7 +1423,8 @@ a:hover,a:active {
     font-size:16px;
     position:relative;
     left:-50%;
-    pointer-events:auto !important
+    pointer-events:auto !important;
+	width:775px
 }
 #show-nav.mobile-fit {
     position:absolute !important;
@@ -4076,20 +4078,20 @@ li.feature-2 {
     color:#2c3e50
 }
 .header-info {
-    width:63%;
+    width:52%;
     margin:auto;
     font-size:16px;
     color:#eaeadf;
-    background:rgba(0,0,0,.5);
-    padding:15px;
-    margin-top:22px;
+    background:rgba(0,0,0,.32);
+	padding:2px;
+    margin-top:55px;
     letter-spacing:0;
-    line-height:30px;
-    border-radius:10px;
+    line-height:25px;
+    border-radius:30px;
     box-sizing:initial;
     white-space:nowrap
 }
-.header-info:before {
+/*.header-info:before {
     content:"";
     position:absolute;
     top:127px;
@@ -4098,7 +4100,7 @@ li.feature-2 {
     border-width:15px;
     border-style:solid;
     border-color:transparent transparent rgba(0,0,0,.5) transparent
-}
+}*/
 .header-info p {
     margin:0;
     font-family:'shoujo',sans-serif;
@@ -4112,8 +4114,8 @@ li.feature-2 {
     display:inline-block
 }
 .top-social img {
-    height:35px;
-    width:35px;
+    height:40px;
+    width:40px;
     padding:6px;
     background:rgba(0,0,0,.4)
 }
@@ -4122,9 +4124,9 @@ li.feature-2 {
     margin-right:10px
 }
 .top-social_v2 {
-    height:32px;
-    margin-bottom:-15px;
-    margin-left:10px;
+    height:37px;
+    margin-bottom:-10px;
+    margin-left:14px;
     list-style:none;
     display:inline-block
 }
