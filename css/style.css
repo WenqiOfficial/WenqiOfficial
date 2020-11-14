@@ -7480,6 +7480,9 @@ to {
 .shoujo-font {
     font-family:'shoujo',sans-serif
 }
+.Ubuntu-font {
+	font-family: Ubuntu
+}
 .serif {
     font-family: shoujo, 'Source Han Serif SC','Source Han Serif','source-han-serif-sc','PT Serif','SongTi SC','MicroSoft Yahei',Georgia,serif
 }
