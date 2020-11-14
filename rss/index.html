@@ -68,6 +68,33 @@
   <div class="scrollbar" id="bar">
   </div>
   <a href="#" class="cd-top faa-float animated"></a>
+  
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/zyoushuo/Blog@latest/hexo/css/loading_style_1.css" >
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/zyoushuo/Blog@latest/hexo/css/loading_style_2.css" >
+<div id='loader'>
+	
+	<div class="loading-left-bg"></div>
+    <div class="loading-right-bg"></div>
+    <div class="spinner-box">
+		<div class="configure-border-1">
+			<div class="configure-core"></div>
+		</div>
+		<div class="configure-border-2">
+			<div class="configure-core"></div>
+		</div>
+		<div class="loading-word">加载中...</div>
+	</div>
+  
+</div>
+
+<script>
+  var endLoading = function () {
+    document.body.style.overflow = 'auto';
+    document.getElementById('loader').classList.add("loading");
+  }
+  window.addEventListener('load',endLoading);
+</script>
+
   <section id="main-container">
     <div class="headertop filter-dot">
   <div id="banner_wave_1"></div>
@@ -919,14 +946,22 @@ $(document).ready(function() {
     <i style="color:grey" class="fa fa-chevron-left"></i> 字体
     <i style="color:grey" class="fa fa-chevron-right"></i></p>
 <div class="font-family-controls row-container"> 
-    <button type="button" class="control-btn-serif selected" data-mode="Shoujo" onclick="mashiro_global.font_control.change_font()">Shoujo</button> 
+    <button type="button" class="control-btn-serif selected" data-mode="shoujo" onclick="mashiro_global.font_control.change_font()">Shoujo</button> 
     <button type="button" class="control-btn-sans-serif" data-mode="sans-serif" onclick="mashiro_global.font_control.change_font()">Sans Serif</button>  
 </div>
 <p style="text-align:center;font-weight:700;color:#444">
-    <i style="color:grey" class="fa fa-chevron-left"></i> 樱花效果
+    <i style="color:grey" class="fa fa-chevron-left"></i> 漂浮效果
     <i style="color:grey" class="fa fa-chevron-right"></i></p>
+    <div class="theme-controls row-container">
+  <ul class="menu-list">
+	<li id="empty-effect"><i class="fa fa-ban"></i></li>
+    <li id="sakura-rain-effect"><i class="iconfont icon-sakura"></i></li>
+    <li id="snowy-effect"><i class="fa fa-snowflake-o"></i></li>
+    <li id="point-rain-effect"><i class="iconfont icon-dots"></i></li>
+  </ul>
+</div>
 
-<p style="text-align:center">☆该功能尚未完善☆</p>
+<p style="text-align:center">☆测试中功能，可能不稳定☆</p>
 </div>
 <canvas id="night-mode-cover"></canvas>
  
@@ -936,10 +971,8 @@ $(document).ready(function() {
   </span> 
  </div> 
 </div>
-
-    <script src="https://cdn.jsdelivr.net/gh/WenqiOfficial/wenqicdn/js/hititle.js"></script>
+	<script src="https://cdn.jsdelivr.net/gh/WenqiOfficial/wenqicdn/js/hititle.js"></script>
 	<script src="https://cdn.jsdelivr.net/gh/WenqiOfficial/wenqicdn/live2d/wenqi_autoload.js"></script>
 	<script src="https://cdn.jsdelivr.net/gh/WenqiOfficial/wenqicdn/js/noSomeKey"></script>
-	<script src="https://cdn.jsdelivr.net/gh/wallleap/cdn/js/sakura"></script>
 </body>
 </html>

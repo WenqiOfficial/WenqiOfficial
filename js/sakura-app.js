@@ -453,8 +453,39 @@ function checkBgImgCookie () {
     return false
   }
 }
+function checkEffectsCookie() {
+  var efurl = getCookie('sakuraEffectCookie')
+  if(efurl) {
+    var effect = document.createElement("script")
+    effect.setAttribute("src","https://cdn.jsdelivr.net/gh/WenqiOfficial/wenqicdn/js/effect/sakura.js")
+    effect.setAttribute("id","sakura-effect")
+    document.getElementsByTagName("body").item(0).appendChild(effect)
+  }
+  efurl = getCookie('snowyEffectCookie')
+  if(efurl) {
+    var effect = document.createElement("script")        
+    effect.setAttribute("src","https://cdn.jsdelivr.net/gh/WenqiOfficial/wenqicdn/js/effect/snow.js")
+    effect.setAttribute("id","snow-effect")
+    document.getElementsByTagName("body").item(0).appendChild(effect)
+  }
+  efurl = getCookie('beltsEffectCookie')
+  if(efurl){
+    var effect = document.createElement("script")        
+    effect.setAttribute("src","https://cdn.jsdelivr.net/gh/WenqiOfficial/wenqicdn/js/effect/piao.js")
+    effect.setAttribute("id","belt-effect")
+    document.getElementsByTagName("body").item(0).appendChild(effect)
+  } 
+  efurl = getCookie('pointEffectCookie')
+  if(efurl){
+    var effect = document.createElement("script")        
+    effect.setAttribute("src","https://cdn.jsdelivr.net/gh/WenqiOfficial/wenqicdn/js/effect/pointrain.js")
+    effect.setAttribute("id","point-effect")
+    document.getElementsByTagName("body").item(0).appendChild(effect)
+  }
+}
 if (document.body.clientWidth > 860) {
   checkBgImgCookie()
+  checkEffectsCookie()
 }
 
 function no_right_click () {
@@ -530,7 +561,139 @@ $(document).ready(function () {
     $('#banner_wave_2').addClass('banner_wave_hide_fit_skin')
     closeSkinMenu()
   })
-
+  $('.skin-menu #empty-effect').click(function(){
+    sakuraEffectClear()
+    snowEffectClear()
+    lineEffectClear()    
+    beltEffectClear()
+    wordEffectClear()    
+    pointEffectClear()
+    rainEffectClear()
+    closeSkinMenu()
+	addComment.createButterbar('切换成功！<br>Change Theme successfully!', 1000)
+  })
+  $('.skin-menu #sakura-rain-effect').click(function(){
+    var effect = sakuraEffectClear()
+    if(!effect) {
+        effect = document.createElement("script")
+        effect.setAttribute("src","https://cdn.jsdelivr.net/gh/WenqiOfficial/wenqicdn/js/effect/sakura.js")
+        effect.setAttribute("id","sakura-effect")
+        document.getElementsByTagName("body").item(0).appendChild(effect)
+        setCookie('sakuraEffectCookie','use',30)
+    }
+    closeSkinMenu()
+	addComment.createButterbar('切换成功！<br>Change Theme successfully!', 1000)
+  })
+  $('.skin-menu #snowy-effect').click(function(){
+    var effect = snowEffectClear()
+    if(!effect){
+        effect = document.createElement("script")        
+        effect.setAttribute("src","https://cdn.jsdelivr.net/gh/WenqiOfficial/wenqicdn/js/effect/snow.js")
+        effect.setAttribute("id","snow-effect")
+        document.getElementsByTagName("body").item(0).appendChild(effect)
+        setCookie('snowyEffectCookie','use',30)
+    }
+    closeSkinMenu()
+	addComment.createButterbar('切换成功！<br>Change Theme successfully!', 1000)
+  })
+  $('.skin-menu #colorful-belts-effect').click(function(){
+    var effect = beltEffectClear()
+    if(!effect){
+        effect = document.createElement("script")        
+        effect.setAttribute("src","https://cdn.jsdelivr.net/gh/WenqiOfficial/wenqicdn/js/effect/piao.js")
+        effect.setAttribute("id","belt-effect")
+        document.getElementsByTagName("body").item(0).appendChild(effect)
+        setCookie('beltsEffectCookie','use',30)
+    }
+	closeSkinMenu()
+	addComment.createButterbar('切换成功！<br>Change Theme successfully!', 1000)
+  })
+  $('.skin-menu #point-rain-effect').click(function(){
+      var effect = pointEffectClear()
+      if(!effect){        
+        effect = document.createElement("script")        
+        effect.setAttribute("src","https://cdn.jsdelivr.net/gh/WenqiOfficial/wenqicdn/js/effect/pointrain.js")
+        effect.setAttribute("id","point-effect")
+        document.getElementsByTagName("body").item(0).appendChild(effect)
+        setCookie('pointEffectCookie','use',30)
+      }
+	  closeSkinMenu()
+	addComment.createButterbar('切换成功！<br>Change Theme successfully!', 1000)
+  })
+/*效果切换↑*/
+  function sakuraEffectClear(){
+	var effect = document.getElementById("sakura-effect")
+    if(effect){
+        effect.parentNode.removeChild(effect)
+        effect = document.getElementById("canvas_sakura")
+        effect.parentNode.removeChild(effect)
+        setCookie('sakuraEffectCookie','',30)
+    }
+    return effect;
+  }
+  function snowEffectClear(){
+      var effect = document.getElementById("snow-effect")
+      if(effect){
+        effect.parentNode.removeChild(effect)
+        clearInterval(CIYANG)
+        var snow = document.getElementById("snowbox")
+        while(snow){
+            snow.parentNode.removeChild(snow)
+            snow = document.getElementById("snowbox")
+        }
+        setCookie('snowyEffectCookie','',30)
+      }
+      return effect
+  }
+  function lineEffectClear(){
+      var effect = document.getElementById("line-effect")
+      if(effect){
+          effect.parentNode.removeChild(effect)
+          var lines = document.getElementById("lines")
+          lines.parentNode.removeChild(lines)
+          setCookie('linesEffectCookie','',30)
+      }
+      return effect
+  }
+  function beltEffectClear(){
+      var effect = document.getElementById("belt-effect")
+      if(effect){
+          effect.parentNode.removeChild(effect)
+          effect = document.getElementById("belts1")
+          effect.parentNode.removeChild(effect)
+          setCookie('beltsEffectCookie','',30)
+      }
+      return effect
+  }
+  function wordEffectClear(){
+      var effect = document.getElementById("words-effect")
+      if(effect){
+          effect.parentNode.removeChild(effect)
+          effect = document.getElementById("coderain")
+          effect.parentNode.removeChild(effect)
+          setCookie('wordsEffectCookie','',30)
+      }
+      return effect
+  }
+  function pointEffectClear(){
+      var effect = document.getElementById("point-effect")
+      if(effect){
+          effect.parentNode.removeChild(effect)
+          effect = document.getElementById("point")
+          effect.parentNode.removeChild(effect)
+          setCookie('pointEffectCookie','',30)
+      }
+      return effect
+  }
+  function rainEffectClear(){
+      var effect = document.getElementById("raindrop-effect")
+      if(effect){
+          effect.parentNode.removeChild(effect)
+          document.body.removeChild(document.getElementById('rain'))
+          setCookie('rainEffectCookie','',30)
+      }
+      return effect
+  }
   function closeSkinMenu () {
     $('.skin-menu').removeClass('show')
     setTimeout(function () {
@@ -830,7 +993,7 @@ function add_copyright () {
     if (event.clipboardData) {
       event.clipboardData.setData('text/html', htmlData)
       event.clipboardData.setData('text/plain', textData)
-      addComment.createButterbar('复制成功！<br>Copied to clipboard successfully!', 1000)
+      addComment.createButterbar('复制成功啦！<br>Copied to clipboard successfully!', 1000)
     } else if (window.clipboardData) {
       return window.clipboardData.setData('text', textData)
     }
