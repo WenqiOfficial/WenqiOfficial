@@ -554,11 +554,10 @@
       <p style="color: #666666;">&copy 2020 | 闻柒</p>
     </div>
     <div class="footer-device">
-    本站总访问量 <span id="busuanzi_value_site_pv"></span> 次</span> | <span id="busuanzi_container_site_uv">访问人数 <span id="busuanzi_value_site_uv"></span> 人
 	<span id="timeDate">载入天数...</span><span id="times">载入时分秒...</span><script>
     var now = new Date();
     function createtime() {
-    var grt= new Date("09/05/2020 00:00:00");//此处修改你的建站时间或者网站上线时间
+    var grt= new Date("09/05/2020 21:09:00");//此处修改你的建站时间或者网站上线时间
     now.setTime(now.getTime()+250);
     days = (now - grt ) / 1000 / 60 / 60 / 24; dnum = Math.floor(days);
     hours = (now - grt ) / 1000 / 60 / 60 - (24 * dnum); hnum = Math.floor(hours);
@@ -569,8 +568,12 @@
     document.getElementById("timeDate").innerHTML = "「小屋已经营 "+dnum+" 天 ";
     document.getElementById("times").innerHTML = hnum + " 小时 " + mnum + " 分 " + snum + " 秒」";
   }
-  setInterval("createtime()",250);</script>
-<div id="binft"></div>
+  setInterval("createtime()",250);</script><br>
+  <span id="busuanzi_container_site_pv" style='display:none'>
+   小屋访问数量 <span id="busuanzi_value_site_pv" style="color: #FF8C00;"></span> 次 | 小屋访客人数 <span id="busuanzi_value_site_uv" style="color: #FF8C00;"></span> 人
+  </span>
+
+<div id="binft" style="color: #666666;"></div>
   <script>
     var binft = function (r) {
       function t() {
@@ -1009,6 +1012,5 @@ $(document).ready(function() {
 </div>
 	<script src="https://cdn.jsdelivr.net/gh/WenqiOfficial/wenqicdn/js/hititle.js"></script>
 	<script src="https://cdn.jsdelivr.net/gh/WenqiOfficial/wenqicdn/live2d/wenqi_autoload.js"></script>
-	<script src="https://cdn.jsdelivr.net/gh/WenqiOfficial/wenqicdn/js/noSomeKey"></script>
 </body>
 </html>
