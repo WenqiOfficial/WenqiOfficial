@@ -227,7 +227,7 @@ mashiro_global.font_control = new function () {
       $('.control-btn-sans-serif').removeClass('selected')
       setCookie('font_family', 'serif', 30)
       if (document.body.clientWidth <= 860) {
-        addComment.createButterbar('将从网络加载字体，流量请注意')
+        addComment.createButterbar('将从网络加载字体，请注意流量~')
       }
     }
   }
@@ -979,9 +979,10 @@ function grin (tag, type, before, after) {
 //     loadBotui();
 // });
 
+/*复制提示*/
 function add_copyright () {
   document.body.addEventListener('copy', function (e) {
-    if (!mashiro_global.is_user_logged_in && window.getSelection().toString().length > 30) {
+    if (!mashiro_global.is_user_logged_in && window.getSelection().toString().length > 0) {
       setClipboardText(e)
     }
   })
@@ -991,9 +992,9 @@ function add_copyright () {
     var htmlData = '' + '著作权归作者所有。<br>' + '商业转载请联系作者获得授权，非商业转载请注明出处。<br>' + '作者：' + mashiro_option.author_name + '<br>' + '链接：' + window.location.href + '<br>' + '来源：' + mashiro_option.site_name + '<br><br>' + window.getSelection().toString().replace(/\r\n/g, '<br>')
     var textData = '' + '著作权归作者所有。\n' + '商业转载请联系作者获得授权，非商业转载请注明出处。\n' + '' + mashiro_option.author_name + '\n' + '链接：' + window.location.href + '\n' + '来源：' + mashiro_option.site_name + '\n\n' + window.getSelection().toString().replace(/\r\n/g, '\n')
     if (event.clipboardData) {
-      event.clipboardData.setData('text/html', htmlData)
-      event.clipboardData.setData('text/plain', textData)
-      addComment.createButterbar('复制成功啦！<br>Copied to clipboard successfully!', 1000)
+      //event.clipboardData.setData('text/html', htmlData)
+      //event.clipboardData.setData('text/plain', textData)
+      addComment.createButterbar('复制成功！( • ̀ω•́ )✧ 转载要标明作者哦！<br>Copied to clipboard successfully!', 2500)
     } else if (window.clipboardData) {
       return window.clipboardData.setData('text', textData)
     }
