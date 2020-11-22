@@ -38,8 +38,8 @@
   mashiro_option.site_name = "神秘の屋";
   mashiro_option.author_name = "闻柒";
   mashiro_option.site_url = "./";
-  mashiro_option.v_appId = "";
-  mashiro_option.v_appKey = "";
+  mashiro_option.v_appId = "UNybKE0OaRArVhwySJ71B110-MdYXbMMI";
+  mashiro_option.v_appKey = "lYaMsU40e6hDPKkMzpxRCrpT";
   mashiro_option.mathjax = "0";
   mashiro_option.qq_api_url = "https://api.mashiro.top/qqinfo/"; 
   mashiro_option.qq_avatar_api_url = "https://api.mashiro.top/qqinfo/";
@@ -82,7 +82,7 @@
 		<div class="configure-border-2">
 			<div class="configure-core"></div>
 		</div>
-		<div class="loading-word">稍等稍等呀...</div>
+		<div class="loading-word">加载中...</div>
 	</div>
   
 </div>
@@ -441,7 +441,7 @@
         <i class="fa fa-keyboard-o"></i>
 	    <span class="post-meta-item-text">  本文字数: </span>
         <!-- 安装插件npm install hexo-wordcount --save -->
-        <span class="post-count">284字</span>
+        <span class="post-count">273字</span>
       </span>
     </span>
 
@@ -476,30 +476,11 @@
 <h2 id="更新频率"><a href="#更新频率" class="headerlink" title="更新频率"></a>更新频率</h2><p>这个就随缘了…<br>可能到时候还会突然就有新的想写的东西写进来，不过大致能保证一周一更（博主是住宿生）。</p>
 <h2 id="教程更新进度"><a href="#教程更新进度" class="headerlink" title="教程更新进度"></a>教程更新进度</h2><p>其实可以在顶部的 <strong>Sakura</strong> 分区查看，但还是列个列表吧</p>
 <hr>
-<h4 id="鸽子的进度"><a href="#鸽子的进度" class="headerlink" title="鸽子的进度"></a>鸽子的进度</h4><table>
-<thead>
-<tr>
-<th align="center">教程编号</th>
-<th align="center">教程标题</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="center">#0</td>
-<td align="center">序章</td>
-</tr>
-<tr>
-<td align="center">#1</td>
-<td align="center">? ? ?</td>
-</tr>
-<tr>
-<td align="center">#2</td>
-<td align="center">? ? ?</td>
-</tr>
-<tr>
-<td align="center">…</td>
-<td align="center">…</td>
-</tr>
-</tbody></table>
+<h4 id="鸽子的进度"><a href="#鸽子的进度" class="headerlink" title="鸽子的进度"></a>鸽子的进度</h4><ol>
+<li>序章</li>
+<li>？？？</li>
+<li>？？？</li>
+</ol>
 <hr>
 <center><img src="https://cdn.jsdelivr.net/gh/WenqiOfficial/wenqicdn/img/gugugu.png" style="zoom: 33%; " /><br>打死你个大鸽子！</center>
 
@@ -551,24 +532,20 @@
         
       </section>
       
-<!-- 来必力City版安装代码 -->
-<div id="lv-container" data-id="city" data-uid="MTAyMC81MTY3MC8yODE1MQ==">
-<script type="text/javascript">
-   (function(d, s) {
-       var j, e = d.getElementsByTagName(s)[0];
-
-       if (typeof LivereTower === 'function') { return; }
-
-       j = d.createElement(s);
-       j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
-       j.async = true;
-
-       e.parentNode.insertBefore(j, e);
-   })(document, 'script');
+<div id="vcomments"></div>
+<script>
+  window.onload = function(){
+      var valine = new Valine();
+      valine.init({
+        el: '#vcomments',
+        appId: "UNybKE0OaRArVhwySJ71B110-MdYXbMMI",
+        appKey: "lYaMsU40e6hDPKkMzpxRCrpT",
+        path: window.location.pathname,
+        placeholder: "你是我一生只会遇见一次的惊喜...",
+		avatar: 'monsterid'
+      })
+  }
 </script>
-<noscript>为正常使用来必力评论功能请激活JavaScript</noscript>
-</div>
-<!-- City版安装代码已完成 -->
 
       <section class="author-profile">
         <div class="info" itemprop="author" itemscope="" itemtype="https://schema.org/Person">
@@ -720,7 +697,7 @@
 <script type="text/javascript" src="/js/zoom.min.js"></script>
 <script type="text/javascript" src="/js/sakura-app.js"></script>
 <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
-<script src='//unpkg.com/valine@1.3.4/dist/Valine.min.js'></script>
+<script src='//unpkg.com/valine/dist/Valine.min.js'></script>
 <script src="https://cdn.jsdelivr.net/gh/gitalk/gitalk/dist/gitalk.js"></script>
 <script src="/js/botui.js"></script>
 <!-- 不蒜子 网页计数器 -->

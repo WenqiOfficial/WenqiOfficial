@@ -5,7 +5,7 @@
     width: 400px;
 }
 #veditor {
-    background-image: url(https://cdn.jsdelivr.net/gh/WenqiOfficial/wenqicdn/img/other/comment-bg.png);
+    background-image: url(https://cdn.jsdelivr.net/gh/WenqiOfficial/wenqicdn/img/other/commentbg/2233.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: right;
@@ -3603,7 +3603,7 @@ a.page-numbers {
     background-color:rgba(255,255,255,0)
 }
 .comment-respond textarea {
-    background-image:url('https://cdn.jsdelivr.net/gh/WenqiOfficial/wenqicdn/img/other/comment-bg.png');
+    background-image:url('https://cdn.jsdelivr.net/gh/WenqiOfficial/wenqicdn/img/other/commentbg/2233.png');
     background-size:contain;
     background-repeat:no-repeat;
     background-position:right;
