@@ -94,6 +94,15 @@
 	background-color: #f5f5f5
 }
 
+#loader .spinner-box .loading-word2 {
+    text-align: center;
+    position: fixed;
+    color: #666666;
+    font-size: .3rem;
+    font-family: Ubuntu;
+    margin-top: 20%
+}
+
 #loader.loading .loading-left-bg {
 	-webkit-transform: translate(-100%, 0);
 	-moz-transform: translate(-100%, 0);

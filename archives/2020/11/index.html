@@ -83,7 +83,7 @@
 			<div class="configure-core"></div>
 		</div>
 		<div class="loading-word">加载中...</div>
-		<div class="loading-word" style="color: #666666; font-size: 8px;"><br><br><br><br><br><br><br><br><br><br><br>▶第一次加载会慢些哦◀</div>
+		<div class="loading-word2" >▶第一次加载会慢些哦◀</div>
 	</div>
   
 </div>
@@ -340,6 +340,13 @@
                         </a>
                       </li>
                     
+                      <li>
+                        <a href="/heart/">
+                          <i class="fa fa-heartbeat" aria-hidden="true"></i>
+                          心语
+                        </a>
+                      </li>
+                    
                   </ul>
                 
               </li>
@@ -445,9 +452,9 @@
           <div class="art-content">
             <div id="archives">
               <p style="text-align:right;">
-                [<span id="al_expand_collapse" style="cursor: s-resize;">
-                全部展开/收缩</span>
-              ]</p>
+                <span id="al_expand_collapse" >
+                <button class="btnall">全部展开/收缩</button></span>
+              </p>
               
               
               
@@ -470,7 +477,7 @@
                         <a href="/2020/11/21/004/">
                           <span style="color:#0bf;">
                           21日19:21:44</span>
-                          如何搭建属于自己的Hexo博客
+                          如何搭建属于自己的Hexo博客(一)
                         </a>
                       </li>
                       
@@ -552,6 +559,42 @@
   </div>
 </div>
 
+<style>
+.btnall:hover::after {
+    width: 100%;
+}
+
+* {
+    list-style: none;
+    outline: none;
+}
+
+button {
+    padding: 15px 2px;
+    font-size: 1rem;
+    cursor: pointer;
+    border: 0px;
+    background: #ffffff00;
+    position: sticky;
+    margin: 0px;
+    transition: all 0.25s ease;
+}
+	
+.btnall::after {
+    content: '';
+    position: absolute;
+    border-radius: inherit;
+    width: 10%;
+    height: 5px;
+	background: #0bf;
+    left: 0px;
+    bottom: 0px;
+	z-index: -1;
+    transition: all .25s ease;
+    left: 50%;
+    transform: translate(-50%);
+}
+</style>
     </div>    
     <div class="ins-search">
     <div class="ins-search-mask"></div>
@@ -876,6 +919,13 @@ $(document).ready(function() {
                 <a href="/topvideo/">
                   <i class="fa fa-video-camera" aria-hidden="true"></i>
                   视频
+                </a>
+              </li>
+            
+              <li>
+                <a href="/heart/">
+                  <i class="fa fa-heartbeat" aria-hidden="true"></i>
+                  心语
                 </a>
               </li>
             
