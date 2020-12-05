@@ -71,33 +71,68 @@
   
 <link rel="stylesheet" href="/css/loading_style_box.css" >
 <link rel="stylesheet" href="/css/loading_style_gear.css" >
+<link rel="stylesheet" href="/css/loading_style_slowout.css" >
 <div id='loader'>
 	
-	<div class="loading-left-bg"></div>
-    <div class="loading-right-bg"></div>
-    <div class="spinner-box">
-		<div class="configure-border-1">
-			<div class="configure-core"></div>
+    <script src="//cdn.jsdelivr.net/gh/WenqiOfficial/wenqicdn/js/jquery-3.5.1.min.js" ></script>	
+    <div class="wenqiload">
+		<div class="pic">
+			<span></span>
+			<b>0%</b>
 		</div>
-		<div class="configure-border-2">
-			<div class="configure-core"></div>
-		</div>
-		<div class="loading-word">加载中...</div>
-		<div class="loading-word2" >▶第一次加载会慢些哦◀</div>
 	</div>
+	<script>
+	$(function(){
+		var img=$("img");
+		var num=0;
+		img.each(function(i){
+		var oImg=new Image();
+		oImg.onload=function(){
+			oImg.onload=null;
+			num++;
+			$(".wenqiload b").html(parseInt( num )+"%");
+			if(num>=i){
+				var fake=0;
+				setTimeout(fakedone,1);
+				function fakedone(){
+					if(fake<99){
+						fake++;
+						$(".wenqiload b").html(parseInt( fake )+"%");
+						setTimeout(fakedone,10);
+					}else if(fake==99){
+						fake++;
+						$(".wenqiload b").fadeOut();
+						setTimeout(fakedone,500);
+					}else{
+						$(".wenqiload b").html("(≧▽≦)");
+						$(".wenqiload b").fadeIn();
+						setTimeout(doneout,1000)
+					}
+				}
+				function doneout(){
+					$(".wenqiload").fadeOut("slow");
+				}
+			}
+		}
+		oImg.src=img[i].src;
+		});       
+	})
+	</script>
+    
   
 </div>
-
+	
 <script>
-  var endLoading = function () {
+	var endLoading = function () {
     document.body.style.overflow = 'auto';
     document.getElementById('loader').classList.add("loading");
-  }
-  window.addEventListener('load',endLoading);
+	}
+	window.addEventListener('load',endLoading);
 </script>
 
   <section id="main-container">
     <div class="headertop filter-dot">
+  <!--首页顶部波浪-->
   <div id="banner_wave_1"></div>
   <div id="banner_wave_2"></div>
   <figure id="centerbg" class="centerbg">
@@ -753,9 +788,9 @@
 <script type="text/javascript">
 /* <![CDATA[ */
 if (/Android|webOS|iPhone|iPod|BlackBerry/i.test(navigator.userAgent)) {
-  var Poi = {"pjax":"1","movies":{"url": "https://cdn.jsdelivr.net/gh/WenqiOfficial/wenqicdn/video","name":"mainvideo1.mp4,mainvideo2.mp4,mainvideo3.mp4,mainvideo4.mp4,mainvideo5.mp4,mainvideo6.mkv","live":"close"},"windowheight":"fixed","codelamp":"close","ajaxurl":"","order":"asc","formpostion":"bottom"};
+  var Poi = {"pjax":"1","movies":{"url": "https://cdn.jsdelivr.net/gh/WenqiOfficial/wenqicdn/video","name":"mainvideo1.mp4,mainvideo2.mp4,mainvideo3.mp4,mainvideo4new.mp4,mainvideo5.mp4,mainvideo6.mkv","live":"close"},"windowheight":"fixed","codelamp":"close","ajaxurl":"","order":"asc","formpostion":"bottom"};
 } else {
-  var Poi = {"pjax":"1","movies":{"url": "https://cdn.jsdelivr.net/gh/WenqiOfficial/wenqicdn/video","name":"mainvideo1.mp4,mainvideo2.mp4,mainvideo3.mp4,mainvideo4.mp4,mainvideo5.mp4,mainvideo6.mkv","live":"open"},"windowheight":"auto","codelamp":"close","ajaxurl":"","order":"asc","formpostion":"bottom"};
+  var Poi = {"pjax":"1","movies":{"url": "https://cdn.jsdelivr.net/gh/WenqiOfficial/wenqicdn/video","name":"mainvideo1.mp4,mainvideo2.mp4,mainvideo3.mp4,mainvideo4new.mp4,mainvideo5.mp4,mainvideo6.mkv","live":"open"},"windowheight":"auto","codelamp":"close","ajaxurl":"","order":"asc","formpostion":"bottom"};
 }
 /* ]]> */
 
