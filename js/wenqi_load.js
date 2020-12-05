@@ -22,5 +22,6 @@
             if (document.readyState == "complete") {
                 var loadingMask = document.getElementById('loadingDiv');
                 loadingMask.parentNode.removeChild(loadingMask);
+				loader.className="loader fadeout" ;
             }
         }
