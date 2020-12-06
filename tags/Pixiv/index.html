@@ -75,11 +75,18 @@
 			<span></span>
 			<b>0%</b>
 		</div>
+		<div class="toolong">
+			<oxo style="display:none;"></oxo>
+			<qwq style="display:none;" >2020 | 闻柒</qwq>
+		</div>
 	</div>
 	<script>
+	$(".wenqiload qwq").fadeIn(1500);
+	setTimeout(toolong,10000);
 	$(function(){
 		var img=$("img");
 		var num=0;
+		var inout=0;
 		img.each(function(i){
 		var oImg=new Image();
 		oImg.onload=function(){
@@ -88,20 +95,26 @@
 			$(".wenqiload b").html(parseInt( num )+"%");
 			if(num>=i){
 				var fake=0;
+				var yes=0;
 				setTimeout(fakedone,1);
 				function fakedone(){
 					if(fake<99){
 						fake++;
 						$(".wenqiload b").html(parseInt( fake )+"%");
 						setTimeout(fakedone,10);
-					}else if(fake==99){
-						fake++;
+					}else if(fake==99 && num>=i){
+						fake=100;
+						yes=0;
 						$(".wenqiload b").fadeOut();
+						$(".wenqiload qwq").fadeOut();
+						$(".wenqiload oxo").fadeOut();
 						setTimeout(fakedone,500);
-					}else{
+					}else if(fake==100 && yes==0){
 						$(".wenqiload b").html("(≧▽≦)");
 						$(".wenqiload b").fadeIn();
 						setTimeout(doneout,1000);
+					}else{
+						setTimeout(fakedone,1);
 					}
 				}
 				function doneout(){
@@ -111,7 +124,11 @@
 		}
 		oImg.src=img[i].src;
 		});       
-	})
+	});
+	function toolong(){
+		$(".wenqiload oxo").html("「等待时间太久了...刷新一下吧...」<br>");
+		$(".wenqiload oxo").fadeIn("slow");
+	}
 	</script>
     
   
