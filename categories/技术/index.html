@@ -73,11 +73,12 @@
     <div class="wenqiload">
 		<div class="pic">
 			<span></span>
-			<b>0%</b>
+			<b>0%</b><b2 style="display:none;"></b2>
 		</div>
 		<div class="toolong">
 			<oxo style="display:none;"></oxo>
 			<qwq style="display:none;" >2020 | 闻柒</qwq>
+			<ovo style="display:none;font-family:Ubuntu;font-size:17px;">加载完毕</ovo>
 		</div>
 	</div>
 	<script>
@@ -104,15 +105,18 @@
 						setTimeout(fakedone,10);
 					}else if(fake==99 && num>=i){
 						fake=100;
-						yes=0;
-						$(".wenqiload b").fadeOut();
-						$(".wenqiload qwq").fadeOut();
-						$(".wenqiload oxo").fadeOut();
+						yes=1;
+						clearTimeout(toolong);
+						$(".wenqiload b").fadeOut("fast");
+						$(".wenqiload qwq").fadeOut("fast");
+						$(".wenqiload oxo").fadeOut("fast");
 						setTimeout(fakedone,500);
-					}else if(fake==100 && yes==0){
-						$(".wenqiload b").html("(≧▽≦)");
-						$(".wenqiload b").fadeIn();
-						setTimeout(doneout,1000);
+					}else if(fake==100 && yes==1){
+						clearTimeout(fakedone);
+						$(".wenqiload b2").html("(≧▽≦)");
+						$(".wenqiload b2").fadeIn();
+						$(".wenqiload ovo").fadeIn();
+						setTimeout(doneout,2000);
 					}else{
 						setTimeout(fakedone,1);
 					}
@@ -126,8 +130,10 @@
 		});       
 	});
 	function toolong(){
+		if(yes!=1){
 		$(".wenqiload oxo").html("「等待时间太久了...刷新一下吧...」<br>");
 		$(".wenqiload oxo").fadeIn("slow");
+		}
 	}
 	</script>
     
