@@ -83,6 +83,7 @@
 	</div>
 	<script>
 	$(".wenqiload qwq").fadeIn(1500);
+	var yes=0;
 	setTimeout(toolong,10000);
 	$(function(){
 		var img=$("img");
@@ -96,7 +97,6 @@
 			$(".wenqiload b").html(parseInt( num )+"%");
 			if(num>=i){
 				var fake=0;
-				var yes=0;
 				setTimeout(fakedone,1);
 				function fakedone(){
 					if(fake<99){
@@ -131,7 +131,7 @@
 	});
 	function toolong(){
 		if(yes!=1){
-		$(".wenqiload oxo").html("「等待时间太久了...刷新一下吧...」<br>");
+		$(".wenqiload oxo").html("「如果进度条君久久不动的话...就刷新一下吧...」<br>");
 		$(".wenqiload oxo").fadeIn("slow");
 		}
 	}
