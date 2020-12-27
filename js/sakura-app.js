@@ -1343,6 +1343,7 @@ var home = location.href,
       $('.video-stu').html('正在载入视频 ...').css({
         'bottom': '0px'
       })
+	  videoElement.volume = 0.5;
       var t = Poi.movies.name.split(','),
         _t = t[Math.floor(Math.random() * t.length)]
       $('#bgvideo').attr('src', Poi.movies.url + '/' + _t)
@@ -1356,6 +1357,7 @@ var home = location.href,
           s.oncanplay = function () {
             Siren.splay()
             $('#video-add').show()
+			$('#video-sound').show()
             _btn.addClass('videolive')
             _btn.addClass('haslive')
           }
@@ -1374,12 +1376,15 @@ var home = location.href,
         s.onended = function () {
           $('#bgvideo').attr('src', '')
           $('#video-add').hide()
+		  $('#video-sound').hide()
           _btn.addClass('loadvideo').removeClass('video-pause')
           _btn.removeClass('videolive')
           _btn.removeClass('haslive')
           $('.focusinfo').css({
             'top': '49.3%'
           })
+		  $('#banner_wave_1').removeClass('banner_wave_hide')
+		  $('#banner_wave_2').removeClass('banner_wave_hide')
         }
       })
       $('#video-add').on('click', function () {

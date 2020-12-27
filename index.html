@@ -237,7 +237,11 @@
     </div>
     <div id="video-add">
     </div>
-    <div class="video-stu">
+	<div id="video-sound" class="video-sound">
+		<div id="video-sound-up" class="video-sound-up" onclick="upup()"></div>
+		<div id="video-sound-down" class="video-sound-down" onclick="downdown()"></div>
+    </div>
+	<div class="video-stu">
     </div>
   </div>
   <div class="headertop-down faa-float animated" onclick="headertop_down()">
@@ -247,6 +251,55 @@
     </span>
   </div>
 </div>
+<script>
+	var videoElement = document.getElementById("bgvideo");
+	var vol = 0.1;
+    function upup(){
+		clearTimeout(stuout);
+		voln=videoElement.volume*100;
+		if(voln < 90)
+		{
+		videoElement.volume !== 1 ? videoElement.volume += vol : 1;
+		voln=videoElement.volume*100;
+		$('.video-stu').css({
+              'bottom': '0px'
+        }).html('音量: ' + parseInt(voln) + '%')
+		}else
+		{
+		videoElement.volume = 1;
+		$('.video-stu').css({
+              'bottom': '0px'
+        }).html('音量: 100% 已经是最大音量啦！注意保护好耳朵哦！')
+		}
+		setTimeout(stuout,2000);
+    }
+	function downdown(){
+        clearTimeout(stuout)
+		voln=videoElement.volume*100;
+		if(voln > 10)
+		{
+		videoElement.volume !== 0 ? videoElement.volume -= vol : 1;
+		voln=videoElement.volume*100;
+		$('.video-stu').css({
+              'bottom': '0px'
+        }).html('音量: ' + parseInt(voln) + '%')
+		}else
+		{
+		videoElement.volume = 0;
+		$('.video-stu').css({
+              'bottom': '0px'
+        }).html('音量: 0% 已经是最低音量啦！')
+		}
+		setTimeout(stuout,2000);
+	}
+	function stuout(){
+		clearTimeout(stuout);
+		clearTimeout();
+		$('.video-stu').css({
+			'bottom': '-100px'
+		})
+	}
+</script>
     <div id="page" class="site wrapper">
       <header class="site-header no-select gizle sabit" role="banner">
   <div class="site-top">
@@ -497,7 +550,7 @@
   <div class="notice" style="margin-top:60px">
     <i class="iconfont icon-notification">
     </i>
-    <div class="notice-content">建设中... 由于博主暂未时间扩充内容，故将博客内多数分类隐藏 已更换站点域名:wenqiblog.ml</div>
+    <div class="notice-content">庆祝毛主席诞生127周年！！！ 已更换站点域名:wenqiblog.ml</div>
   </div>
   
   <div class="top-feature-row">
