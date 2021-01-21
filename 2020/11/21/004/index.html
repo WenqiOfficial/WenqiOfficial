@@ -77,7 +77,7 @@
 		</div>
 		<div class="toolong">
 			<oxo style="display:none;"></oxo>
-			<qwq style="display:none;" >2020 | 闻柒</qwq>
+			<qwq style="display:none;" >2021 | 闻柒</qwq>
 			<ovo style="display:none;font-family:Ubuntu;font-size:17px;">加载完毕</ovo>
 		</div>
 	</div>
@@ -254,8 +254,10 @@
 <script>
 	var videoElement = document.getElementById("bgvideo");
 	var vol = 0.1;
+	var haout = 0;
     function upup(){
 		clearTimeout(stuout);
+		haout=0;
 		voln=videoElement.volume*100;
 		if(voln < 90)
 		{
@@ -271,10 +273,15 @@
               'bottom': '0px'
         }).html('音量: 100% 已经是最大音量啦！注意保护好耳朵哦！')
 		}
-		setTimeout(stuout,2000);
+		if(haout==0)
+		{
+			haout=1;
+			setTimeout(stuout,2000);
+		}
     }
 	function downdown(){
         clearTimeout(stuout)
+		haout=0;
 		voln=videoElement.volume*100;
 		if(voln > 10)
 		{
@@ -290,14 +297,22 @@
               'bottom': '0px'
         }).html('音量: 0% 已经是最低音量啦！')
 		}
-		setTimeout(stuout,2000);
+		if(haout==0)
+		{
+			haout=1;
+			setTimeout(stuout,2000);
+		}
 	}
 	function stuout(){
 		clearTimeout(stuout);
 		clearTimeout();
+		if(haout==1)
+		{
 		$('.video-stu').css({
 			'bottom': '-100px'
 		})
+		haout=0;
+		}
 	}
 </script>
     <div id="page" class="site wrapper">
@@ -490,7 +505,7 @@
               </li>
             
               <li>
-                <a href="/links/">
+                <a href="javascript:;">
                   <span class="faa-parent animated-hover">
                     <i class="fa  fa-link faa-shake" aria-hidden="true"></i>
                     友人帐
@@ -901,7 +916,7 @@ hexo s //开启本地预览＆启用本地服务</code></pre><p>当出现了下�
         <img src="https://cdn.jsdelivr.net/gh/WenqiOfficial/wenqicdn/img/other/wordpress-rotating-ball-o.svg">
         <img src="https://cdn.jsdelivr.net/gh/WenqiOfficial/wenqicdn/img/other/disqus-preloader.svg">
       </div>
-      <p style="color: #666666;">&copy 2020 | 闻柒</p>
+      <p style="color: #666666;">&copy 2021 | 闻柒</p>
     </div>
     <div class="footer-device">
 	<span id="timeDate">载入天数...</span><span id="times">载入时分秒...</span><script>
@@ -1224,7 +1239,7 @@ $(document).ready(function() {
       </li>
     
       <li>
-        <a href="/links/">
+        <a href="javascript:;">
           <span class="faa-parent animated-hover">
             <i class="fa  fa-link faa-shake" aria-hidden="true"></i>
             友人帐
