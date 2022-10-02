@@ -1,0 +1,292 @@
+/*
+ * Globals
+ */
+/* Links */
+a,
+a:focus,
+a:hover {
+  color: #fff;
+}
+
+/* Custom default button */
+.btn-default {
+  color: #fff;
+  text-shadow: none;
+  /* Prevent inheritence from `body` */
+  background-color: transparent;
+  border: 2px solid #fff;
+  border-radius: 20px;
+  padding: 0.5rem 2rem;
+}
+
+.btn-default:hover,
+.btn-default:focus {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+/*
+ * Base structure
+ */
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background: url(https://cdn.wenqi.ml:5244/d/gh/WenqiOfficial/wenqicdn/img/cover/mainimg9.webp) no-repeat center center fixed;
+  background-size: cover;
+  color: #fff;
+  text-align: center;
+  font-family: 'Quicksand', sans-serif;
+  user-select: none;
+}
+
+/* Extra markup and styles for table-esque vertical and horizontal centering */
+.site-wrapper {
+  display: table;
+  width: 100%;
+  height: 100%;
+  /* For at least Firefox */
+  min-height: 100%;
+  background: rgba(48, 53, 70, 0.5);
+  box-shadow: inset 0 0 100px rgba(0, 0, 0, 0.5);
+}
+
+.loader {
+    position: relative;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin: 10px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.loader-2 .loader-star {
+    position: static;
+    width: 60px;
+    height: 60px;
+    -webkit-transform: scale(0.7);
+    transform: scale(0.7);
+    -webkit-animation: loader-2-star 1s ease alternate infinite;
+    animation: loader-2-star 1s ease alternate infinite;
+}
+.loader-star {
+    position: absolute;
+    top: calc(50% - 12px);
+}
+.loader-2 .loader-circles {
+    width: 8px;
+    height: 8px;
+    background: #18ffff;
+    border-radius: 50%;
+    position: absolute;
+    left: calc(50% - 4px);
+    top: calc(50% - 4px);
+    -webkit-transition: all 1s ease;
+    transition: all 1s ease;
+    -webkit-animation: loader-2-circles 1s ease-in-out alternate infinite;
+    animation: loader-2-circles 1s ease-in-out alternate infinite;
+}
+ @-webkit-keyframes loader-2-circles {
+ 0% {
+ box-shadow: 0 0 0 #18ffff;
+ opacity: 1;
+ -webkit-transform: rotate(0deg);
+ transform: rotate(0deg);
+}
+ 50% {
+ box-shadow: 24px -22px #18ffff, 30px -15px 0 -3px #18ffff, 31px 0px #18ffff, 29px 9px 0 -3px #18ffff, 24px 23px #18ffff, 17px 30px 0 -3px #18ffff, 0px 33px #18ffff, -10px 28px 0 -3px #18ffff, -24px 22px #18ffff, -29px 14px 0 -3px #18ffff, -31px -3px #18ffff, -30px -11px 0 -3px #18ffff, -20px -25px #18ffff, -12px -30px 0 -3px #18ffff, 5px -29px #18ffff, 13px -25px 0 -3px #18ffff;
+ -webkit-transform: rotate(180deg);
+ transform: rotate(180deg);
+}
+ 100% {
+ opacity: 0;
+ -webkit-transform: rotate(360deg);
+ transform: rotate(360deg);
+ box-shadow: 25px -22px #18ffff, 15px -22px 0 -3px black, 31px 2px #18ffff, 21px 2px 0 -3px black, 23px 25px #18ffff, 13px 25px 0 -3px black, 0px 33px #18ffff, -10px 33px 0 -3px black, -26px 24px #18ffff, -19px 17px 0 -3px black, -32px 0px #18ffff, -23px 0px 0 -3px black, -25px -23px #18ffff, -16px -23px 0 -3px black, 0px -31px #18ffff, -2px -23px 0 -3px black;
+}
+}
+ @keyframes loader-2-circles {
+ 0% {
+ box-shadow: 0 0 0 #18ffff;
+ opacity: 1;
+ -webkit-transform: rotate(0deg);
+ transform: rotate(0deg);
+}
+ 50% {
+ box-shadow: 24px -22px #18ffff, 30px -15px 0 -3px #18ffff, 31px 0px #18ffff, 29px 9px 0 -3px #18ffff, 24px 23px #18ffff, 17px 30px 0 -3px #18ffff, 0px 33px #18ffff, -10px 28px 0 -3px #18ffff, -24px 22px #18ffff, -29px 14px 0 -3px #18ffff, -31px -3px #18ffff, -30px -11px 0 -3px #18ffff, -20px -25px #18ffff, -12px -30px 0 -3px #18ffff, 5px -29px #18ffff, 13px -25px 0 -3px #18ffff;
+ -webkit-transform: rotate(180deg);
+ transform: rotate(180deg);
+}
+ 100% {
+ opacity: 0;
+ -webkit-transform: rotate(360deg);
+ transform: rotate(360deg);
+ box-shadow: 25px -22px #18ffff, 15px -22px 0 -3px black, 31px 2px #18ffff, 21px 2px 0 -3px black, 23px 25px #18ffff, 13px 25px 0 -3px black, 0px 33px #18ffff, -10px 33px 0 -3px black, -26px 24px #18ffff, -19px 17px 0 -3px black, -32px 0px #18ffff, -23px 0px 0 -3px black, -25px -23px #18ffff, -16px -23px 0 -3px black, 0px -31px #18ffff, -2px -23px 0 -3px black;
+}
+}
+@-webkit-keyframes loader-2-star {
+ 0% {
+ -webkit-transform: scale(0) rotate(0deg);
+ transform: scale(0) rotate(0deg);
+}
+ 100% {
+ -webkit-transform: scale(0.7) rotate(360deg);
+ transform: scale(0.7) rotate(360deg);
+}
+}
+ @keyframes loader-2-star {
+ 0% {
+ -webkit-transform: scale(0) rotate(0deg);
+ transform: scale(0) rotate(0deg);
+}
+ 100% {
+ -webkit-transform: scale(0.7) rotate(360deg);
+ transform: scale(0.7) rotate(360deg);
+}
+}
+
+.site-wrapper-inner {
+  display: table-cell;
+  vertical-align: top;
+}
+
+.cover-container {
+  margin-right: auto;
+  margin-left: auto;
+}
+.tlinks{text-indent:-9999px;height:0;line-height:0;font-size:0;overflow:hidden;}
+/* Padding for spacing */
+.inner {
+  padding: 30px;
+}
+
+/*
+ * Header
+ */
+.masthead-brand {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.nav-masthead {
+  text-align: center;
+  display: block;
+}
+
+.nav-masthead .nav-link {
+  display: inline-block;
+}
+
+@media (min-width: 768px) {
+  .masthead-brand {
+    float: left;
+  }
+  .nav-masthead {
+    float: right;
+  }
+}
+
+/*
+ * Cover
+ */
+.cover {
+  padding: 0 20px;
+}
+
+.cover .btn-notify {
+  padding: 10px 60px;
+  font-weight: 500;
+  text-transform: uppercase;
+  border-radius: 40px;
+}
+
+.cover-heading {
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  font-size: 2rem;
+  margin-bottom: 0rem;
+}
+
+@media (min-width: 768px) {
+  .cover-heading {
+    font-size: 3.4rem;
+    letter-spacing: 15px;
+  }
+}
+
+.cover-copy {
+  max-width: 500px;
+  margin: 0 auto 3rem;
+}
+
+/*
+ * Footer
+ */
+.mastfoot {
+  color: #999;
+  /* IE8 proofing */
+  color: rgba(255, 255, 255, 0.5);
+}
+
+/*
+ * Subscribe modal box
+ */
+#subscribeModal .modal-content {
+  background-color: #303546;
+  color: #fff;
+  text-align: left;
+}
+
+#subscribeModal .modal-header, #subscribeModal .modal-footer {
+  border: 0;
+}
+
+#subscribeModal .close {
+  color: #fff;
+}
+
+#subscribeModal .form-control {
+  margin-top: 1rem;
+  background: rgba(0, 0, 0, 0.4);
+  color: #fff;
+}
+
+#subscribeModal .form-control:focus {
+  border-color: #49506a;
+}
+
+/*
+ * Affix and center
+ */
+@media (min-width: 768px) {
+  /* Pull out the header and footer */
+  .masthead {
+    position: fixed;
+    top: 0;
+  }
+  .mastfoot {
+    position: fixed;
+    bottom: 0;
+  }
+  /* Start the vertical centering */
+  .site-wrapper-inner {
+    vertical-align: middle;
+  }
+  /* Handle the widths */
+  .masthead,
+  .mastfoot,
+  .cover-container {
+    width: 100%;
+    /* Must be percentage or pixels for horizontal alignment */
+  }
+}
+
+@media (min-width: 992px) {
+  .masthead,
+  .mastfoot,
+  .cover-container {
+    width: 1060px;
+  }
+}

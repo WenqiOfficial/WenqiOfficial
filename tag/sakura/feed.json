@@ -1,0 +1,18 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "秘密の小屋 • All posts by \"sakura\" tag",
+    "description": "秘密的小屋有着秘密的东西(*╹▽╹*)",
+    "home_page_url": "http://wenqiblog.ml",
+    "items": [
+        {
+            "id": "http://wenqiblog.ml/2020/11/15/003/",
+            "url": "http://wenqiblog.ml/2020/11/15/003/",
+            "title": "「HexoSakura教程 #0」序言",
+            "date_published": "2020-11-15T14:17:00.000Z",
+            "content_html": "<link rel=\"stylesheet\" class=\"aplayer-secondary-style-marker\" href=\"\\assets\\css\\APlayer.min.css\"><script src=\"\\assets\\js\\APlayer.min.js\" class=\"aplayer-secondary-script-marker\"></script><blockquote>\n<p><strong>承接上周末的时候说要开的坑，现在来补了！</strong></p>\n</blockquote>\n<hr>\n<h1 id=\"鸽子来了\"><a href=\"#鸽子来了\" class=\"headerlink\" title=\"鸽子来了\"></a>鸽子来了</h1><p>一周过去了，秘密の小屋也是在一步一步的美化中变得越来越好了。所以我想借这个能开新坑的机会，来写一篇(多篇)教程，是关于Hexo博客搭建与Sakura主题调教的(主要还是写Sakura)，以此来让各位也在试图使用Hexo或者是Sakura的过程中少走弯路（博主就走了不少弯路…）。同时也是为自己搭建博客的一路以来的尝试做一个小记录叭</p>\n<h2 id=\"内容\"><a href=\"#内容\" class=\"headerlink\" title=\"内容\"></a>内容</h2><p>主要的内容就是关于Sakura，Hexo也会在这个过程中提到，总之绝对能大饱眼福的！</p>\n<h2 id=\"更新频率\"><a href=\"#更新频率\" class=\"headerlink\" title=\"更新频率\"></a>更新频率</h2><p>这个就随缘了…<br>可能到时候还会突然就有新的想写的东西写进来，不过大致能保证一周一更（博主是住宿生）。</p>\n<h2 id=\"教程更新进度\"><a href=\"#教程更新进度\" class=\"headerlink\" title=\"教程更新进度\"></a>教程更新进度</h2><p>其实可以在顶部的 <strong>Sakura</strong> 分区查看，但还是列个列表吧</p>\n<hr>\n<h4 id=\"鸽子的进度\"><a href=\"#鸽子的进度\" class=\"headerlink\" title=\"鸽子的进度\"></a>鸽子的进度</h4><ol>\n<li>序章</li>\n<li>？？？</li>\n<li>？？？</li>\n</ol>\n<hr>\n<center><img src=\"https://cdn.wenqi.ml:5244/d/gh/WenqiOfficial/wenqicdn/img/gugugu.png\" style=\"zoom: 33%; \" /><br>打死你个大鸽子！<br>封面图Pid:55294320</center>\n\n",
+            "tags": [
+                "Sakura"
+            ]
+        }
+    ]
+}
