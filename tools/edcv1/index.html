@@ -1,0 +1,1193 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="google-site-verification" content="CI9yYKE_qbBn1iUS0WHeZT2Hoq_cfkjlpMtPJQhEBcM" />
+  <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+  
+  <title itemprop="name">闻柒の编解码工具 | 秘密の小屋</title>
+  
+    <link rel="shortcut icon" href="/images/wenqi.ico">
+  
+  <meta http-equiv="x-dns-prefetch-control" content="on">
+  <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+SerifMerriweather|Merriweather+Sans|Source+Code+Pro|Ubuntu:400,700|Noto+Serif+SC" media="all">-->
+  <link rel="stylesheet" href="https://at.alicdn.com/t/font_679578_dishi1yoavm.css" media ="all">
+  <link rel="dns-prefetch" href="//fastly.jsdelivr.net">
+  <link rel="stylesheet" id="saukra_css-css" href="/css/style.css" type="text/css" media="all">
+  <link rel="stylesheet" href="/css/lib.min.css" media="all">
+  <link rel="stylesheet" href="/css/font.css" media="all">
+  <link rel="stylesheet" href="/css/insight.css" media="all">
+  <link rel="stylesheet" href="/css/jquery.fancybox.min.css" media="all">
+  <link rel="stylesheet" href="/css/zoom.css" media="all">
+  <link rel="stylesheet" type="text/css" href="/fonts/logo/logo.css">
+  <link rel="stylesheet" type="text/css" href="/css/sharejs.css">
+<!--   <link rel="stylesheet" id="saukra_css-css" href="https://2heng.xin/wp-content/cache/autoptimize/css/autoptimize_ceaa143491a29f248c1ca9a9fa9d6316.css
+" type="text/css" media="all"> -->
+  <script>
+  /*Initial Variables*/
+  var mashiro_option = new Object();
+  var mashiro_global = new Object();
+  mashiro_option.NProgressON = true;
+  /* 
+   * 邮箱信息之类的东西可以填在这里，这些js变量基本都作用于sakura-app.js
+   * 这样的设置仅是为了方便在基于PHP开发的主题中设置js变量，既然移植到了Node上，我想或许可以精简这一逻辑吧
+   */
+  mashiro_option.email_domain = "";
+  mashiro_option.email_name = "";
+  mashiro_option.cookie_version_control = "";
+  mashiro_option.qzone_autocomplete = false;
+  mashiro_option.site_name = "神秘の屋";
+  mashiro_option.author_name = "闻柒";
+  mashiro_option.site_url = "./";
+  mashiro_option.v_appId = "";
+  mashiro_option.v_appKey = "";
+  mashiro_option.mathjax = "0";
+  mashiro_option.qq_api_url = "https://api.mashiro.top/qqinfo/"; 
+  mashiro_option.qq_avatar_api_url = "https://api.mashiro.top/qqinfo/";
+
+  // mashiro_option.jsdelivr_css_src = "https://fastly.jsdelivr.net/gh/moezx/cdn/css/lib.min.css";
+  // mashiro_option.float_player_on = true;
+
+  /*End of Initial Variables*/
+  </script>
+  <script type="text/javascript">
+  var bg = "https://cdn.wenqi.ml:5244/d/gh/WenqiOfficial/wenqicdn/img/cover/mainimg9.webp,https://cdn.wenqi.ml:5244/d/gh/WenqiOfficial/wenqicdn/img/cover/mainimg.webp,https://cdn.wenqi.ml:5244/d/gh/WenqiOfficial/wenqicdn/img/cover/mainimg2.webp,https://cdn.wenqi.ml:5244/d/gh/WenqiOfficial/wenqicdn/img/cover/mainimg3.webp,https://cdn.wenqi.ml:5244/d/gh/WenqiOfficial/wenqicdn/img/cover/mainimg4.webp,https://cdn.wenqi.ml:5244/d/gh/WenqiOfficial/wenqicdn/img/cover/mainimg5.webp,https://cdn.wenqi.ml:5244/d/gh/WenqiOfficial/wenqicdn/img/cover/mainimg6.webp,https://cdn.wenqi.ml:5244/d/gh/WenqiOfficial/wenqicdn/img/cover/mainimg7.webp,https://cdn.wenqi.ml:5244/d/gh/WenqiOfficial/wenqicdn/img/cover/mainimg8.webp,https://cdn.wenqi.ml:5244/d/gh/WenqiOfficial/wenqicdn/img/cover/mainimg10.webp".split(",");
+  var bgindex = Math.floor(Math.random()*bg.length);
+  if (!!window.ActiveXObject || "ActiveXObject" in window) { //is IE?
+    alert('IE浏览器暂且不能使用啊...换其他浏览器试试吧');
+  }
+  </script>
+
+  <style type="text/css">
+  .hljs-ln{border-collapse:collapse}.hljs-ln td{padding:0}.hljs-ln-n:before{content:attr(data-line-number)}
+  </style>
+  <style type="text/css">.site-top .lower nav{display:block !important;}.author-profile i,.post-like a,.post-share .show-share,.sub-text,.we-info a,span.sitename,.post-more i:hover,#pagination a:hover,.post-content a:hover,.float-content i:hover{color:#FE9600}.feature i,.download,.navigator i:hover,.links ul li:before,.ar-time i,span.ar-circle,.object,.comment .comment-reply-link,.siren-checkbox-radio:checked + .siren-checkbox-radioInput:after{background:#FE9600}::-webkit-scrollbar-thumb{background:#FE9600}.download,.navigator i:hover,.link-title,.links ul li:hover,#pagination a:hover,.comment-respond input[type='submit']:hover{border-color:#FE9600}.entry-content a:hover,.site-info a:hover,.comment h4 a,#comments-navi a.prev,#comments-navi a.next,.comment h4 a:hover,.site-top ul li a:hover,.entry-title a:hover,#archives-temp h3,span.page-numbers.current,.sorry li a:hover,.site-title a:hover,i.iconfont.js-toggle-search.iconsearch:hover,.comment-respond input[type='submit']:hover{color:#FE9600}.comments .comments-main{display:block !important;}.comments .comments-hidden{display:none !important;}background-position:center center;background-attachment:inherit;}
+  </style>
+  
+	<script type="text/javascript" src='/js/Valine1.5.0.min.js'></script>
+	
+	
+<meta name="generator" content="Hexo 5.4.0"><link rel="alternate" href="/atom.xml" title="秘密の小屋" type="application/atom+xml">
+</head>
+
+
+<div id='loader'>
+	
+	<link rel="stylesheet" href="/css/loading_style_slowout.css" >
+    <script src="https://cdn.wenqi.ml:5244/d/gh/WenqiOfficial/wenqicdn/js/jquery-3.5.1.min.js" ></script>	
+    <div class="wenqiload">
+		<div class="pic">
+			<span></span>
+			<b>0%</b><b2 style="display:none;"></b2>
+		</div>
+		<div class="toolong">
+			<oxo style="display:none;"></oxo>
+			<qwq style="display:none;" >2022 | 闻柒<br>*闻柒のCDN实验中*</qwq>
+			<ovo style="display:none;font-family:Ubuntu;font-size:17px;">加载完毕</ovo>
+		</div>
+	</div>
+	<script>
+	$(".wenqiload qwq").fadeIn(1500); //渐入logo
+	var yes=0;
+	setTimeout(toolong,10000); //加载时间过长设置
+	$(function(){
+		var img=$("img");
+		var num=0;
+		var inout=0;
+		img.each(function(i){
+		var oImg=new Image();
+		oImg.onload=function(){
+			oImg.onload=null;
+			num++;
+			$(".wenqiload b").html(parseInt( num )+"%");
+			if(num>=i){
+				var fake=0;
+				setTimeout(fakedone,1);
+				function fakedone(){
+					if(fake<99){
+						fake++;
+						$(".wenqiload b").html(parseInt( fake )+"%");
+						setTimeout(fakedone,10);
+					}else if(fake==99 && num>=i){
+						fake=100;
+						yes=1;
+						clearTimeout(toolong);
+						$(".wenqiload b").fadeOut("fast");
+						$(".wenqiload qwq").fadeOut("fast");
+						$(".wenqiload oxo").fadeOut("fast");
+						setTimeout(fakedone,500);
+					}else if(fake==100 && yes==1){
+						clearTimeout(fakedone);
+						$(".wenqiload b2").html("(≧▽≦)");
+						$(".wenqiload b2").fadeIn();
+						$(".wenqiload ovo").fadeIn();
+						setTimeout(doneout,2000);
+					}else{
+						setTimeout(fakedone,1);
+					}
+				}
+				function doneout(){
+					$(".wenqiload").fadeOut("slow");
+				}
+			}
+		}
+		oImg.src=img[i].src;
+		});       
+	});
+	function toolong(){
+		if(yes!=1){
+		$(".wenqiload oxo").html("「如果进度条君久久不动的话...就刷新一下吧」<br>");
+		$(".wenqiload oxo").fadeIn("slow");
+		}
+	}
+	//这个玩意简直是我这个不会js代码写出来的奇妙东西（捂脸
+	</script>
+    
+  
+</div>
+	
+<script>
+	var endLoading = function () {
+    document.body.style.overflow = 'auto';
+    document.getElementById('loader').classList.add("loading");
+	}
+	window.addEventListener('load',endLoading);
+</script>
+
+<body class="page-template page-template-user page-template-page-analytics page-template-userpage-analytics-php page page-id-1297 chinese-font serif isWebKit">
+  <div class="scrollbar" id="bar">
+  </div>
+  <a href="#" class="cd-top faa-float animated"></a>
+  <section id="main-container">
+    <div class="headertop filter-dot">
+  <!--首页顶部波浪-->
+  <div id="banner_wave_1"></div>
+  <div id="banner_wave_2"></div>
+  <figure id="centerbg" class="centerbg">
+    <div class="focusinfo no-select">
+      <div class="header-tou">
+        <h1 class="center-text glitch is-glitching Ubuntu-font" data-text="wenqi">wenqi
+		</h1>
+      </div>
+      <div class="header-info">
+        <p></p>
+        <div class="top-social_v2">
+          <li id="bg-pre">
+            <img class="flipx" src="https://cdn.wenqi.ml:5244/d/gh/WenqiOfficial/wenqicdn/img/other/next-b.svg">
+          </li>
+          
+            
+              
+                <li>
+                  <a href="http://github.com/wenqiofficial" target="_blank" class="social-github" title="github">
+                    <img src="https://cdn.wenqi.ml:5244/d/gh/WenqiOfficial/wenqicdn/img/social/github_1.png">
+                  </a>
+                </li>
+              
+            
+              
+                <li>
+                  <a href="https://music.163.com/#/user/home?id=497495164" target="_blank" class="social-github" title="wangyiyun">
+                    <img src="https://cdn.wenqi.ml:5244/d/gh/WenqiOfficial/wenqicdn/img/social/wangyiyun.png">
+                  </a>
+                </li>
+              
+            
+              
+                <li>
+                  <a href="mailto:li2747297361@163.com" target="_blank" class="social-github" title="email">
+                    <img src="https://cdn.wenqi.ml:5244/d/gh/WenqiOfficial/wenqicdn/img/social/mail_1.svg">
+                  </a>
+                </li>
+              
+            
+              
+                <li>
+                  <a href="https://space.bilibili.com/168567806" target="_blank" class="social-github" title="bilibili">
+                    <img src="https://cdn.wenqi.ml:5244/d/gh/WenqiOfficial/wenqicdn/img/social/bilibili-line.svg">
+                  </a>
+                </li>
+              
+            
+              
+                <li>
+                  <a href="tencent://message/?uin=2747297361&amp;Site=&amp;Menu=yes#" target="_blank" class="social-github" title="qq">
+                    <img src="https://cdn.wenqi.ml:5244/d/gh/WenqiOfficial/wenqicdn/img/social/QQ.svg">
+                  </a>
+                </li>
+              
+            
+          
+          <li id="bg-next">
+            <img src="https://cdn.wenqi.ml:5244/d/gh/WenqiOfficial/wenqicdn/img/other/next-b.svg">
+          </li>
+        </div>
+      </div>
+    </div>
+  </figure>
+  <div id="video-container" style="">
+    <video style="object-fit: fill" id="bgvideo" class="video" video-name="" src="" width="auto" preload="auto">
+    </video>
+    <div id="video-btn" class="loadvideo videolive">
+    </div>
+    <div id="video-add">
+    </div>
+	<div id="video-sound" class="video-sound">
+		<div id="video-sound-up" class="video-sound-up" onclick="upup()"></div>
+		<div id="video-sound-down" class="video-sound-down" onclick="downdown()"></div>
+    </div>
+	<div class="video-stu">
+    </div>
+  </div>
+  <div class="headertop-down faa-float animated" onclick="headertop_down()">
+    <span>
+      <i class="fa fa-chevron-down" aria-hidden="true">
+      </i>
+    </span>
+  </div>
+</div>
+<script>
+	var videoElement = document.getElementById("bgvideo");
+	var vol = 0.1;
+	var haout = 0;
+    function upup(){
+		clearTimeout(stuout);
+		haout=0;
+		voln=videoElement.volume*100;
+		if(voln < 90)
+		{
+		videoElement.volume !== 1 ? videoElement.volume += vol : 1;
+		voln=videoElement.volume*100;
+		$('.video-stu').css({
+              'bottom': '0px'
+        }).html('音量: ' + parseInt(voln) + '%')
+		}else
+		{
+		videoElement.volume = 1;
+		$('.video-stu').css({
+              'bottom': '0px'
+        }).html('音量: 100% 已经是最大音量啦！注意保护好耳朵哦！')
+		}
+		if(haout==0)
+		{
+			haout=1;
+			setTimeout(stuout,2000);
+		}
+    }
+	function downdown(){
+        clearTimeout(stuout)
+		haout=0;
+		voln=videoElement.volume*100;
+		if(voln > 10)
+		{
+		videoElement.volume !== 0 ? videoElement.volume -= vol : 1;
+		voln=videoElement.volume*100;
+		$('.video-stu').css({
+              'bottom': '0px'
+        }).html('音量: ' + parseInt(voln) + '%')
+		}else
+		{
+		videoElement.volume = 0;
+		$('.video-stu').css({
+              'bottom': '0px'
+        }).html('音量: 0% 已经是最低音量啦！')
+		}
+		if(haout==0)
+		{
+			haout=1;
+			setTimeout(stuout,2000);
+		}
+	}
+	function stuout(){
+		clearTimeout(stuout);
+		clearTimeout();
+		if(haout==1)
+		{
+		$('.video-stu').css({
+			'bottom': '-100px'
+		})
+		haout=2;
+		}else if(haout==2)
+		{
+			haout=0
+		}
+	}
+</script>
+    <div id="page" class="site wrapper">
+      <header class="site-header no-select gizle sabit" role="banner">
+  <div class="site-top">
+    <div class="site-branding">
+      <span class="site-title">
+        <span class="logolink logo">
+          <a href="/">
+            <ruby>
+            <span class="sakuraso">闻柒神秘</span>
+			<span class="no">の</span>
+            <span class="shironeko">屋</span>
+            <rp></rp>
+            <rt class="logo">神秘之屋</rt>
+            <rp></rp>
+            </ruby>
+		  </a>
+        </span>
+      </span>
+    </div>
+    <div class="searchbox search-form-submit">
+      <i class="iconfont js-toggle-search iconsearch icon-search">
+      </i>
+    </div>
+    <div id="show-nav" class="showNav mobile-fit">
+      <div class="line line1">
+      </div>
+      <div class="line line2">
+      </div>
+      <div class="line line3">
+      </div>
+    </div>
+    <div class="lower-cantiner">
+      <div class="lower">
+        <nav class="mobile-fit-control hide">
+          <ul id="menu-new" class="menu">
+            
+              <li>
+                <a href="/">
+                  <span class="faa-parent animated-hover">
+                    <i class="fa  fa-fort-awesome faa-shake" aria-hidden="true"></i>
+                    首页
+                  </span>
+                </a>
+                
+              </li>
+            
+              <li>
+                <a href="/archives">
+                  <span class="faa-parent animated-hover">
+                    <i class="fa  fa-archive faa-shake" aria-hidden="true"></i>
+                    归档
+                  </span>
+                </a>
+                
+                  <ul class="sub-menu">
+                    
+                      <li>
+                        <a href="/categories/%E6%8A%80%E6%9C%AF/">
+                          <i class="fa fa-code" aria-hidden="true"></i>
+                          技术
+                        </a>
+                      </li>
+                    
+                      <li>
+                        <a href="/categories/%E8%B5%84%E6%BA%90/">
+                          <i class="fa fa-cloud-download" aria-hidden="true"></i>
+                          资源
+                        </a>
+                      </li>
+                    
+                      <li>
+                        <a href="/categories/%E9%9A%8F%E6%83%B3/">
+                          <i class="fa fa-commenting-o" aria-hidden="true"></i>
+                          随想
+                        </a>
+                      </li>
+                    
+                  </ul>
+                
+              </li>
+            
+              <li>
+                <a href="/categories/Sakura/">
+                  <span class="faa-parent animated-hover">
+                    <i class="fa  iconfont icon-sakura faa-spin" aria-hidden="true"></i>
+                    Sakura
+                  </span>
+                </a>
+                
+              </li>
+            
+              <li>
+                <a href="javascript:;">
+                  <span class="faa-parent animated-hover">
+                    <i class="fa  fa-gamepad faa-vertical" aria-hidden="true"></i>
+                    游戏
+                  </span>
+                </a>
+                
+                  <ul class="sub-menu">
+                    
+                      <li>
+                        <a href="/game/menja/">
+                          <i class="fa fa-square" aria-hidden="true"></i>
+                          Menja
+                        </a>
+                      </li>
+                    
+                      <li>
+                        <a href="/game/Mikutap/">
+                          <i class="fa fa-music" aria-hidden="true"></i>
+                          Miku39
+                        </a>
+                      </li>
+                    
+                      <li>
+                        <a href="/game/canvas/">
+                          <i class="fa fa-star" aria-hidden="true"></i>
+                          Canvas
+                        </a>
+                      </li>
+                    
+                  </ul>
+                
+              </li>
+            
+              <li>
+                <a href="javascript:;">
+                  <span class="faa-parent animated-hover">
+                    <i class="fa  fa-list-ul faa-vertical" aria-hidden="true"></i>
+                    清单
+                  </span>
+                </a>
+                
+                  <ul class="sub-menu">
+                    
+                      <li>
+                        <a href="/bangumi/">
+                          <i class="fa fa-film faa-vertical" aria-hidden="true"></i>
+                          番组
+                        </a>
+                      </li>
+                    
+                      <li>
+                        <a href="/music/">
+                          <i class="fa fa-headphones" aria-hidden="true"></i>
+                          歌单
+                        </a>
+                      </li>
+                    
+                      <li>
+                        <a href="/topvideo/">
+                          <i class="fa fa-video-camera" aria-hidden="true"></i>
+                          视频
+                        </a>
+                      </li>
+                    
+                      <li>
+                        <a href="/tools/">
+                          <i class="fa fa-wrench" aria-hidden="true"></i>
+                          工具
+                        </a>
+                      </li>
+                    
+                  </ul>
+                
+              </li>
+            
+              <li>
+                <a href="/comment/">
+                  <span class="faa-parent animated-hover">
+                    <i class="fa  fa-pencil-square-o faa-tada" aria-hidden="true"></i>
+                    留言板
+                  </span>
+                </a>
+                
+                  <ul class="sub-menu">
+                    
+                      <li>
+                        <a href="/comment/">
+                          <i class="fa fa-vine" aria-hidden="true"></i>
+                          Valine
+                        </a>
+                      </li>
+                    
+                      <li>
+                        <a href="/commentlivere/">
+                          <i class="fa fa-comment-o" aria-hidden="true"></i>
+                          Livere
+                        </a>
+                      </li>
+                    
+                  </ul>
+                
+              </li>
+            
+              <li>
+                <a href="/links/">
+                  <span class="faa-parent animated-hover">
+                    <i class="fa  fa-link faa-shake" aria-hidden="true"></i>
+                    友人帐
+                  </span>
+                </a>
+                
+              </li>
+            
+              <li>
+                <a href="/donate/">
+                  <span class="faa-parent animated-hover">
+                    <i class="fa  fa-paw faa-vertical" aria-hidden="true"></i>
+                    投喂
+                  </span>
+                </a>
+                
+              </li>
+            
+              <li>
+                <a href="javascript:;">
+                  <span class="faa-parent animated-hover">
+                    <i class="fa  fa-leaf faa-wrench" aria-hidden="true"></i>
+                    关于
+                  </span>
+                </a>
+                
+                  <ul class="sub-menu">
+                    
+                      <li>
+                        <a href="/about/">
+                          <i class="fa fa-info-circle" aria-hidden="true"></i>
+                          我
+                        </a>
+                      </li>
+                    
+                      <li>
+                        <a href="/theme-sakura/">
+                          <i class="fa fa-desktop" aria-hidden="true"></i>
+                          主题
+                        </a>
+                      </li>
+                    
+                      <li>
+                        <a target="_blank" rel="noopener" href="https://stats.uptimerobot.com/MWr42S54wL">
+                          <i class="fa fa-heartbeat" aria-hidden="true"></i>
+                          状态
+                        </a>
+                      </li>
+                    
+                  </ul>
+                
+              </li>
+            
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </div>
+</header>
+
+        <div class="pattern-center-blank"></div>
+  
+    <div class="pattern-center ">
+      <div class="pattern-attachment-img">
+        <img src="https://cdn.wenqi.ml:5244/d/gh/WenqiOfficial/wenqicdn/img/loader/white.square-circle-preloader.svg" data-src="https://cdn.wenqi.ml:5244/d/gh/WenqiOfficial/wenqicdn/img/banner/coding.jpg" class="lazyload" onerror="imgError(this,3)" style="width: 100%; height: 100%; object-fit: cover; pointer-events: none;">
+      </div>
+      <header class="pattern-header ">
+        <h1 class="entry-title">
+        </h1>
+      </header>
+    </div>
+  
+  <div id="content" class="site-content">
+    <article class="post-item post-301 page type-page status-publish has-post-thumbnail hentry">
+      <div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="密码错了！" data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
+  <script id="hbeData" type="hbeData" data-hmacdigest="79b26f6039ec9be79120363c9fd7191969970e3ef829290d324fbe46aed20b43">bd25ed9264b080267271e137e33d0ce1e1069d88f9699965ec2c8f2e4412683a11965185006bffa98a0a821510d9346f09318e6bad83c5df43f6251105f61d270c32a97bb2827cd20739af9fa6249e35c263c0d3f4882a6addc6d5b5ba9bc4e4ad0e82bf4d4f8612b85a840db1639d504aa6c26a941ff13bb718a3104a0d23f48ba04d0c050823e69d1d029d90006d210939562f905dcc801844fbba8668ffdeec2a4f88a60ce6a69b22ca5a4e37f7a8dffeb973214ba1003364c57b27d1a3568ce2f3b0d77aac379804ecb141615b146a71734b41673ca7ccc389f2c675811f3d08ef70eeea84934636e8366994dcf38d6f7f348387c88872b6d48e03cc7d9736c9e989933d334e9d724e696a1bde6ba20dc7656f7d54f2b45bbc2458cfb62ff92cc97be0fdb53ebd0b210fb8e69b2ba1c0293bec54076068303474b6d6bb82ded2bdc6cb648b6ba783f07269ca716b1330d0bd7f2dcedf09c5706ceb67fe79ee02c0032d022d0b7a8a0b9737735c5830f3d0d46b578eded520a41b8618d03bc0454daf84b1ec5252191eac70e38e4232d629fa6d32a35dcff30aa95fad185ae89842cbda6597475b09b834a4c010ebfd3b024fb7472e5a2cb94ce7089ec58a82f357b5faeb233c71b77a43db9fa645c75a09623de598812c8f120bda1e25d74c21eee03086ebe436fff34ffb761c8a66618a559ac0d6d06ccccb68529e937dd4d61fc0108031d482f18c300cbd88dd42e14e3c7198fa6927735e6844d2be46494b6238e40f0c479e88515240544d88260636aa3dd6abba0f2636947d6c827e134666784e666d35a7951e1f3329c57b689a27076f13e589deaaa90ce7f108c2549cfb43088a2bda6ed0d7d6a30468bab751405de285f7732586b0a4cf77a498256d286d6ac1dd77d8f23fa320de91a1af1b4efc96d5564b1718af248b0175a75f589d0d5e033e89c2e9f14becff559cc814de571f65f05c4b05140811ee0e8c87035bd98f87b7423b1fc193ff4c58f2867902dde1f760b4410bc64736b224f9227f8c80e8f97a57503f0d66406ef6c5b97868b4b9b66ba088bad15563f2172ca494dd0c97e23b5558de6cd552cd66e66ccd8779738e0d32fd4998477184fe86eac09d0485f3e02e521d47deec321aae091807002a04cd045c43595164b5ea5e0eecb4ea96d03a0a6a9ded66182770503449bbe8af3708591c59ae3fa3b04265a93ed4840cf91358c411e66439b46d508a736a048460446c8282dd3fcd8916b96345ca52671af9d934a169548a2d456d46f2f2cf8779db0834d8d119f142484b32db4a04a2735918f15b552e64b2862030780c1c1de3885483b558f6c3e068f7a7f5f95463116127f5e52e41f59791d03ce5d01d1d0bd6d33cf35cab7e2480eee5cda9581537332a9bc462fe54f867f00eaad623a1796fe744328ae40fcf6ca20623991ae1ba2d459513eed27036acea8be6615e0ee6afabddec803a337b4b7ea805051965cf18c44e0cdbb51ff79c4c548c5bd989e96d63d12f71bd88c84a7c774ee056f1ec9b56f2bda96e1c7b0a92429aff4fa25310f27172ea805a8d6db6d4c2f64f924f1929df54adfd742e7883fad8e1e5ecebb8240810273beeeed3061481a4f1658dd5fe47fffe79f145da9dc4399f793f54b8b27a6fab0e9272b73b322b1778d8135d46324718a7479957be5fc7d558489f5647ac4593b6882ef94c23c4a380ca3d632b815ab8fb06e4e4f5470b89b30c76262b71c425d6017124e355bd6f1f4ae4bce186224af6541d639d082e6d416e561842fd2ee76706ea0467c862654aa87811b29cb62193b58cee912c25aa596659277fbbdea956cf11f520875dd12b3858056d9a0070d1f858cbc968932b9aa760283599bfaac31e29ad41c0c0e7b06f67e38aab1f5797cbabd05d8934d2401289f82066648634aa7a84545fa6b97fd72f0d50aaa7bb641b73f465e51c490c5b4ab98c3f5c0c933f3aa9d78a369598122d94d690d3151fe5cf0ac681a5c43ee7af90a643e52a23ffbf04650e6c37b0251c25cabc5fed5fbba0d38437c61b590b73a5eb8f278a7cfab73bc362812d6b9faa331527c9cc058b229f4f02de6e09a218e1925c86332054e363cdc45f03404371b800db36464320de0560e4c83507882fa6eaf54a89e251722f004348a090805d77b2ca56cf22d2a6f5feae96cde77a1d4400207560cecc653f004741aa7c6a375f196d7fb3ba663cf2c588259d108358f6fd93248fd47b681992b7880a3df24c85af6b908c3095f9186dd34b5cc7a2e7f1e1f00bd86e2c4ead8cc3159e235c62fcfadbe61c9538553fbc14c96cdac88aab37c60211812a7ce344d2fe87bd20b0fa5e9ce819a557131d924713ff0bd41d444a0fc40da67c1266a12490920c195f86c61635375e93cbaed5314c50ba79621ec7845054ea281e8fee19956a38fe9725b3cda2b2b1b2b99f3374ab5af5d84a8c95142cb80a01be2f277874e696e9a764781b838369cfc336526320475786402b8b75fe46d126fddd555460c3406fff5192c628a30ac827a28bf3fc7def8a76df250b0515d2783d302e91cba578ad42d1cdd5acb87853f2573383aaabfec46a20564ec6ef5d05d135adeb7a23c8da1e898137797b51395458ddb63893043ed79404b4fd86b7ecae184d57c4150a724aa5f3908ac1df0622766ee534407a6ad1c22e4571ee6fbe1a277c75ebe2bd23c5672fc72be06f38d43b99b1925f9333a37289904e56daac7a5ca2e87c9680eba2d0622d0f2840ce441d19854126cda8b4fae8b353f09d59788b090615ca61cd9f97fb921721e84562f0c55f34fb4ee1c7abab2683cfd6099741a5e222591681df0a293ce9ec2246aa718dfe88db35342b7dd8a7e873064ad201ae9912561b36b6c721946b2b10299eb1e0203d781dd79f99c1fe7330c8a6ffc96fa5b41a00d7b554e7e5dc893677b6b8739975763c47a1ff80d3cb152e3453d4593e36ca2dc247bd6e0fa2821fb746f77822a764346212e57cb72d1a466d5bc32e32d793bbbc95b1ea0aa6f36769c89a1585efabf9907eff24344fa046934793d38bac12d77371a94f14790be63b81d48a214066fa2a464e512ca9c36be0671edda424c907bec499a4d2ea7893707d4e529f06100507aa858f59ac997d40ca0b3080ef3c2a852e2c7123a54363450d920b6d0604c411d3ff7f58bab3c936458e6c1eeb98a7e6067853cba8c381e0b03852557816e89c16265d2c7a25965a5a158ada35162b3360e6151063d6099fb03c5e55f1088931d39c198cc20d825afa4a5ed6d8873f883701a7a31d6bd52b005ffe0d2d2a9e6b753829ca0487459a22b8b82de670718c2b8a95626d258a3a65e140ea75bf6e39f4c919b47c79a3e7f9a616856c35274220f53f86389522a1edf6022bf2b4e21f1deb02bbfd98614b9473dd8bcb047f99080ad75863757ed4d0b2e48f77afa3fb452fa2c51e050cadb1f71d1214a93789710bdd20ef6b7dfde7ef5e2934b117fc55136efa87b0145773a794a0555dd1d6fae3a980da49d968a1634e5ba1ad54dbd77d651250a0899cbbd8514a2064ba20a478346c1789aa829ddbe64d0df260235ca3ccf2c9fb7d297ffd7cb4f465d6f9f39fbad04b309c1a3caa0bb63cd25e4c8e23021c7bf2fc3a9b5d251a457489bc9f2e65e637fdbf33fd27fa71caeb814beb854e358b8046b77dda8929c2831baafb6c1f3ce226dc191686001200eaa83fca680a09d757038832abfd26e5bab792b8b857fe1632fef53b24bfec21535cf2c88100b151924824c7c0f6748ce5326663dd5ee01aa18652987147e692fad1fd1f518c885d3405cc210a9daae48f4637f25c108f5510638b132987e4530494f45df80bddd82ad4c8f9d801b33ed863e83b4bff46bb76c1dfec8d03bf3ea4adfa74eb5b3463cfa967dc9ab5bfa868f12a3bb74acf8e01e0d4ca0bb43789546fa7f123ea327cff1a1abb3796b4d03da57a674a2dcf51b5d2cdcd4a88492dec7e0065f91a1c6ddcc7815e257314c042c9c4f8ae31005952cabd3d07ea9ec2fe68572b67ae0adfba0cd83cf2f0581f65fc40b4ac31e6ce5ff996059f829daf9cadf8cf80cff30139c8d9b51649ad9366ef0895903a72942926c6bd7fa37ab04dd9f07fd828b6dc6ecc77ab13d706b3338924c48eb8afb234cd82cf7ca2ad6673f92bbd58cadee2088b4c43923393b51abb9ca10b5b61a23a52cd53e793b2d5f7cbafb1137685e1cf84e8c60b48db8399534b64cc0d98ad89a3ae2a7698e68720fb7b2529d24823fedfac3882f5a2020e5052192382162974c90e683192ac9c8b3f2e669c06e597422f19ac8cd859a27be6506715b94f92dc5819d3c33059f99a9d9cabecd0215193cb3609e831e69245de658521cb41275cc59415d23794034776f46fdd288a8239c48930497958b720659dd6a7aea80bb16582f0c8f4b583180761858f2ec302fbc8d879bd48b70a33fc8045749d1e24cdca18a235384e2b39696cd95f5dc965898bb7b9fcf6a6fdac6c4f470dc9241ee5d07844b2022a53bef21879ec17d199c90fafe25402882f7e7a387f458711dddacb7fa194c56a7b1d3343c3b0e2a5f05006500b6154120696a62a85cb7cf19c48315945dceced3aec129495d9b9c57a2284772da2bd3781282aa561af9964d9b0c2bc89534da7b5d54fca2bf6a2ffedebf50e7683144661dda29f877ed6357263b98d6f1dabc3522e9a50d1280c82055b657b2ef968</script>
+  <div class="hbe hbe-content">
+    <div class="hbe hbe-input hbe-input-default">
+      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
+      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
+        <span class="hbe hbe-input-label-content hbe-input-label-content-default">请输入密码使用</span>
+      </label>
+    </div>
+  </div>
+</div>
+<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">
+      <!-- .entry-content -->
+      
+
+
+
+
+      <div class="single-reward">
+        <div class="reward-open">赏
+          <div class="reward-main">
+            <ul class="reward-row">
+              <!-- <li class="alipay-code"><img src="https://cdn.wenqi.ml:5244/d/gh/WenqiOfficial/wenqicdn/img/custom/donate/555.gif"></li> -->
+              <li class="wechat-code"><img src="https://cdn.wenqi.ml:5244/d/gh/WenqiOfficial/wenqicdn/img/custom/donate/WeChanQR.png"></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div style="text-align:center; width: 100%" class="social-share share-mobile" data-disabled="diandian, tencent"></div>
+      <footer class="post-footer">
+        <div class="post-lincenses"><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh" target="_blank" rel="nofollow"><i class="fa fa-creative-commons" aria-hidden="true"></i> 知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议</a></div>
+        <div class="post-tags">
+        </div>
+        <div class="post-share">
+          <div class="social-share sharehidden share-component"></div>
+          <i class="iconfont show-share icon-forward"></i>
+        </div>
+      </footer><!-- .entry-footer -->
+    </article>
+      <!-- #post-## -->
+      <section class="author-profile">
+        <div class="info" itemprop="author" itemscope="" itemtype="https://schema.org/Person">
+          <a href="/about/" class="profile gravatar"><img src="https://cdn.wenqi.ml:5244/d/gh/WenqiOfficial/wenqicdn/img/custom/avatar.png" itemprop="image" alt="闻柒" height="70" width="70"></a>
+          <div class="meta">
+            <span class="title">Author</span>
+            <h3 itemprop="name">
+            <a href="./" itemprop="url" rel="author">闻柒</a>
+            </h3>
+          </div>
+        </div>
+        <hr>
+        <p><i class="iconfont icon-write"></i>寻即赴往，心之所向</p>
+      </section>
+  </div><!-- #primary -->
+</div>
+    </div>    
+    <div class="ins-search">
+    <div class="ins-search-mask"></div>
+    <div class="ins-search-container">
+        <div class="ins-input-wrapper">
+            <input type="text" class="ins-search-input" placeholder="要搜些什么呢..."/>
+            <span class="ins-close ins-selectable"><i class="fa fa-times-circle"></i></span>
+        </div>
+        <div class="ins-section-wrapper">
+            <div class="ins-section-container"></div>
+        </div>
+    </div>
+</div>
+<script>
+(function (window) {
+    var INSIGHT_CONFIG = {
+        TRANSLATION: {
+            POSTS: '文章',
+            // PAGES: '页面',
+            CATEGORIES: '分类',
+            TAGS: '标签',
+        },
+        ROOT_URL: '/',
+        CONTENT_URL: '/content.json',
+    };
+    window.INSIGHT_CONFIG = INSIGHT_CONFIG;
+})(window);
+</script>
+    <!-- <footer id="footer">
+  
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      &copy; 2022 闻柒<br>
+      powered_by <a href="http://hexo.io/" target="_blank">Hexo</a>
+    </div>
+  </div>
+</footer> -->
+
+<footer id="colophon" class="site-footer" role="contentinfo">
+  <div class="site-info">
+    <div class="footertext">
+      <div class="img-preload">
+        <img src="https://cdn.wenqi.ml:5244/d/gh/WenqiOfficial/wenqicdn/img/other/wordpress-rotating-ball-o.svg">
+        <img src="https://cdn.wenqi.ml:5244/d/gh/WenqiOfficial/wenqicdn/img/other/disqus-preloader.svg">
+      </div>
+      <p style="color: #666666;">&copy 2022 | 闻柒</p>
+    </div>
+    <div class="footer-device">
+	<span id="timeDate">载入天数...</span><span id="times">载入时分秒...</span><script>
+    var now = new Date();
+    function createtime() {
+    var grt= new Date("09/05/2020 21:09:00");//此处修改你的建站时间或者网站上线时间
+    now.setTime(now.getTime()+250);
+    days = (now - grt ) / 1000 / 60 / 60 / 24; dnum = Math.floor(days);
+    hours = (now - grt ) / 1000 / 60 / 60 - (24 * dnum); hnum = Math.floor(hours);
+    if(String(hnum).length ==1 ){hnum = "0" + hnum;} minutes = (now - grt ) / 1000 /60 - (24 * 60 * dnum) - (60 * hnum);
+    mnum = Math.floor(minutes); if(String(mnum).length ==1 ){mnum = "0" + mnum;}
+    seconds = (now - grt ) / 1000 - (24 * 60 * 60 * dnum) - (60 * 60 * hnum) - (60 * mnum);
+    snum = Math.round(seconds); if(String(snum).length ==1 ){snum = "0" + snum;}
+    document.getElementById("timeDate").innerHTML = "「小屋已经营 "+dnum+" 天 ";
+    document.getElementById("times").innerHTML = hnum + " 小时 " + mnum + " 分 " + snum + " 秒」";
+  }
+  setInterval("createtime()",250);</script><br>
+  <span id="busuanzi_container_site_pv" style='display:none'>
+   小屋访问数量 <span id="busuanzi_value_site_pv" style="color: #FF8C00;"></span> 次 | 小屋访客人数 <span id="busuanzi_value_site_uv" style="color: #FF8C00;"></span> 人
+  </span>
+
+<div id="binft" style="color: #666666;"></div>
+  <script>
+    var binft = function (r) {
+      function t() {
+        return b[Math.floor(Math.random() * b.length)]
+      }
+      function e() {
+        return String.fromCharCode(94 * Math.random() + 33)
+      }
+      function n(r) {
+        for (var n = document.createDocumentFragment(), i = 0; r > i; i++) {
+          var l = document.createElement("span");
+          l.textContent = e(), l.style.color = t(), n.appendChild(l)
+        }
+        return n
+      }
+      function i() {
+        var t = o[c.skillI];
+        c.step ? c.step-- : (c.step = g, c.prefixP < l.length ? (c.prefixP >= 0 && (c.text += l[c.prefixP]), c.prefixP++) : "forward" === c.direction ? c.skillP < t.length ? (c.text += t[c.skillP], c.skillP++) : c.delay ? c.delay-- : (c.direction = "backward", c.delay = a) : c.skillP > 0 ? (c.text = c.text.slice(0, -1), c.skillP--) : (c.skillI = (c.skillI + 1) % o.length, c.direction = "forward")), r.textContent = c.text, r.appendChild(n(c.prefixP < l.length ? Math.min(s, s + c.prefixP) : Math.min(s, t.length - c.skillP))), setTimeout(i, d)
+      }
+      var l = "",
+      o = ["青青陵上柏，磊磊涧中石。", "人生天地间，忽如远行客。","混入了一些奇怪的东西QwQ","看不见我吧...","如果可以的话投喂一下博主吧(*╹▽╹*)"].map(function (r) {
+      return r + ""
+      }),
+      a = 2,
+      g = 1,
+      s = 5,
+      d = 75,
+      b = ["rgb(110,64,170)", "rgb(150,61,179)", "rgb(191,60,175)", "rgb(228,65,157)", "rgb(254,75,131)", "rgb(255,94,99)", "rgb(255,120,71)", "rgb(251,150,51)", "rgb(226,183,47)", "rgb(198,214,60)", "rgb(175,240,91)", "rgb(127,246,88)", "rgb(82,246,103)", "rgb(48,239,130)", "rgb(29,223,163)", "rgb(26,199,194)", "rgb(35,171,216)", "rgb(54,140,225)", "rgb(76,110,219)", "rgb(96,84,200)"],
+      c = {
+        text: "",
+        prefixP: -s,
+        skillI: 0,
+        skillP: 0,
+        direction: "forward",
+        delay: a,
+        step: g
+      };
+      i()
+      };
+      binft(document.getElementById('binft'));
+  </script>
+	
+	<!--<a href="/" target="_blank" alt="Wenqi" rel="nofollow">
+	<img src="https://cdn.wenqi.ml:5244/d/gh/WenqiOfficial/wenqicdn/img/logo/wenqi_logo.png" alt="Wenqi" style="height: 5.2em; max-height: 5.5em;padding-bottom: 0px;">
+	</a>--> <br><a href="javascript:;" style="color: #FF8C00;">闻柒のCDN Ⅰ号 & Ⅱ号 驱动中！</a>
+	<br><a href="https://stats.uptimerobot.com/MWr42S54wL" target="_blank" style="color: #FF8C00;">→闻柒·系统运行状态←</a>
+	
+	<p style="font-family: 'Ubuntu', sans-serif;">
+        <span style="color: #b9b9b9;">Powered by Hexo</a> <i class="iconfont icon-sakura rotating" style="color: #ffc0cb;display:inline-block"></i> Theme <a href="/theme-sakura" target="_blank" style="color: #b9b9b9;;text-decoration: underline dotted rgba(0, 0, 0, .1);">Sakura Plus By Wenqi</a>
+        </span>
+		
+    </p>
+    </div>
+  </div><!-- .site-info -->
+</footer>
+
+
+<!-- <script src="/js/tocbot.js"></script> -->
+<script type="text/javascript" src="https://cdn.wenqi.ml:5244/d/gh/WenqiOfficial/wenqicdn/js/lib.min.js"></script>
+<script src="https://fastly.jsdelivr.net/npm/clipboard@2/dist/clipboard.min.js"></script>
+<script type="text/javascript" src="/js/InsightSearch.js"></script>
+<script type="text/javascript" src="/js/jquery.fancybox.min.js"></script>
+<!-- <script type="text/javascript" src="/js/jquery-3.5.1.min.js"></script> -->
+<script type="text/javascript" src="/js/zoom.min.js"></script>
+<script type="text/javascript" src="/js/sakura-app.js"></script>
+<!--<script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>-->
+<script src="/js/botui.js"></script>
+<!-- 不蒜子 网页计数器 -->
+<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+<!-- <script src="https://cdn.bootcdn.net/ajax/libs/tocbot/4.4.2/tocbot.min.js"></script> -->
+<script type="text/javascript">
+/* <![CDATA[ */
+if (/Android|webOS|iPhone|iPod|BlackBerry/i.test(navigator.userAgent)) {
+  var Poi = {"pjax":"1","movies":{"url": "https://cloud.zeroarea.ml:5221/api/v3/file/get","name":"125/mainvideo6.mp4?sign=ZmOM2FVsfyy8kdjY32xo4goJTO6hn2v2aAZOIMDYNwU%3D%3A0,128/mainvideo1.mp4?sign=FRBIAKr1V7WkRVnPNHeeFMvUCX55tUZcttuv76kTXqI%3D%3A0,129/mainvideo2.mp4?sign=L1lSzn5eJQR9ComRupDnKHtYCRrjGjtrRP4cYRSKwXM%3D%3A0,130/mainvideo3.mp4?sign=O6Mfop3luwMr21-3fE2M6kJZIlJivsiKDzuS3iNUdh0%3D%3A0,131/mainvideo4new.mp4?sign=Mkk_wnmd7wOBulF6_mC-rVnazCWvQIGVN15L4aRHBts%3D%3A0,132/mainvideo5.mp4?sign=JxkfVVMhhcSN_9TsAVP7DlIwQlxftNgyYnpxqcHFjw4%3D%3A0","live":"close"},"windowheight":"fixed","codelamp":"close","ajaxurl":"","order":"asc","formpostion":"bottom"};
+} else {
+  var Poi = {"pjax":"1","movies":{"url": "https://cloud.zeroarea.ml:5221/api/v3/file/get","name":"125/mainvideo6.mp4?sign=ZmOM2FVsfyy8kdjY32xo4goJTO6hn2v2aAZOIMDYNwU%3D%3A0,128/mainvideo1.mp4?sign=FRBIAKr1V7WkRVnPNHeeFMvUCX55tUZcttuv76kTXqI%3D%3A0,129/mainvideo2.mp4?sign=L1lSzn5eJQR9ComRupDnKHtYCRrjGjtrRP4cYRSKwXM%3D%3A0,130/mainvideo3.mp4?sign=O6Mfop3luwMr21-3fE2M6kJZIlJivsiKDzuS3iNUdh0%3D%3A0,131/mainvideo4new.mp4?sign=Mkk_wnmd7wOBulF6_mC-rVnazCWvQIGVN15L4aRHBts%3D%3A0,132/mainvideo5.mp4?sign=JxkfVVMhhcSN_9TsAVP7DlIwQlxftNgyYnpxqcHFjw4%3D%3A0","live":"open"},"windowheight":"auto","codelamp":"close","ajaxurl":"","order":"asc","formpostion":"bottom"};
+}
+/* ]]> */
+
+</script>
+<script>
+$(document).ready(function() {
+  if ($(".toc").length > 0 && document.body.clientWidth > 1200) {
+    if ($(".pattern-center").length > 0) { //有图的情况
+      tocbot.init({
+          // Where to render the table of contents.
+          tocSelector: '.toc', // 放置目录的容器
+          // Where to grab the headings to build the table of contents.
+          contentSelector: '.entry-content', // 正文内容所在
+          // Which headings to grab inside of the contentSelector element.
+          scrollSmooth: true,
+          headingSelector: 'h1, h2, h3, h4, h5', // 需要索引的标题级别
+          headingsOffset: -400,
+          scrollSmoothOffset: -85
+      });
+    } else {
+      tocbot.init({
+          // Where to render the table of contents.
+          tocSelector: '.toc', // 放置目录的容器
+          // Where to grab the headings to build the table of contents.
+          contentSelector: '.entry-content', // 正文内容所在
+          // Which headings to grab inside of the contentSelector element.
+          scrollSmooth: true,
+          headingSelector: 'h1, h2, h3, h4, h5', // 需要索引的标题级别
+          headingsOffset: -85,
+          scrollSmoothOffset: -85
+      });
+    }
+    var offsetTop = $('.toc').offset().top - 95;
+    window.onscroll = function() {
+      var scrollTop = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop;
+      if (scrollTop >= offsetTop) {
+        $('.toc').addClass('toc-fixed');
+      } else {
+        $('.toc').removeClass('toc-fixed');
+      }
+    }
+  }
+});
+</script>
+    <div class="openNav no-select" style="height: 50px;">
+      <div class="iconflat no-select" style="width: 50px; height: 50px;">
+        <div class="icon"></div>
+      </div>
+      <div class="site-branding search-form-submit">
+        <i class="iconfont js-toggle-search iconsearch icon-search"></i>
+      </div>
+    </div>
+  </section>
+  <div id="mo-nav" class="">
+  <div class="m-avatar">
+    <img src="https://cdn.wenqi.ml:5244/d/gh/WenqiOfficial/wenqicdn/img/custom/avatar.png">
+  </div>
+  <p style="text-align: center; color: #333; font-weight: 900; font-family: 'Ubuntu', sans-serif; letter-spacing: 1.5px">闻柒の神秘之屋</p>
+  <p style="text-align: center; word-spacing: 20px;">
+    
+      
+        <a href="http://github.com/wenqiofficial" class="fa fa-github" target="_blank" style="color: #333; margin-left:20px"></a>
+      
+        <a href="https://wpa.qq.com/msgrd?v=3&uin=2747297361&site=qq&menu=yes" class="fa fa-qq" target="_blank" style="color: #25c6fe; margin-left:20px"></a>
+      
+    
+  </p>
+  <ul id="menu-new-1" class="menu">
+    
+      <li>
+        <a href="/">
+          <span class="faa-parent animated-hover">
+            <i class="fa  fa-fort-awesome faa-shake" aria-hidden="true"></i>
+            首页
+          </span>
+        </a>
+        
+      </li>
+    
+      <li>
+        <a href="/archives">
+          <span class="faa-parent animated-hover">
+            <i class="fa  fa-archive faa-shake" aria-hidden="true"></i>
+            归档
+          </span>
+        </a>
+        
+          <ul class="sub-menu">
+            
+              <li>
+                <a href="/categories/%E6%8A%80%E6%9C%AF/">
+                  <i class="fa fa-code" aria-hidden="true"></i>
+                  技术
+                </a>
+              </li>
+            
+              <li>
+                <a href="/categories/%E8%B5%84%E6%BA%90/">
+                  <i class="fa fa-cloud-download" aria-hidden="true"></i>
+                  资源
+                </a>
+              </li>
+            
+              <li>
+                <a href="/categories/%E9%9A%8F%E6%83%B3/">
+                  <i class="fa fa-commenting-o" aria-hidden="true"></i>
+                  随想
+                </a>
+              </li>
+            
+          </ul>
+        
+      </li>
+    
+      <li>
+        <a href="/categories/Sakura/">
+          <span class="faa-parent animated-hover">
+            <i class="fa  iconfont icon-sakura faa-spin" aria-hidden="true"></i>
+            Sakura
+          </span>
+        </a>
+        
+      </li>
+    
+      <li>
+        <a href="javascript:;">
+          <span class="faa-parent animated-hover">
+            <i class="fa  fa-gamepad faa-vertical" aria-hidden="true"></i>
+            游戏
+          </span>
+        </a>
+        
+          <ul class="sub-menu">
+            
+              <li>
+                <a href="/game/menja/">
+                  <i class="fa fa-square" aria-hidden="true"></i>
+                  Menja
+                </a>
+              </li>
+            
+              <li>
+                <a href="/game/Mikutap/">
+                  <i class="fa fa-music" aria-hidden="true"></i>
+                  Miku39
+                </a>
+              </li>
+            
+              <li>
+                <a href="/game/canvas/">
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  Canvas
+                </a>
+              </li>
+            
+          </ul>
+        
+      </li>
+    
+      <li>
+        <a href="javascript:;">
+          <span class="faa-parent animated-hover">
+            <i class="fa  fa-list-ul faa-vertical" aria-hidden="true"></i>
+            清单
+          </span>
+        </a>
+        
+          <ul class="sub-menu">
+            
+              <li>
+                <a href="/bangumi/">
+                  <i class="fa fa-film faa-vertical" aria-hidden="true"></i>
+                  番组
+                </a>
+              </li>
+            
+              <li>
+                <a href="/music/">
+                  <i class="fa fa-headphones" aria-hidden="true"></i>
+                  歌单
+                </a>
+              </li>
+            
+              <li>
+                <a href="/topvideo/">
+                  <i class="fa fa-video-camera" aria-hidden="true"></i>
+                  视频
+                </a>
+              </li>
+            
+              <li>
+                <a href="/tools/">
+                  <i class="fa fa-wrench" aria-hidden="true"></i>
+                  工具
+                </a>
+              </li>
+            
+          </ul>
+        
+      </li>
+    
+      <li>
+        <a href="/comment/">
+          <span class="faa-parent animated-hover">
+            <i class="fa  fa-pencil-square-o faa-tada" aria-hidden="true"></i>
+            留言板
+          </span>
+        </a>
+        
+          <ul class="sub-menu">
+            
+              <li>
+                <a href="/comment/">
+                  <i class="fa fa-vine" aria-hidden="true"></i>
+                  Valine
+                </a>
+              </li>
+            
+              <li>
+                <a href="/commentlivere/">
+                  <i class="fa fa-comment-o" aria-hidden="true"></i>
+                  Livere
+                </a>
+              </li>
+            
+          </ul>
+        
+      </li>
+    
+      <li>
+        <a href="/links/">
+          <span class="faa-parent animated-hover">
+            <i class="fa  fa-link faa-shake" aria-hidden="true"></i>
+            友人帐
+          </span>
+        </a>
+        
+      </li>
+    
+      <li>
+        <a href="/donate/">
+          <span class="faa-parent animated-hover">
+            <i class="fa  fa-paw faa-vertical" aria-hidden="true"></i>
+            投喂
+          </span>
+        </a>
+        
+      </li>
+    
+      <li>
+        <a href="javascript:;">
+          <span class="faa-parent animated-hover">
+            <i class="fa  fa-leaf faa-wrench" aria-hidden="true"></i>
+            关于
+          </span>
+        </a>
+        
+          <ul class="sub-menu">
+            
+              <li>
+                <a href="/about/">
+                  <i class="fa fa-info-circle" aria-hidden="true"></i>
+                  我
+                </a>
+              </li>
+            
+              <li>
+                <a href="/theme-sakura/">
+                  <i class="fa fa-desktop" aria-hidden="true"></i>
+                  主题
+                </a>
+              </li>
+            
+              <li>
+                <a target="_blank" rel="noopener" href="https://stats.uptimerobot.com/MWr42S54wL">
+                  <i class="fa fa-heartbeat" aria-hidden="true"></i>
+                  状态
+                </a>
+              </li>
+            
+          </ul>
+        
+      </li>
+    
+  </ul>
+  <p style="text-align: center; font-size: 13px; color: #b9b9b9;">&copy 2020 | 闻柒</p>
+</div>
+<button onclick="topFunction()" class="mobile-cd-top" id="moblieGoTop" title="Go to top" style="display: none;"><i class="fa fa-chevron-up" aria-hidden="true"></i></button>
+  <link rel="stylesheet" href="https://fastly.jsdelivr.net/npm/aplayer/dist/APlayer.min.css">
+<script src="https://fastly.jsdelivr.net/npm/aplayer/dist/APlayer.min.js"></script>
+<!-- require MetingJS -->
+<script src="https://fastly.jsdelivr.net/npm/meting/dist/Meting.min.js"></script>
+<style>
+  .aplayer {
+	font-family: shoujo,'Source Han Serif SC','Source Han Serif',source-han-serif-sc,'PT Serif','SongTi SC','MicroSoft Yahei',Georgia,serif;
+  }
+  
+  .aplayer .aplayer-lrc {
+    height: 35px;
+  }
+  .aplayer .aplayer-lrc p{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18px !important;
+  }
+  .aplayer .aplayer-lrc p.aplayer-lrc-current{
+    color: #FF1493;
+  }
+  .aplayer.aplayer-narrow .aplayer-body{
+    left: -66px !important;
+  }
+  .aplayer.aplayer-fixed .aplayer-lrc {
+    display: none;
+  }
+  .aplayer .aplayer-lrc.aplayer-lrc-hide {
+      display:none !important;
+  }
+  .aplayer.aplayer-fixed .lrc-show {
+    display: block;
+    background: rgba(255, 255, 255, 0.8);
+  }
+</style>
+<meting-js
+
+    id="5089333489"
+
+    server="netease"
+
+    type="playlist"
+
+    fixed="true"
+
+    autoplay="false"
+
+    loop="all"
+
+    order="random"
+
+    preload="auto"
+
+    volume="0.5"
+
+    mutex="true"
+
+</meting-js>
+<script>
+  $(function(){
+    $('body').on('click', '.aplayer', function(){
+      if($('.aplayer-button').hasClass('aplayer-play')) {
+        $('.aplayer-lrc').removeClass('lrc-show');
+      } else {
+        $('.aplayer-lrc').addClass('lrc-show');
+      }
+    })
+  });
+</script>
+  <script src="/js/instantpage5.1.0.js" type="module"></script>
+  <div class="skin-menu no-select" id="mainskin" style="position: fixed">
+ <div class="theme-controls row-container">
+  <p style="text-align:center;font-weight:700;color:#444">
+      <i style="color:grey" class="fa fa-chevron-left"></i> 背景
+      <i style="color:grey" class="fa fa-chevron-right"></i></p>
+  <ul class="menu-list">
+   <li id="white-bg"> <i class="fa fa-television" aria-hidden="true"></i></li>
+   <li id="sakura-bg"> <i class="iconfont icon-sakura"></i></li>
+   <li id="gribs-bg"> <i class="fa fa-slack" aria-hidden="true"></i></li>
+   <li id="KAdots-bg"> <i class="iconfont icon-dots"></i></li>
+   <li id="totem-bg"> <i class="fa fa-optin-monster" aria-hidden="true"></i></li>
+   <li id="pixiv-bg"> <i class="iconfont icon-pixiv"></i></li>
+   <li id="bing-bg"> <i class="iconfont icon-bing"></i></li>
+   <li id="dark-bg"> <i class="fa fa-moon-o" aria-hidden="true"></i></li>
+  </ul>
+ </div>
+<p style="text-align:center;font-weight:700;color:#444">
+    <i style="color:grey" class="fa fa-chevron-left"></i> 字体
+    <i style="color:grey" class="fa fa-chevron-right"></i></p>
+<div class="font-family-controls row-container"> 
+    <button type="button" class="control-btn-serif selected" data-mode="shoujo" onclick="mashiro_global.font_control.change_font()">Shoujo</button> 
+    <button type="button" class="control-btn-sans-serif" data-mode="sans-serif" onclick="mashiro_global.font_control.change_font()">Sans Serif</button>  
+</div>
+<p style="text-align:center;font-weight:700;color:#444">
+    <i style="color:grey" class="fa fa-chevron-left"></i> 漂浮效果
+    <i style="color:grey" class="fa fa-chevron-right"></i></p>
+    <div class="theme-controls row-container">
+  <ul class="menu-list">
+	<li id="empty-effect"><i class="fa fa-ban"></i></li>
+    <li id="sakura-rain-effect"><i class="iconfont icon-sakura"></i></li>
+    <li id="snowy-effect"><i class="fa fa-snowflake-o"></i></li>
+    <li id="point-rain-effect"><i class="iconfont icon-dots"></i></li>
+  </ul>
+</div>
+
+<p style="text-align:center">☆过多的效果会导致卡顿☆</p>
+</div>
+<canvas id="night-mode-cover"></canvas>
+ 
+  <div class="changeSkin-gear no-select" style="bottom: 0px;"> 
+ <div class="keys"> 
+  <span id="open-skinMenu"> <i class="iconfont icon-gear inline-block rotating"></i>&nbsp; 主题工具 | SCHEME TOOL 
+  </span> 
+ </div> 
+</div>
+	<script src="https://cdn.wenqi.ml:5244/d/gh/WenqiOfficial/wenqicdn/js/hititle.js"></script>
+	<script src="https://cdn.wenqi.ml:5244/d/gh/WenqiOfficial/wenqicdn/live2d/wenqi_autoload.js"></script>
+	<script src="/js/wenqi.js"></script>
+</body>
+</html>
