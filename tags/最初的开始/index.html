@@ -99,14 +99,14 @@
 		oImg.onload=function(){
 			oImg.onload=null;
 			num++;
-			$(".wenqiload b").html(parseInt( num )+"%");
+			// $(".wenqiload b").html(parseInt( num )+"%");
 			if(num>=i){
 				var fake=0;
 				setTimeout(fakedone,1);
 				function fakedone(){
 					if(fake<99){
 						fake++;
-						// $(".wenqiload b").html(parseInt( fake )+"%");
+						$(".wenqiload b").html(parseInt( fake )+"%");
 						setTimeout(fakedone,10);
 					}else if(fake==99 && num>=i){
 						fake=100;
