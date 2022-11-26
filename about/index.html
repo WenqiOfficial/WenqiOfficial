@@ -106,7 +106,7 @@
 				function fakedone(){
 					if(fake<99){
 						fake++;
-						$(".wenqiload b").html(parseInt( fake )+"%");
+						// $(".wenqiload b").html(parseInt( fake )+"%");
 						setTimeout(fakedone,10);
 					}else if(fake==99 && num>=i){
 						fake=100;
@@ -122,13 +122,17 @@
 						$(".wenqiload b2").fadeIn();
 						$(".wenqiload ovo").fadeIn();
 						setTimeout(doneout,2000);
+						setTimeout(removeall,5000);
 					}else{
 						setTimeout(fakedone,1);
 					}
 				}
-				function doneout(){
-					$(".wenqiload").fadeOut("slow");
-				}
+			}
+			function doneout(){
+				$(".wenqiload").fadeOut("slow");
+			}
+			function removeall(){
+				$("#loader").remove();
 			}
 		}
 		oImg.src=img[i].src;
@@ -1178,7 +1182,7 @@ $(document).ready(function() {
     <i style="color:grey" class="fa fa-chevron-left"></i> 字体
     <i style="color:grey" class="fa fa-chevron-right"></i></p>
 <div class="font-family-controls row-container"> 
-    <button type="button" class="control-btn-serif selected" data-mode="shoujo" onclick="mashiro_global.font_control.change_font()">Shoujo</button> 
+    <button type="button" class="control-btn-serif selected" data-mode="shoujo" onclick="mashiro_global.font_control.change_font()">LitSquare</button>
     <button type="button" class="control-btn-sans-serif" data-mode="sans-serif" onclick="mashiro_global.font_control.change_font()">Sans Serif</button>  
 </div>
 <p style="text-align:center;font-weight:700;color:#444">
