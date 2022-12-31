@@ -1,0 +1,103 @@
+<?xml version="1.0"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>http://wenqiblog.ml</id>
+    <title>秘密の小屋 • Posts by &#34;随想&#34; category</title>
+    <link href="http://wenqiblog.ml" />
+    <updated>2022-01-31T16:00:00.000Z</updated>
+    <category term="最初的开始" />
+    <category term="你好" />
+    <category term="Pixiv" />
+    <category term="LSP" />
+    <category term="Sakura" />
+    <category term="中秋" />
+    <category term="庆祝" />
+    <category term="Hexo" />
+    <category term="Blog" />
+    <category term="崩坏3" />
+    <category term="音乐" />
+    <category term="原声集" />
+    <category term="OST" />
+    <category term="新年" />
+    <category term="主播女孩重度依赖" />
+    <category term="Needy Streamer Overload" />
+    <category term="资源分享" />
+    <category term="WebTools" />
+    <category term="周五放克夜" />
+    <category term="Friday Night Funkin" />
+    <category term="FNF" />
+    <category term="音游" />
+    <entry>
+        <id>http://wenqiblog.ml/2022/02/01/008/</id>
+        <title>新年快乐！以及一些想说的话</title>
+        <link rel="alternate" href="http://wenqiblog.ml/2022/02/01/008/"/>
+        <content type="html">&lt;link rel=&#34;stylesheet&#34; class=&#34;aplayer-secondary-style-marker&#34; href=&#34;\assets\css\APlayer.min.css&#34;&gt;&lt;script src=&#34;\assets\js\APlayer.min.js&#34; class=&#34;aplayer-secondary-script-marker&#34;&gt;&lt;/script&gt;&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;新年快乐！ Happy New Year!&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+        &lt;div id=&#34;aplayer-lLmucXbG&#34; class=&#34;aplayer aplayer-tag-marker&#34; style=&#34;margin-bottom: 20px;&#34;&gt;
+            &lt;pre class=&#34;aplayer-lrc-content&#34;&gt;&lt;/pre&gt;
+        &lt;/div&gt;
+        &lt;script&gt;
+          var ap = new APlayer({
+            element: document.getElementById(&#34;aplayer-lLmucXbG&#34;),
+            narrow: false,
+            autoplay: false,
+            showlrc: false,
+            music: {
+              title: &#34;大喜&#34;,
+              author: &#34;泠鸢yousa,音阙诗听&#34;,
+              url: &#34;https://cdn.wenqi.ml:5244/d/gh/WenqiOfficial/wenqicdn/file/songs/%E5%A4%A7%E5%96%9C%20-%20%E6%B3%A0%E9%B8%A2yousa,%E9%9F%B3%E9%98%99%E8%AF%97%E5%90%AC.mp3&#34;,
+              pic: &#34;https://cdn.wenqi.ml:5244/d/gh/WenqiOfficial/wenqicdn/file/songs/%E5%A4%A7%E5%96%9C_s.webp&#34;,
+              lrc: &#34;&#34;
+            }
+          });
+          window.aplayers || (window.aplayers = []);
+          window.aplayers.push(ap);
+        &lt;/script&gt;
+
+&lt;h1 id=&#34;PART-ONE&#34;&gt;&lt;a href=&#34;#PART-ONE&#34; class=&#34;headerlink&#34; title=&#34;PART ONE&#34;&gt;&lt;/a&gt;PART ONE&lt;/h1&gt;&lt;p&gt;首先最主要的还是祝原无论是陪伴了小屋至今还是新的客人们：&lt;strong&gt;新年快乐，万事如意；虎年行大运，财源滚滚来！&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;在小屋经营的这一年里，感谢各位的陪伴！在将来，小屋也会愈发繁华，期待这一个新年里与各位继续前行！&lt;/p&gt;
+&lt;h1 id=&#34;PART-TWO&#34;&gt;&lt;a href=&#34;#PART-TWO&#34; class=&#34;headerlink&#34; title=&#34;PART TWO&#34;&gt;&lt;/a&gt;PART TWO&lt;/h1&gt;&lt;h2 id=&#34;思过去&#34;&gt;&lt;a href=&#34;#思过去&#34; class=&#34;headerlink&#34; title=&#34;思过去&#34;&gt;&lt;/a&gt;思过去&lt;/h2&gt;&lt;p&gt;对于这个新年，当然是要充满干劲啦！(●ˇ∀ˇ●)&lt;/p&gt;
+&lt;p&gt;在过去的这2021里，我也经历了很多，其中有开心过、颓废过、沮丧过、失望过，从一个懵懂的初中生变为高中新生，人生的酸甜苦辣也是逐渐尝尽。最大的感触当然还是对于这个社会的认识更加丰富广泛了，自己也成长了起来。&lt;/p&gt;
+&lt;p&gt;回首2021的遗憾，还是把自己吓一跳的：许许多多想要计划做的事情没有完成，对于部分东西也是做的并不满意。&lt;del&gt;嘛…看来是要好好鞭策一下自己了&lt;/del&gt;&lt;br&gt;毕竟从步入高中开始，学业的压力也是倍增，紧张的氛围也充斥着。&lt;del&gt;（就是不卷不行了）&lt;/del&gt;&lt;/p&gt;
+&lt;h2 id=&#34;盼未来&#34;&gt;&lt;a href=&#34;#盼未来&#34; class=&#34;headerlink&#34; title=&#34;盼未来&#34;&gt;&lt;/a&gt;盼未来&lt;/h2&gt;&lt;p&gt;2022是个全新的开始，希望自己能在这新的一年里更加努力，在学业、兴趣上有更好的进步，把2021的遗憾化为2022的美满。&lt;br&gt;学会 UE4、Kali ，在2022里拥有自己的小收入，还有不秃头！&lt;/p&gt;
+&lt;p&gt;那么我也将会在未来这段时间里继续努力，经营好这 秘密の小屋 ，同时也会努力抽出时间写写博文、做做视频，和各位分享点点滴滴，期待新的一年更加美好！&lt;/p&gt;
+&lt;h1 id=&#34;2022，加油！&#34;&gt;&lt;a href=&#34;#2022，加油！&#34; class=&#34;headerlink&#34; title=&#34;2022，加油！&#34;&gt;&lt;/a&gt;2022，加油！&lt;/h1&gt;&lt;hr&gt;
+&lt;center&gt;封面图Pid:95904340&lt;/center&gt;</content>
+        <category term="新年" />
+        <updated>2022-01-31T16:00:00.000Z</updated>
+    </entry>
+    <entry>
+        <id>http://wenqiblog.ml/2021/09/21/005/</id>
+        <title>中秋快乐！</title>
+        <link rel="alternate" href="http://wenqiblog.ml/2021/09/21/005/"/>
+        <content type="html">&lt;link rel=&#34;stylesheet&#34; class=&#34;aplayer-secondary-style-marker&#34; href=&#34;\assets\css\APlayer.min.css&#34;&gt;&lt;script src=&#34;\assets\js\APlayer.min.js&#34; class=&#34;aplayer-secondary-script-marker&#34;&gt;&lt;/script&gt;&lt;p&gt;祝陪伴了小屋的各位：中秋快乐！&lt;br&gt;一定能够心想事成，团团圆圆，当然别忘了吃吃月饼赏赏月啦！&lt;/p&gt;
+&lt;hr&gt;
+&lt;center&gt;封面图Pid:77252576&lt;/center&gt;
+
+
+
+</content>
+        <category term="中秋" />
+        <category term="庆祝" />
+        <updated>2021-09-21T03:09:44.000Z</updated>
+    </entry>
+    <entry>
+        <id>http://wenqiblog.ml/2020/09/05/001/</id>
+        <title>你好! 这里闻柒!</title>
+        <link rel="alternate" href="http://wenqiblog.ml/2020/09/05/001/"/>
+        <content type="html">&lt;link rel=&#34;stylesheet&#34; class=&#34;aplayer-secondary-style-marker&#34; href=&#34;\assets\css\APlayer.min.css&#34;&gt;&lt;script src=&#34;\assets\js\APlayer.min.js&#34; class=&#34;aplayer-secondary-script-marker&#34;&gt;&lt;/script&gt;&lt;h1 id=&#34;你好！这里闻柒！&#34;&gt;&lt;a href=&#34;#你好！这里闻柒！&#34; class=&#34;headerlink&#34; title=&#34;你好！这里闻柒！&#34;&gt;&lt;/a&gt;你好！这里闻柒！&lt;/h1&gt;&lt;h2 id=&#34;前言&#34;&gt;&lt;a href=&#34;#前言&#34; class=&#34;headerlink&#34; title=&#34;前言&#34;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;我是这个博客的博主，闻柒。&lt;/p&gt;
+&lt;p&gt;这是我自己搭建起来的第一个博客，可能看起来还不是特别好，但是你可以看见它的逐渐成熟。&lt;/p&gt;
+&lt;h2 id=&#34;基于&#34;&gt;&lt;a href=&#34;#基于&#34; class=&#34;headerlink&#34; title=&#34;基于&#34;&gt;&lt;/a&gt;基于&lt;/h2&gt;&lt;p&gt;嗯…你可以看见，这个博客是基于”HEXO”搭建，目前是托管在”GitHub”上的，使用的主题为”Sakura”。&lt;br&gt;由于我是第一次使用”HEXO”搭建博客，作为博客小白所以还有很多的地方是自己不了解的，可能会出现一些瑕疵。但是欢迎将来你们能提出意见。&lt;/p&gt;
+&lt;h2 id=&#34;为什么要搭建&#34;&gt;&lt;a href=&#34;#为什么要搭建&#34; class=&#34;headerlink&#34; title=&#34;为什么要搭建&#34;&gt;&lt;/a&gt;为什么要搭建&lt;/h2&gt;&lt;p&gt;说到这个…其实还是闲得慌(bushi&lt;/p&gt;
+&lt;p&gt;还有看到别人做的博客，就想拥有属于自己的博客，但是经历了风风雨雨，走过无数坑才最终到这里；一开始用的是手机上的KSWeb搭配鲶鱼CMS，到后面因为很多的问题于是放弃掉了。无意之中想起了之前看过的博客于是便决定再用Hexo试一次。于是你便能看见这个博客了。&lt;/p&gt;
+&lt;h2 id=&#34;今后的发展？&#34;&gt;&lt;a href=&#34;#今后的发展？&#34; class=&#34;headerlink&#34; title=&#34;今后的发展？&#34;&gt;&lt;/a&gt;今后的发展？&lt;/h2&gt;&lt;p&gt;今后这个博客将会作为我的个人发布平台之一，我将会在上面发布一些关于技术、游戏等方面的文章或是资源分享。&lt;br&gt;当然也会对这个博客进行更加的优化，也会添加评论系统以此来让大家能够在欣赏的同时分享出自己的见解。&lt;/p&gt;
+&lt;h2 id=&#34;后言&#34;&gt;&lt;a href=&#34;#后言&#34; class=&#34;headerlink&#34; title=&#34;后言&#34;&gt;&lt;/a&gt;后言&lt;/h2&gt;&lt;p&gt;以上便是我想说的话了，还有部分会在“关于我”中阐述，今后可能还会进行补充。&lt;/p&gt;
+&lt;p&gt;总之，これからもよろしくお願いします！&lt;/p&gt;
+&lt;p&gt;2020-09-05&lt;br&gt;闻柒&lt;/p&gt;
+</content>
+        <category term="最初的开始" />
+        <category term="你好" />
+        <updated>2020-09-05T13:21:40.000Z</updated>
+    </entry>
+</feed>
