@@ -1504,7 +1504,7 @@ var home = location.href,
             result = $(data).find('#main .post')
             nextHref = $(data).find('#pagination a').attr('href')
             $('#main').append(result.fadeIn(500))
-            $('#pagination a').removeClass('loading').text('Previous')
+            $('#pagination a').removeClass('loading').text('探索尘封的记忆')
             lazyload()
             mashiro_global.post_list_show_animation.ini(50)
             if (nextHref != undefined) {
