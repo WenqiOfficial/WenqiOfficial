@@ -28,4 +28,4 @@ Contact:
 [![ASUS UX4100EG](https://img.shields.io/badge/ASUS%20UX4100EG-0077FF?style=flat-square&logo=asus&logoColor=FFFFFF&labelColor=0077FF)](https://www.asus.com.cn/laptops/for-home/zenbook/ux4100e/)
 
 
-![SakuraiLH](https://count.getloli.com/get/@WenqiOfficial?theme=rule34)
+![SakuraiLH](https://count.ayaya.beauty/get/@WenqiOfficial?theme=rule34)
