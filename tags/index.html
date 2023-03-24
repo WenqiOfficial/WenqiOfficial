@@ -253,10 +253,8 @@
 <script>
 	var videoElement = document.getElementById("bgvideo");
 	var vol = 0.1;
-	var haout = 0;
+	var outtime = 0;
     function upup(){
-		clearTimeout(stuout);
-		haout=0;
 		voln=videoElement.volume*100;
 		if(voln < 90)
 		{
@@ -272,15 +270,13 @@
               'bottom': '0px'
         }).html('音量: 100% 已经是最大音量啦！注意保护好耳朵哦！')
 		}
-		if(haout==0)
+		if(outtime==0)
 		{
-			haout=1;
-			setTimeout(stuout,2000);
+			setTimeout(stuout,1000);
 		}
+    outtime=3;
     }
 	function downdown(){
-        clearTimeout(stuout)
-		haout=0;
 		voln=videoElement.volume*100;
 		if(voln > 10)
 		{
@@ -296,25 +292,23 @@
               'bottom': '0px'
         }).html('音量: 0% 已经是最低音量啦！')
 		}
-		if(haout==0)
+		if(outtime==0)
 		{
-			haout=1;
-			setTimeout(stuout,2000);
+			setTimeout(stuout,1000);
 		}
+    outtime=3;
 	}
 	function stuout(){
-		clearTimeout(stuout);
-		clearTimeout();
-		if(haout==1)
-		{
-		$('.video-stu').css({
+    if(outtime>=1)
+    {
+      outtime--;
+      setTimeout(stuout,1000);
+    }else
+    {
+      $('.video-stu').css({
 			'bottom': '-100px'
-		})
-		haout=2;
-		}else if(haout==2)
-		{
-			haout=0
-		}
+		  })
+    }
 	}
 </script>
     <div id="page" class="site wrapper">
