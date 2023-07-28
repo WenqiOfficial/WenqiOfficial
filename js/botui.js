@@ -59,7 +59,7 @@ function bot_ui_ini() {
         end = function () {
             botui.message.add({
                 delay: 600,
-                content: "![...](https://cdn.wenqi.ml:5244/d/gh/WenqiOfficial/wenqicdn/img/gao_ci.jpg)"
+                content: "![...](https://cdn.wenqi.icu:5244/d/gh/WenqiOfficial/wenqicdn/img/gao_ci.jpg)"
             })
         },
         secondpart = function () {

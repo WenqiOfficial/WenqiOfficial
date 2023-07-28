@@ -170,20 +170,20 @@ function imgError (ele, type) {
   switch (type) {
     case 1:
       if (ele.src.includes('https://cn.gravatar.com/avatar')) {
-        ele.src = ele.src.replace('https://cn.gravatar.com/avatar/', 'https://cdn.wenqi.ml:5244/d/gh/WenqiOfficial/wenqicdn/img/other/gravatar.jpg')
+        ele.src = ele.src.replace('https://cn.gravatar.com/avatar/', 'https://cdn.wenqi.icu:5244/d/gh/WenqiOfficial/wenqicdn/img/other/gravatar.jpg')
       } else {
-        ele.src = 'https://cdn.wenqi.ml:5244/d/gh/WenqiOfficial/wenqicdn/img/other/default_avatar.jpg'
+        ele.src = 'https://cdn.wenqi.icu:5244/d/gh/WenqiOfficial/wenqicdn/img/other/default_avatar.jpg'
       }
       break
     case 2:
-      ele.src = 'https://cdn.wenqi.ml:5244/d/gh/WenqiOfficial/wenqicdn/img/other/default_gavatar.jpg'
+      ele.src = 'https://cdn.wenqi.icu:5244/d/gh/WenqiOfficial/wenqicdn/img/other/default_gavatar.jpg'
       break
     case 3:
 
-      ele.src = 'https://cdn.wenqi.ml:5244/d/gh/WenqiOfficial/wenqicdn/img/other/image-404.png'
+      ele.src = 'https://cdn.wenqi.icu:5244/d/gh/WenqiOfficial/wenqicdn/img/other/image-404.png'
       break
     default:
-      ele.src = 'https://cdn.wenqi.ml:5244/d/gh/WenqiOfficial/wenqicdn/img/other/image-404.png'
+      ele.src = 'https://cdn.wenqi.icu:5244/d/gh/WenqiOfficial/wenqicdn/img/other/image-404.png'
   }
 }
 mashiro_global.post_list_show_animation = new function () {
@@ -432,7 +432,7 @@ function checkBgImgCookie () {
     $('#banner_wave_2').addClass('banner_wave_hide_fit_skin')
   }
   if (bgurl != '') {
-    if (bgurl == 'https://cdn.wenqi.ml:5244/d/gh/WenqiOfficial/wenqicdn/img/themebg/sakura.png' || bgurl == 'https://cdn.wenqi.ml:5244/d/gh/WenqiOfficial/wenqicdn/img/themebg/plaid.jpg' || bgurl == 'https://cdn.wenqi.ml:5244/d/gh/WenqiOfficial/wenqicdn/img/themebg/star.png' || bgurl == 'https://cdn.wenqi.ml:5244/d/gh/WenqiOfficial/wenqicdn/img/themebg/point.png' || bgurl == 'https://cdn.wenqi.ml:5244/d/gh/WenqiOfficial/wenqicdn/img/themebg/little-monster.png') {
+    if (bgurl == 'https://cdn.wenqi.icu:5244/d/gh/WenqiOfficial/wenqicdn/img/themebg/sakura.png' || bgurl == 'https://cdn.wenqi.icu:5244/d/gh/WenqiOfficial/wenqicdn/img/themebg/plaid.jpg' || bgurl == 'https://cdn.wenqi.icu:5244/d/gh/WenqiOfficial/wenqicdn/img/themebg/star.png' || bgurl == 'https://cdn.wenqi.icu:5244/d/gh/WenqiOfficial/wenqicdn/img/themebg/point.png' || bgurl == 'https://cdn.wenqi.icu:5244/d/gh/WenqiOfficial/wenqicdn/img/themebg/little-monster.png') {
       mashiro_global.variables.skinSecter = true
       mashiro_global.variables.isNight = false
       $('#night-mode-cover').css('visibility', 'hidden')
@@ -457,28 +457,28 @@ function checkEffectsCookie() {
   var efurl = getCookie('sakuraEffectCookie')
   if(efurl) {
     var effect = document.createElement("script")
-    effect.setAttribute("src","https://cdn.wenqi.ml:5244/d/gh/WenqiOfficial/wenqicdn/js/effect/sakura.js")
+    effect.setAttribute("src","https://cdn.wenqi.icu:5244/d/gh/WenqiOfficial/wenqicdn/js/effect/sakura.js")
     effect.setAttribute("id","sakura-effect")
     document.getElementsByTagName("body").item(0).appendChild(effect)
   }
   efurl = getCookie('snowyEffectCookie')
   if(efurl) {
     var effect = document.createElement("script")        
-    effect.setAttribute("src","https://cdn.wenqi.ml:5244/d/gh/WenqiOfficial/wenqicdn/js/effect/snow.js")
+    effect.setAttribute("src","https://cdn.wenqi.icu:5244/d/gh/WenqiOfficial/wenqicdn/js/effect/snow.js")
     effect.setAttribute("id","snow-effect")
     document.getElementsByTagName("body").item(0).appendChild(effect)
   }
   efurl = getCookie('beltsEffectCookie')
   if(efurl){
     var effect = document.createElement("script")        
-    effect.setAttribute("src","https://cdn.wenqi.ml:5244/d/gh/WenqiOfficial/wenqicdn/js/effect/piao.js")
+    effect.setAttribute("src","https://cdn.wenqi.icu:5244/d/gh/WenqiOfficial/wenqicdn/js/effect/piao.js")
     effect.setAttribute("id","belt-effect")
     document.getElementsByTagName("body").item(0).appendChild(effect)
   } 
   efurl = getCookie('pointEffectCookie')
   if(efurl){
     var effect = document.createElement("script")        
-    effect.setAttribute("src","https://cdn.wenqi.ml:5244/d/gh/WenqiOfficial/wenqicdn/js/effect/pointrain.js")
+    effect.setAttribute("src","https://cdn.wenqi.icu:5244/d/gh/WenqiOfficial/wenqicdn/js/effect/pointrain.js")
     effect.setAttribute("id","point-effect")
     document.getElementsByTagName("body").item(0).appendChild(effect)
   }
@@ -530,11 +530,11 @@ $(document).ready(function () {
       setCookie('bgImgSetting', url, 30)
     })
   }
-  changeBG('#sakura-bg', 'https://cdn.wenqi.ml:5244/d/gh/WenqiOfficial/wenqicdn/img/themebg/sakura.png')
-  changeBG('#gribs-bg', 'https://cdn.wenqi.ml:5244/d/gh/WenqiOfficial/wenqicdn/img/themebg/plaid.jpg')
-  changeBG('#pixiv-bg', 'https://cdn.wenqi.ml:5244/d/gh/WenqiOfficial/wenqicdn/img/themebg/star.png')
-  changeBG('#KAdots-bg', 'https://cdn.wenqi.ml:5244/d/gh/WenqiOfficial/wenqicdn/img/themebg/point.png')
-  changeBG('#totem-bg', 'https://cdn.wenqi.ml:5244/d/gh/WenqiOfficial/wenqicdn/img/themebg/little-monster.png')
+  changeBG('#sakura-bg', 'https://cdn.wenqi.icu:5244/d/gh/WenqiOfficial/wenqicdn/img/themebg/sakura.png')
+  changeBG('#gribs-bg', 'https://cdn.wenqi.icu:5244/d/gh/WenqiOfficial/wenqicdn/img/themebg/plaid.jpg')
+  changeBG('#pixiv-bg', 'https://cdn.wenqi.icu:5244/d/gh/WenqiOfficial/wenqicdn/img/themebg/star.png')
+  changeBG('#KAdots-bg', 'https://cdn.wenqi.icu:5244/d/gh/WenqiOfficial/wenqicdn/img/themebg/point.png')
+  changeBG('#totem-bg', 'https://cdn.wenqi.icu:5244/d/gh/WenqiOfficial/wenqicdn/img/themebg/little-monster.png')
   changeBGnoTrans('#bing-bg', 'https://api.xygeng.cn/Bing/')
   $('.skin-menu #white-bg').click(function () {
     mashiro_global.variables.skinSecter = false
@@ -552,7 +552,7 @@ $(document).ready(function () {
   $('.skin-menu #dark-bg').click(function () {
     mashiro_global.variables.skinSecter = true
     mashiro_global.variables.isNight = true
-    $('body').css('background-image', 'url(https://cdn.wenqi.ml:5244/d/gh/WenqiOfficial/wenqicdn/img/other/starry_sky.png)')
+    $('body').css('background-image', 'url(https://cdn.wenqi.icu:5244/d/gh/WenqiOfficial/wenqicdn/img/other/starry_sky.png)')
     $('.blank').css('background-color', 'rgba(255,255,255,.8)')
     $('#night-mode-cover').css('visibility', 'visible')
     $('.pattern-center').removeClass('pattern-center').addClass('pattern-center-sakura')
@@ -576,7 +576,7 @@ $(document).ready(function () {
     var effect = sakuraEffectClear()
     if(!effect) {
         effect = document.createElement("script")
-        effect.setAttribute("src","https://cdn.wenqi.ml:5244/d/gh/WenqiOfficial/wenqicdn/js/effect/sakura.js")
+        effect.setAttribute("src","https://cdn.wenqi.icu:5244/d/gh/WenqiOfficial/wenqicdn/js/effect/sakura.js")
         effect.setAttribute("id","sakura-effect")
         document.getElementsByTagName("body").item(0).appendChild(effect)
         setCookie('sakuraEffectCookie','use',30)
@@ -588,7 +588,7 @@ $(document).ready(function () {
     var effect = snowEffectClear()
     if(!effect){
         effect = document.createElement("script")        
-        effect.setAttribute("src","https://cdn.wenqi.ml:5244/d/gh/WenqiOfficial/wenqicdn/js/effect/snow.js")
+        effect.setAttribute("src","https://cdn.wenqi.icu:5244/d/gh/WenqiOfficial/wenqicdn/js/effect/snow.js")
         effect.setAttribute("id","snow-effect")
         document.getElementsByTagName("body").item(0).appendChild(effect)
         setCookie('snowyEffectCookie','use',30)
@@ -600,7 +600,7 @@ $(document).ready(function () {
     var effect = beltEffectClear()
     if(!effect){
         effect = document.createElement("script")        
-        effect.setAttribute("src","https://cdn.wenqi.ml:5244/d/gh/WenqiOfficial/wenqicdn/js/effect/piao.js")
+        effect.setAttribute("src","https://cdn.wenqi.icu:5244/d/gh/WenqiOfficial/wenqicdn/js/effect/piao.js")
         effect.setAttribute("id","belt-effect")
         document.getElementsByTagName("body").item(0).appendChild(effect)
         setCookie('beltsEffectCookie','use',30)
@@ -612,7 +612,7 @@ $(document).ready(function () {
       var effect = pointEffectClear()
       if(!effect){        
         effect = document.createElement("script")        
-        effect.setAttribute("src","https://cdn.wenqi.ml:5244/d/gh/WenqiOfficial/wenqicdn/js/effect/pointrain.js")
+        effect.setAttribute("src","https://cdn.wenqi.icu:5244/d/gh/WenqiOfficial/wenqicdn/js/effect/pointrain.js")
         effect.setAttribute("id","point-effect")
         document.getElementsByTagName("body").item(0).appendChild(effect)
         setCookie('pointEffectCookie','use',30)

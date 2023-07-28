@@ -2,7 +2,7 @@
 <rss version="2.0">
     <channel>
         <title>秘密の小屋</title>
-        <link>http://wenqiblog.ml</link>
+        <link>https://blog.wenqi.icu</link>
         <description>秘密的小屋有着秘密的东西(*╹▽╹*)</description>
         <language>zh-cn</language>
         <pubDate>Sun, 01 Jan 2023 00:00:00 +0800</pubDate>
@@ -31,18 +31,18 @@
         <category>音游</category>
         <category>2023</category>
         <item>
-            <guid isPermalink="true">http://wenqiblog.ml/2023/01/01/011/</guid>
+            <guid isPermalink="true">https://blog.wenqi.icu/2023/01/01/011/</guid>
             <title>2023，继续向前！</title>
-            <link>http://wenqiblog.ml/2023/01/01/011/</link>
+            <link>https://blog.wenqi.icu/2023/01/01/011/</link>
             <category>2023</category>
             <pubDate>Sun, 01 Jan 2023 00:00:00 +0800</pubDate>
             <description><![CDATA[ &lt;link rel=&#34;stylesheet&#34; class=&#34;aplayer-secondary-style-marker&#34; href=&#34;\assets\css\APlayer.min.css&#34;&gt;&lt;script src=&#34;\assets\js\APlayer.min.js&#34; class=&#34;aplayer-secondary-script-marker&#34;&gt;&lt;/script&gt;&lt;p&gt;不想当咸鱼了！&lt;/p&gt;
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">http://wenqiblog.ml/2022/06/07/010/</guid>
+            <guid isPermalink="true">https://blog.wenqi.icu/2022/06/07/010/</guid>
             <title>Friday Night Funkin/周五放克夜</title>
-            <link>http://wenqiblog.ml/2022/06/07/010/</link>
+            <link>https://blog.wenqi.icu/2022/06/07/010/</link>
             <category>周五放克夜</category>
             <category>Friday Night Funkin</category>
             <category>FNF</category>
@@ -52,20 +52,20 @@
 &lt;p&gt;&lt;em&gt;我就要用R病毒做封面啊啊啊啊！！！&lt;/em&gt;&lt;br&gt;&lt;strong&gt;文中“FNF”均指代“Friday Night Funkin&amp;#x2F;周五放克夜”&lt;/strong&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 
-        &lt;div id=&#34;aplayer-BeQoiFqj&#34; class=&#34;aplayer aplayer-tag-marker&#34; style=&#34;margin-bottom: 20px;&#34;&gt;
+        &lt;div id=&#34;aplayer-KqMapkNR&#34; class=&#34;aplayer aplayer-tag-marker&#34; style=&#34;margin-bottom: 20px;&#34;&gt;
             &lt;pre class=&#34;aplayer-lrc-content&#34;&gt;&lt;/pre&gt;
         &lt;/div&gt;
         &lt;script&gt;
           var ap = new APlayer({
-            element: document.getElementById(&#34;aplayer-BeQoiFqj&#34;),
+            element: document.getElementById(&#34;aplayer-KqMapkNR&#34;),
             narrow: false,
             autoplay: false,
             showlrc: false,
             music: {
               title: &#34;Virus R&#34;,
               author: &#34;Azure lag&#34;,
-              url: &#34;https://cloud.zeroarea.ml:5221/api/v3/file/get/1191/Inst.ogg?sign=pOPyKBsiZaoFmUCm5ddQRMdiC8aaUnP15eHWLOI1i2k%3D%3A0&#34;,
-              pic: &#34;https://cdn.wenqi.ml:5244/d/gh/WenqiOfficial/wenqipic/img/3.png&#34;,
+              url: &#34;https://cloud.wenqi.icu:5221/api/v3/file/get/1191/Inst.ogg?sign=pOPyKBsiZaoFmUCm5ddQRMdiC8aaUnP15eHWLOI1i2k%3D%3A0&#34;,
+              pic: &#34;https://cdn.wenqi.icu:5244/d/gh/WenqiOfficial/wenqipic/img/3.png&#34;,
               lrc: &#34;&#34;
             }
           });
@@ -84,7 +84,7 @@
 &lt;p&gt;原版可以说是原汁原味的（没有什么大亮点），本文不做详细阐述，想体验的可以看下面的获取方式。&lt;/p&gt;
 &lt;h3 id=&#34;获取方式&#34;&gt;&lt;a href=&#34;#获取方式&#34; class=&#34;headerlink&#34; title=&#34;获取方式&#34;&gt;&lt;/a&gt;获取方式&lt;/h3&gt;&lt;p&gt;原版的发布页是支持在线游玩的，但也可以下载下来本地玩。&lt;/p&gt;
 &lt;p&gt;只是作者很懒，网页版更新到 Week7 了，结果Windows发布版才更新 Week5 …&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://cdn.wenqi.ml:5244/d/gh/WenqiOfficial/wenqipic/img/20220608000931.png&#34; alt=&#34;迟迟没有更新的本地版本...&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://cdn.wenqi.icu:5244/d/gh/WenqiOfficial/wenqipic/img/20220608000931.png&#34; alt=&#34;迟迟没有更新的本地版本...&#34;&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;网页版（可在线游玩）&amp;#x2F;下载：&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://ninja-muffin24.itch.io/funkin&#34;&gt;前往发布页&lt;/a&gt;&lt;/li&gt;
@@ -105,30 +105,30 @@
 &lt;p&gt;按下&lt;code&gt;Enter&lt;/code&gt;键即可在 中文&amp;#x2F;英文 切换&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;CHINESE&lt;/code&gt;中文&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;ENGLISH&lt;/code&gt;英文&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://cdn.wenqi.ml:5244/d/gh/WenqiOfficial/wenqipic/img/%E8%B0%83%E4%B8%AD%E6%96%87.gif&#34; alt=&#34;语言切换&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://cdn.wenqi.icu:5244/d/gh/WenqiOfficial/wenqipic/img/%E8%B0%83%E4%B8%AD%E6%96%87.gif&#34; alt=&#34;语言切换&#34;&gt;&lt;/p&gt;
 &lt;h4 id=&#34;自定义键位&#34;&gt;&lt;a href=&#34;#自定义键位&#34; class=&#34;headerlink&#34; title=&#34;自定义键位&#34;&gt;&lt;/a&gt;自定义键位&lt;/h4&gt;&lt;p&gt;&lt;strong&gt;进入方式：”OPTIONS”→”GAMEPLAY”→”KEY BINDINGS”&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;更换按键：&lt;code&gt;↑/↓/←/→&lt;/code&gt;移动到需要修改的按键，按下&lt;code&gt;Enter&lt;/code&gt;键，当显示”?”的时候按下自己需要自定义的按键即可&lt;/p&gt;
 &lt;p&gt;按键模式切换：按下&lt;code&gt;TAB&lt;/code&gt;键&lt;/p&gt;
 &lt;p&gt;保存：按下&lt;code&gt;Esc&lt;/code&gt;键&lt;/p&gt;
 &lt;p&gt;不保存&amp;#x2F;还原默认键位：按下&lt;code&gt;Backspace&lt;/code&gt;键&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://cdn.wenqi.ml:5244/d/gh/WenqiOfficial/wenqipic/img/%E8%B0%83%E9%94%AE%E4%BD%8D.gif&#34; alt=&#34;自定义键位&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://cdn.wenqi.icu:5244/d/gh/WenqiOfficial/wenqipic/img/%E8%B0%83%E9%94%AE%E4%BD%8D.gif&#34; alt=&#34;自定义键位&#34;&gt;&lt;/p&gt;
 &lt;h4 id=&#34;自动-观赏-模式&#34;&gt;&lt;a href=&#34;#自动-观赏-模式&#34; class=&#34;headerlink&#34; title=&#34;自动(观赏)模式&#34;&gt;&lt;/a&gt;自动(观赏)模式&lt;/h4&gt;&lt;p&gt;&lt;strong&gt;进入方式：”OPTIONS”→”MISC”→”BOTPLAY”&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;按下&lt;code&gt;Enter&lt;/code&gt;键即可在 开&amp;#x2F;关 切换&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;BOTPLAY OFF&lt;/code&gt;关闭自动(观赏)模式&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;BOTPLAY ON&lt;/code&gt;开启自动(观赏)模式&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://cdn.wenqi.ml:5244/d/gh/WenqiOfficial/wenqipic/img/%E8%87%AA%E5%8A%A8%E6%A8%A1%E5%BC%8F.gif&#34; alt=&#34;自动(观赏)模式&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://cdn.wenqi.icu:5244/d/gh/WenqiOfficial/wenqipic/img/%E8%87%AA%E5%8A%A8%E6%A8%A1%E5%BC%8F.gif&#34; alt=&#34;自动(观赏)模式&#34;&gt;&lt;/p&gt;
 &lt;hr&gt;
-&lt;h1 id=&#34;游戏内部分画面&#34;&gt;&lt;a href=&#34;#游戏内部分画面&#34; class=&#34;headerlink&#34; title=&#34;游戏内部分画面&#34;&gt;&lt;/a&gt;游戏内部分画面&lt;/h1&gt;&lt;h2 id=&#34;Virus-R&#34;&gt;&lt;a href=&#34;#Virus-R&#34; class=&#34;headerlink&#34; title=&#34;Virus R&#34;&gt;&lt;/a&gt;Virus R&lt;/h2&gt;&lt;p&gt;主界面：&lt;br&gt;&lt;img src=&#34;https://cloud.zeroarea.ml:5221/api/v3/file/get/1201/2022-06-0801-13-41.gif?sign=Chgfpr95F3wEqIfRdRfF8F1jsfTiTg_b6_vSG-QoPlw=:0&#34; alt=&#34;主界面&#34;&gt;&lt;/p&gt;
-&lt;p&gt;Memory R：&lt;br&gt;&lt;img src=&#34;https://cloud.zeroarea.ml:5221/api/v3/file/get/1199/2022-06-0801-14-43.gif?sign=SJIcC7ka4LdRj4bR0yJY0pX6UGNRwVzC32lJsC2NPPg=:0&#34; alt=&#34;Memory R&#34;&gt;&lt;/p&gt;
-&lt;p&gt;Virus R：&lt;br&gt;&lt;img src=&#34;https://cloud.zeroarea.ml:5221/api/v3/file/get/1202/2022-06-0801-16-51.gif?sign=SDRj2aXf2R0yK1fBHThskg7U61TpsCAbJNnoqhYsW0w=:0&#34; alt=&#34;Virus R&#34;&gt;&lt;/p&gt;
+&lt;h1 id=&#34;游戏内部分画面&#34;&gt;&lt;a href=&#34;#游戏内部分画面&#34; class=&#34;headerlink&#34; title=&#34;游戏内部分画面&#34;&gt;&lt;/a&gt;游戏内部分画面&lt;/h1&gt;&lt;h2 id=&#34;Virus-R&#34;&gt;&lt;a href=&#34;#Virus-R&#34; class=&#34;headerlink&#34; title=&#34;Virus R&#34;&gt;&lt;/a&gt;Virus R&lt;/h2&gt;&lt;p&gt;主界面：&lt;br&gt;&lt;img src=&#34;https://cloud.wenqi.icu:5221/api/v3/file/get/1201/2022-06-0801-13-41.gif?sign=Chgfpr95F3wEqIfRdRfF8F1jsfTiTg_b6_vSG-QoPlw=:0&#34; alt=&#34;主界面&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Memory R：&lt;br&gt;&lt;img src=&#34;https://cloud.wenqi.icu:5221/api/v3/file/get/1199/2022-06-0801-14-43.gif?sign=SJIcC7ka4LdRj4bR0yJY0pX6UGNRwVzC32lJsC2NPPg=:0&#34; alt=&#34;Memory R&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Virus R：&lt;br&gt;&lt;img src=&#34;https://cloud.wenqi.icu:5221/api/v3/file/get/1202/2022-06-0801-16-51.gif?sign=SDRj2aXf2R0yK1fBHThskg7U61TpsCAbJNnoqhYsW0w=:0&#34; alt=&#34;Virus R&#34;&gt;&lt;/p&gt;
 &lt;h2 id=&#34;华强买瓜&#34;&gt;&lt;a href=&#34;#华强买瓜&#34; class=&#34;headerlink&#34; title=&#34;华强买瓜&#34;&gt;&lt;/a&gt;华强买瓜&lt;/h2&gt;&lt;p&gt;&lt;em&gt;&lt;strong&gt;这个属实绷不住了wwwwww&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;主界面：&lt;br&gt;&lt;img src=&#34;https://cloud.zeroarea.ml:5221/api/v3/file/get/1200/2022-06-0801-11-46.gif?sign=Yv9dQI_KU34fIhIcduQxB_Q__OUXXfPxT3Cx-XV4vQA=:0&#34; alt=&#34;主界面&#34;&gt;&lt;/p&gt;
+&lt;p&gt;主界面：&lt;br&gt;&lt;img src=&#34;https://cloud.wenqi.icu:5221/api/v3/file/get/1200/2022-06-0801-11-46.gif?sign=Yv9dQI_KU34fIhIcduQxB_Q__OUXXfPxT3Cx-XV4vQA=:0&#34; alt=&#34;主界面&#34;&gt;&lt;/p&gt;
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">http://wenqiblog.ml/2022/04/04/009/</guid>
+            <guid isPermalink="true">https://blog.wenqi.icu/2022/04/04/009/</guid>
             <title>《主播女孩重度依赖》原声集 Needy Streamer Overload OST</title>
-            <link>http://wenqiblog.ml/2022/04/04/009/</link>
+            <link>https://blog.wenqi.icu/2022/04/04/009/</link>
             <category>原声集</category>
             <category>OST</category>
             <category>主播女孩重度依赖</category>
@@ -138,20 +138,20 @@
 &lt;p&gt;&lt;strong&gt;✝升天✝✝升天✝✝升天✝✝升天✝✝升天✝✝升天✝✝升天✝✝升天✝✝升天✝&lt;/strong&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 
-        &lt;div id=&#34;aplayer-kuqsefUv&#34; class=&#34;aplayer aplayer-tag-marker&#34; style=&#34;margin-bottom: 20px;&#34;&gt;
+        &lt;div id=&#34;aplayer-HtsWRtrG&#34; class=&#34;aplayer aplayer-tag-marker&#34; style=&#34;margin-bottom: 20px;&#34;&gt;
             &lt;pre class=&#34;aplayer-lrc-content&#34;&gt;&lt;/pre&gt;
         &lt;/div&gt;
         &lt;script&gt;
           var ap = new APlayer({
-            element: document.getElementById(&#34;aplayer-kuqsefUv&#34;),
+            element: document.getElementById(&#34;aplayer-HtsWRtrG&#34;),
             narrow: false,
             autoplay: false,
             showlrc: false,
             music: {
               title: &#34;INTERNET OVERDOSE feat. KOTOKO&#34;,
               author: &#34;Aiobahn feat. KOTOKO&#34;,
-              url: &#34;https://cloud.zeroarea.ml:5221/api/v3/file/get/472/03%20INTERNET%20OVERDOSE%20feat.%20KOTOKO.mp3?sign=Xf8wKafNA5RKkL3KBmclvXDRc8VBERjsVNdua6aYjPU%3D%3A0&#34;,
-              pic: &#34;https://cloud.zeroarea.ml:5221/api/v3/file/get/493/cover.png?sign=CkVmvS_7QylVUSBTykurBY-TVbBq0smSewwsqT7Kkr0%3D%3A0&#34;,
+              url: &#34;https://cloud.wenqi.icu:5221/api/v3/file/get/472/03%20INTERNET%20OVERDOSE%20feat.%20KOTOKO.mp3?sign=Xf8wKafNA5RKkL3KBmclvXDRc8VBERjsVNdua6aYjPU%3D%3A0&#34;,
+              pic: &#34;https://cloud.wenqi.icu:5221/api/v3/file/get/493/cover.png?sign=CkVmvS_7QylVUSBTykurBY-TVbBq0smSewwsqT7Kkr0%3D%3A0&#34;,
               lrc: &#34;&#34;
             }
           });
@@ -266,29 +266,29 @@
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">http://wenqiblog.ml/2022/02/01/008/</guid>
+            <guid isPermalink="true">https://blog.wenqi.icu/2022/02/01/008/</guid>
             <title>新年快乐！以及一些想说的话</title>
-            <link>http://wenqiblog.ml/2022/02/01/008/</link>
+            <link>https://blog.wenqi.icu/2022/02/01/008/</link>
             <category>新年</category>
             <pubDate>Tue, 01 Feb 2022 00:00:00 +0800</pubDate>
             <description><![CDATA[ &lt;link rel=&#34;stylesheet&#34; class=&#34;aplayer-secondary-style-marker&#34; href=&#34;\assets\css\APlayer.min.css&#34;&gt;&lt;script src=&#34;\assets\js\APlayer.min.js&#34; class=&#34;aplayer-secondary-script-marker&#34;&gt;&lt;/script&gt;&lt;blockquote&gt;
 &lt;p&gt;&lt;strong&gt;新年快乐！ Happy New Year!&lt;/strong&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 
-        &lt;div id=&#34;aplayer-gmCcHHfP&#34; class=&#34;aplayer aplayer-tag-marker&#34; style=&#34;margin-bottom: 20px;&#34;&gt;
+        &lt;div id=&#34;aplayer-zCnBWGmZ&#34; class=&#34;aplayer aplayer-tag-marker&#34; style=&#34;margin-bottom: 20px;&#34;&gt;
             &lt;pre class=&#34;aplayer-lrc-content&#34;&gt;&lt;/pre&gt;
         &lt;/div&gt;
         &lt;script&gt;
           var ap = new APlayer({
-            element: document.getElementById(&#34;aplayer-gmCcHHfP&#34;),
+            element: document.getElementById(&#34;aplayer-zCnBWGmZ&#34;),
             narrow: false,
             autoplay: false,
             showlrc: false,
             music: {
               title: &#34;大喜&#34;,
               author: &#34;泠鸢yousa,音阙诗听&#34;,
-              url: &#34;https://cdn.wenqi.ml:5244/d/gh/WenqiOfficial/wenqicdn/file/songs/%E5%A4%A7%E5%96%9C%20-%20%E6%B3%A0%E9%B8%A2yousa,%E9%9F%B3%E9%98%99%E8%AF%97%E5%90%AC.mp3&#34;,
-              pic: &#34;https://cdn.wenqi.ml:5244/d/gh/WenqiOfficial/wenqicdn/file/songs/%E5%A4%A7%E5%96%9C_s.webp&#34;,
+              url: &#34;https://cdn.wenqi.icu:5244/d/gh/WenqiOfficial/wenqicdn/file/songs/%E5%A4%A7%E5%96%9C%20-%20%E6%B3%A0%E9%B8%A2yousa,%E9%9F%B3%E9%98%99%E8%AF%97%E5%90%AC.mp3&#34;,
+              pic: &#34;https://cdn.wenqi.icu:5244/d/gh/WenqiOfficial/wenqicdn/file/songs/%E5%A4%A7%E5%96%9C_s.webp&#34;,
               lrc: &#34;&#34;
             }
           });
@@ -307,29 +307,29 @@
 &lt;center&gt;封面图Pid:95904340&lt;/center&gt; ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">http://wenqiblog.ml/2021/12/05/007/</guid>
+            <guid isPermalink="true">https://blog.wenqi.icu/2021/12/05/007/</guid>
             <title>[16bit 44.1kHz FLAC]崩坏3 Onwards-Original Soundtrack</title>
-            <link>http://wenqiblog.ml/2021/12/05/007/</link>
+            <link>https://blog.wenqi.icu/2021/12/05/007/</link>
             <category>崩坏3</category>
             <category>音乐</category>
             <category>原声集</category>
             <category>OST</category>
             <pubDate>Sun, 05 Dec 2021 11:27:48 +0800</pubDate>
             <description><![CDATA[ &lt;link rel=&#34;stylesheet&#34; class=&#34;aplayer-secondary-style-marker&#34; href=&#34;\assets\css\APlayer.min.css&#34;&gt;&lt;script src=&#34;\assets\js\APlayer.min.js&#34; class=&#34;aplayer-secondary-script-marker&#34;&gt;&lt;/script&gt;
-        &lt;div id=&#34;aplayer-mTHXCiSc&#34; class=&#34;aplayer aplayer-tag-marker&#34; style=&#34;margin-bottom: 20px;&#34;&gt;
+        &lt;div id=&#34;aplayer-dpCvrGoj&#34; class=&#34;aplayer aplayer-tag-marker&#34; style=&#34;margin-bottom: 20px;&#34;&gt;
             &lt;pre class=&#34;aplayer-lrc-content&#34;&gt;&lt;/pre&gt;
         &lt;/div&gt;
         &lt;script&gt;
           var ap = new APlayer({
-            element: document.getElementById(&#34;aplayer-mTHXCiSc&#34;),
+            element: document.getElementById(&#34;aplayer-dpCvrGoj&#34;),
             narrow: false,
             autoplay: false,
             showlrc: false,
             music: {
               title: &#34;Lyin (See you in the next world)&#34;,
               author: &#34;HOYO-MiX&#34;,
-              url: &#34;https://cloud.zeroarea.ml:5221/api/v3/file/get/179/30%20Lyin%20%28See%20you%20in%20the%20next%20world%29.flac?sign=KfA9CHSJ07Ybrt_0LfISoK10cr7lCeFUltnDl54OVCU%3D%3A0&#34;,
-              pic: &#34;https://cloud.zeroarea.ml:5221/api/v3/file/get/180/Cover.jpg?sign=_Ti4V_auuTN0gDyi7LalizGVjsSeyXJFlXIfkQx_WSM%3D%3A0&#34;,
+              url: &#34;https://cloud.wenqi.icu:5221/api/v3/file/get/179/30%20Lyin%20%28See%20you%20in%20the%20next%20world%29.flac?sign=KfA9CHSJ07Ybrt_0LfISoK10cr7lCeFUltnDl54OVCU%3D%3A0&#34;,
+              pic: &#34;https://cloud.wenqi.icu:5221/api/v3/file/get/180/Cover.jpg?sign=_Ti4V_auuTN0gDyi7LalizGVjsSeyXJFlXIfkQx_WSM%3D%3A0&#34;,
               lrc: &#34;&#34;
             }
           });
@@ -470,9 +470,9 @@
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">http://wenqiblog.ml/2021/12/04/006/</guid>
+            <guid isPermalink="true">https://blog.wenqi.icu/2021/12/04/006/</guid>
             <title>一个“万能”的网址</title>
-            <link>http://wenqiblog.ml/2021/12/04/006/</link>
+            <link>https://blog.wenqi.icu/2021/12/04/006/</link>
             <category>资源分享</category>
             <category>WebTools</category>
             <pubDate>Sat, 04 Dec 2021 19:48:24 +0800</pubDate>
@@ -485,15 +485,15 @@
 &lt;h1 id=&#34;使用&#34;&gt;&lt;a href=&#34;#使用&#34; class=&#34;headerlink&#34; title=&#34;使用&#34;&gt;&lt;/a&gt;使用&lt;/h1&gt;&lt;h2 id=&#34;方式1&#34;&gt;&lt;a href=&#34;#方式1&#34; class=&#34;headerlink&#34; title=&#34;方式1&#34;&gt;&lt;/a&gt;方式1&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;通过 万能命令+网址 使用&lt;/strong&gt;&lt;/p&gt;
 &lt;h3 id=&#34;唯一的一步：&#34;&gt;&lt;a href=&#34;#唯一的一步：&#34; class=&#34;headerlink&#34; title=&#34;唯一的一步：&#34;&gt;&lt;/a&gt;唯一的一步：&lt;/h3&gt;&lt;p&gt;在任何网页的网址前面加上 &lt;a href=&#34;&#34;&gt;wn.run&amp;#x2F;&lt;/a&gt; (&lt;strong&gt;注意“run”后有一斜杠！&lt;/strong&gt;)，即可展示用于该网页的在线工具，点击工具时会直达针对该网页的功能详情页。&lt;/p&gt;
 &lt;h3 id=&#34;演示：&#34;&gt;&lt;a href=&#34;#演示：&#34; class=&#34;headerlink&#34; title=&#34;演示：&#34;&gt;&lt;/a&gt;演示：&lt;/h3&gt;&lt;p&gt;例如我现在想要看《千と千寻の神隠し》&lt;/p&gt;
-&lt;p&gt;如果直接看是需要会员的↓&lt;br&gt;&lt;img src=&#34;https://cdn.wenqi.ml:5244/d/gh/WenqiOfficial/wenqipic/img/20211205105010.png&#34; alt=&#34;会员！！！&#34;&gt;&lt;/p&gt;
-&lt;p&gt;现在只需要在地址栏这里↓&lt;br&gt;&lt;img src=&#34;https://cdn.wenqi.ml:5244/d/gh/WenqiOfficial/wenqipic/img/20211205105959.png&#34; alt=&#34;某奇异&#34;&gt;&lt;/p&gt;
+&lt;p&gt;如果直接看是需要会员的↓&lt;br&gt;&lt;img src=&#34;https://cdn.wenqi.icu:5244/d/gh/WenqiOfficial/wenqipic/img/20211205105010.png&#34; alt=&#34;会员！！！&#34;&gt;&lt;/p&gt;
+&lt;p&gt;现在只需要在地址栏这里↓&lt;br&gt;&lt;img src=&#34;https://cdn.wenqi.icu:5244/d/gh/WenqiOfficial/wenqipic/img/20211205105959.png&#34; alt=&#34;某奇异&#34;&gt;&lt;/p&gt;
 &lt;p&gt;在 “https” 的前面加上 “wn.run&amp;#x2F;“&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;&amp;quot;https://...&amp;quot;
 改为如下↓
 &amp;quot;wn.run/https://...&amp;quot;
 &lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;然后就会显示出在这个网页上能使用的工具&lt;br&gt;&lt;img src=&#34;https://cdn.wenqi.ml:5244/d/gh/WenqiOfficial/wenqipic/img/20211205110357.png&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;效果展示↓&lt;/strong&gt;&lt;br&gt;&lt;img src=&#34;https://cdn.wenqi.ml:5244/d/gh/WenqiOfficial/wenqipic/img/20211205110534.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;然后就会显示出在这个网页上能使用的工具&lt;br&gt;&lt;img src=&#34;https://cdn.wenqi.icu:5244/d/gh/WenqiOfficial/wenqipic/img/20211205110357.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;效果展示↓&lt;/strong&gt;&lt;br&gt;&lt;img src=&#34;https://cdn.wenqi.icu:5244/d/gh/WenqiOfficial/wenqipic/img/20211205110534.png&#34;&gt;&lt;/p&gt;
 &lt;h2 id=&#34;方式2&#34;&gt;&lt;a href=&#34;#方式2&#34; class=&#34;headerlink&#34; title=&#34;方式2&#34;&gt;&lt;/a&gt;方式2&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;通过书签脚本使用&lt;/strong&gt;&lt;/p&gt;
 &lt;h3 id=&#34;第一步：&#34;&gt;&lt;a href=&#34;#第一步：&#34; class=&#34;headerlink&#34; title=&#34;第一步：&#34;&gt;&lt;/a&gt;第一步：&lt;/h3&gt;&lt;p&gt;手动添加一个书签，书签名称可以自定义，比如“万能命令书签”，并在书签的网址项里输入下面的代码。&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&#34;javascript&#34;&gt;javascript:(function()&amp;#123;window.open(&amp;quot;https://wannengrun.com/f/#&amp;quot;+document.location.href)&amp;#125;)()
@@ -502,9 +502,9 @@
 &lt;h1 id=&#34;且用且珍惜&#34;&gt;&lt;a href=&#34;#且用且珍惜&#34; class=&#34;headerlink&#34; title=&#34;且用且珍惜&#34;&gt;&lt;/a&gt;且用且珍惜&lt;/h1&gt;&lt;center&gt;封面图Pid:53727427&lt;/center&gt; ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">http://wenqiblog.ml/2021/09/21/005/</guid>
+            <guid isPermalink="true">https://blog.wenqi.icu/2021/09/21/005/</guid>
             <title>中秋快乐！</title>
-            <link>http://wenqiblog.ml/2021/09/21/005/</link>
+            <link>https://blog.wenqi.icu/2021/09/21/005/</link>
             <category>中秋</category>
             <category>庆祝</category>
             <pubDate>Tue, 21 Sep 2021 11:09:44 +0800</pubDate>
@@ -517,9 +517,9 @@
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">http://wenqiblog.ml/2020/11/21/004/</guid>
+            <guid isPermalink="true">https://blog.wenqi.icu/2020/11/21/004/</guid>
             <title>如何搭建属于自己的Hexo博客(一)</title>
-            <link>http://wenqiblog.ml/2020/11/21/004/</link>
+            <link>https://blog.wenqi.icu/2020/11/21/004/</link>
             <category>Hexo</category>
             <category>Blog</category>
             <pubDate>Sat, 21 Nov 2020 19:21:44 +0800</pubDate>
@@ -539,50 +539,50 @@
 &lt;p&gt;如果都已经安装了就直接 &lt;strong&gt;开始安装 Hexo&lt;/strong&gt; 吧！&lt;/p&gt;
 &lt;h3 id=&#34;安装-Node-js&#34;&gt;&lt;a href=&#34;#安装-Node-js&#34; class=&#34;headerlink&#34; title=&#34;安装 Node.js&#34;&gt;&lt;/a&gt;安装 Node.js&lt;/h3&gt;&lt;p&gt;Node.js 的安装可以直接在官网下载安装程序安装  &lt;a href=&#34;https://nodejs.org/zh-cn/&#34;&gt;Node.js官网&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;下载完成后便可直接打开安装&lt;/p&gt;
-&lt;img src=&#34;https://cdn.wenqi.ml:5244/d/gh/WenqiOfficial/wenqipic/img/00420201122095106.png&#34; alt=&#34;Node.js&#34; title=&#34;Node.js安装界面&#34; style=&#34;zoom: 70%;&#34; /&gt;
+&lt;img src=&#34;https://cdn.wenqi.icu:5244/d/gh/WenqiOfficial/wenqipic/img/00420201122095106.png&#34; alt=&#34;Node.js&#34; title=&#34;Node.js安装界面&#34; style=&#34;zoom: 70%;&#34; /&gt;
 
 &lt;p&gt;其中要注意的是在安装进行到这一步时↓ &lt;strong&gt;一定要保证 Add To PATH 处于勾选状态&lt;/strong&gt;&lt;/p&gt;
-&lt;img src=&#34;https://cdn.wenqi.ml:5244/d/gh/WenqiOfficial/wenqipic/img/00420201122095430.png&#34; alt=&#34;Add To PATH&#34; title=&#34;要勾选Add To PATH！&#34; style=&#34;zoom:70%;&#34; /&gt;
+&lt;img src=&#34;https://cdn.wenqi.icu:5244/d/gh/WenqiOfficial/wenqipic/img/00420201122095430.png&#34; alt=&#34;Add To PATH&#34; title=&#34;要勾选Add To PATH！&#34; style=&#34;zoom:70%;&#34; /&gt;
 
 &lt;p&gt;&lt;em&gt;等待安装中…我的电脑好菜啊…&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;那么在等待的时候我们去安装别的软件吧&lt;/p&gt;
 &lt;h3 id=&#34;安装-Git&#34;&gt;&lt;a href=&#34;#安装-Git&#34; class=&#34;headerlink&#34; title=&#34;安装 Git&#34;&gt;&lt;/a&gt;安装 Git&lt;/h3&gt;&lt;p&gt;与上面的 Node.js 同样，先进入 Git 的官网下载好安装程序吧 &lt;a href=&#34;https://git-scm.com/&#34;&gt;Git官网&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;但是 Git 从中国大陆访问或下载的速度十分感人↓ 所以我们可以通过 &lt;a href=&#34;https://npm.taobao.org/mirrors/git-for-windows/&#34;&gt;淘宝Git For Windows镜像&lt;/a&gt; 下载&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://cdn.wenqi.ml:5244/d/gh/WenqiOfficial/wenqipic/img/00420201122100815.png&#34; alt=&#34;感人的速度...&#34; title=&#34;感人啊...&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://cdn.wenqi.icu:5244/d/gh/WenqiOfficial/wenqipic/img/00420201122100815.png&#34; alt=&#34;感人的速度...&#34; title=&#34;感人啊...&#34;&gt;&lt;/p&gt;
 &lt;p&gt;从镜像站下载的方法就是先一直往下翻，找到最新版本的程序后点击进入再选择属于自己操作系统的版本，选择 &lt;strong&gt;exe&lt;/strong&gt; 格式的文件下载就行了。&lt;/p&gt;
-&lt;img src=&#34;https://cdn.wenqi.ml:5244/d/gh/WenqiOfficial/wenqipic/img/00420201122111100.png&#34; alt=&#34;Git安装&#34; title=&#34;Git安装界面&#34; style=&#34;zoom:70%;&#34; /&gt;
+&lt;img src=&#34;https://cdn.wenqi.icu:5244/d/gh/WenqiOfficial/wenqipic/img/00420201122111100.png&#34; alt=&#34;Git安装&#34; title=&#34;Git安装界面&#34; style=&#34;zoom:70%;&#34; /&gt;
 
 &lt;h4 id=&#34;Default-Editor&#34;&gt;&lt;a href=&#34;#Default-Editor&#34; class=&#34;headerlink&#34; title=&#34;Default Editor&#34;&gt;&lt;/a&gt;Default Editor&lt;/h4&gt;&lt;p&gt;当安装执行到下面这一步时其实是让你选择 &lt;strong&gt;默认的编辑器&lt;/strong&gt; ，根据自己的喜好选择就好了(╹ . ╹)&lt;/p&gt;
-&lt;img src=&#34;https://cdn.wenqi.ml:5244/d/gh/WenqiOfficial/wenqipic/img/00420201122111856.png&#34; alt=&#34;默认编辑器&#34; title=&#34;根据自己的喜好选择叭&#34; style=&#34;zoom:70%;&#34; /&gt;
+&lt;img src=&#34;https://cdn.wenqi.icu:5244/d/gh/WenqiOfficial/wenqipic/img/00420201122111856.png&#34; alt=&#34;默认编辑器&#34; title=&#34;根据自己的喜好选择叭&#34; style=&#34;zoom:70%;&#34; /&gt;
 
 &lt;h4 id=&#34;New-Repositories&#34;&gt;&lt;a href=&#34;#New-Repositories&#34; class=&#34;headerlink&#34; title=&#34;New Repositories&#34;&gt;&lt;/a&gt;New Repositories&lt;/h4&gt;&lt;p&gt;这一步的话是让你选择 Git 在执行新建 &lt;strong&gt;库(Repositories&amp;#x2F;repo)&lt;/strong&gt; 的时候建立的&lt;strong&gt;默认分支&lt;/strong&gt;的名称，如果没有特殊要求就选择 &lt;strong&gt;“Let Git decide”&lt;/strong&gt; 就行了&lt;/p&gt;
-&lt;img src=&#34;https://cdn.wenqi.ml:5244/d/gh/WenqiOfficial/wenqipic/img/00420201122112902.png&#34; alt=&#34;新建库的分支名&#34; title=&#34;分支名&#34; style=&#34;zoom:70%;&#34; /&gt;
+&lt;img src=&#34;https://cdn.wenqi.icu:5244/d/gh/WenqiOfficial/wenqipic/img/00420201122112902.png&#34; alt=&#34;新建库的分支名&#34; title=&#34;分支名&#34; style=&#34;zoom:70%;&#34; /&gt;
 
 &lt;h4 id=&#34;PATH-Environment&#34;&gt;&lt;a href=&#34;#PATH-Environment&#34; class=&#34;headerlink&#34; title=&#34;PATH Environment&#34;&gt;&lt;/a&gt;PATH Environment&lt;/h4&gt;&lt;p&gt;这个步骤是选择 Git 如何去调整 &lt;strong&gt;PATH(环境变量)&lt;/strong&gt;&lt;/p&gt;
-&lt;img src=&#34;https://cdn.wenqi.ml:5244/d/gh/WenqiOfficial/wenqipic/img/00420201122114619.png&#34; alt=&#34;PATH 环境变量&#34; title=&#34;环境变量&#34; style=&#34;zoom:70%;&#34; /&gt;
+&lt;img src=&#34;https://cdn.wenqi.icu:5244/d/gh/WenqiOfficial/wenqipic/img/00420201122114619.png&#34; alt=&#34;PATH 环境变量&#34; title=&#34;环境变量&#34; style=&#34;zoom:70%;&#34; /&gt;
 
 &lt;p&gt;  第一种配置：”仅从 Git Bash 使用 Git “，也就是 Git &lt;strong&gt;不会去修改 PATH&lt;/strong&gt; ，选择这个选项可以&lt;strong&gt;防止因为 PATH 修改而导致出现的一些问题&lt;/strong&gt;，但是如果要调用 Git 就&lt;strong&gt;只能使用 “Git Bash”&lt;strong&gt;，而且&lt;/strong&gt;第三方的软件无法调用 Git&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;  第二种配置：”从命令行以及第三方软件执行 Git “，Git 仅会向 PATH 添加最小的 Git包装器 ，以避免使用可选的 Unix 工具造成环境混乱，但是能够从&lt;strong&gt;Git Bash，命令提示符，Windows PowerShell 等第三方软件调用Git&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;  第三种配置：”从命令提示符使用 Git 和可选的 Unix工具 “，但是这个选项极大会导致系统出现问题，所以&lt;strong&gt;建议在了解其含义后才使用此选项&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;一般没有特殊要求也是选择&lt;strong&gt;第二个配置&lt;/strong&gt;就可以了&lt;/p&gt;
 &lt;h4 id=&#34;HTTPS-Transport-Backend&#34;&gt;&lt;a href=&#34;#HTTPS-Transport-Backend&#34; class=&#34;headerlink&#34; title=&#34;HTTPS Transport Backend&#34;&gt;&lt;/a&gt;HTTPS Transport Backend&lt;/h4&gt;&lt;p&gt;这一步是让你选择 &lt;strong&gt;HTTPS后端传输类型&lt;/strong&gt; ，同样也是默认选择第一个就行&lt;/p&gt;
-&lt;img src=&#34;https://cdn.wenqi.ml:5244/d/gh/WenqiOfficial/wenqipic/img/00420201122121435.png&#34; alt=&#34;HTTPS Transport&#34; title=&#34;HTTPS后端传输类型&#34; style=&#34;zoom:70%;&#34; /&gt;
+&lt;img src=&#34;https://cdn.wenqi.icu:5244/d/gh/WenqiOfficial/wenqipic/img/00420201122121435.png&#34; alt=&#34;HTTPS Transport&#34; title=&#34;HTTPS后端传输类型&#34; style=&#34;zoom:70%;&#34; /&gt;
 
 &lt;h4 id=&#34;更多的配置…&#34;&gt;&lt;a href=&#34;#更多的配置…&#34; class=&#34;headerlink&#34; title=&#34;更多的配置…&#34;&gt;&lt;/a&gt;更多的配置…&lt;/h4&gt;&lt;p&gt;后面的配置都是以 Git 的默认选择就可以了，不做过多论述了&amp;lt;(｀^´)&amp;gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;配置行尾符号转换&lt;/strong&gt;&lt;/p&gt;
-&lt;img src=&#34;https://cdn.wenqi.ml:5244/d/gh/WenqiOfficial/wenqipic/img/00420201122122306.png&#34; alt=&#34;配置行尾符号转换&#34; style=&#34;zoom:70%;&#34; /&gt;
+&lt;img src=&#34;https://cdn.wenqi.icu:5244/d/gh/WenqiOfficial/wenqipic/img/00420201122122306.png&#34; alt=&#34;配置行尾符号转换&#34; style=&#34;zoom:70%;&#34; /&gt;
 
 &lt;p&gt;&lt;strong&gt;配置终端模拟器来与 Git Bash 一起使用&lt;/strong&gt;&lt;/p&gt;
-&lt;img src=&#34;https://cdn.wenqi.ml:5244/d/gh/WenqiOfficial/wenqipic/img/00420201122122600.png&#34; alt=&#34;配置终端模拟器来与 Git Bash 一起使用&#34; style=&#34;zoom:70%;&#34; /&gt;
+&lt;img src=&#34;https://cdn.wenqi.icu:5244/d/gh/WenqiOfficial/wenqipic/img/00420201122122600.png&#34; alt=&#34;配置终端模拟器来与 Git Bash 一起使用&#34; style=&#34;zoom:70%;&#34; /&gt;
 
 &lt;p&gt;&lt;strong&gt;Git 在执行 “拉取(Pull)” 命令时的行为&lt;/strong&gt;&lt;/p&gt;
-&lt;img src=&#34;https://cdn.wenqi.ml:5244/d/gh/WenqiOfficial/wenqipic/img/00420201122123042.png&#34; alt=&#34;Git Pull&#34; style=&#34;zoom:70%;&#34; /&gt;
+&lt;img src=&#34;https://cdn.wenqi.icu:5244/d/gh/WenqiOfficial/wenqipic/img/00420201122123042.png&#34; alt=&#34;Git Pull&#34; style=&#34;zoom:70%;&#34; /&gt;
 
 &lt;p&gt;&lt;strong&gt;凭据管理的方式&lt;/strong&gt;&lt;/p&gt;
-&lt;img src=&#34;https://cdn.wenqi.ml:5244/d/gh/WenqiOfficial/wenqipic/img/00420201122123342.png&#34; alt=&#34;凭据管理&#34; style=&#34;zoom:70%;&#34; /&gt;
+&lt;img src=&#34;https://cdn.wenqi.icu:5244/d/gh/WenqiOfficial/wenqipic/img/00420201122123342.png&#34; alt=&#34;凭据管理&#34; style=&#34;zoom:70%;&#34; /&gt;
 
 &lt;p&gt;&lt;strong&gt;配置额外选项&lt;/strong&gt;&lt;/p&gt;
-&lt;img src=&#34;https://cdn.wenqi.ml:5244/d/gh/WenqiOfficial/wenqipic/img/00420201122123519.png&#34; alt=&#34;额外选项&#34; style=&#34;zoom:70%;&#34; /&gt;
+&lt;img src=&#34;https://cdn.wenqi.icu:5244/d/gh/WenqiOfficial/wenqipic/img/00420201122123519.png&#34; alt=&#34;额外选项&#34; style=&#34;zoom:70%;&#34; /&gt;
 
 &lt;p&gt;然后就是要等待安装啦&lt;/p&gt;
 &lt;hr&gt;
@@ -601,17 +601,17 @@ v15.2.1
 7.0.8
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;Git 可以在设置里更改语言为 &lt;strong&gt;简体中文&lt;/strong&gt; ，具体操作如下↓&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://cdn.wenqi.ml:5244/d/gh/WenqiOfficial/wenqipic/img/00420201122134902.png&#34; alt=&#34;1&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://cdn.wenqi.ml:5244/d/gh/WenqiOfficial/wenqipic/img/00420201122135212.png&#34; alt=&#34;2&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://cdn.wenqi.icu:5244/d/gh/WenqiOfficial/wenqipic/img/00420201122134902.png&#34; alt=&#34;1&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://cdn.wenqi.icu:5244/d/gh/WenqiOfficial/wenqipic/img/00420201122135212.png&#34; alt=&#34;2&#34;&gt;&lt;/p&gt;
 &lt;p&gt;操作界面便可切换至中文&lt;/p&gt;
 &lt;h3 id=&#34;安装-NotePad-可选&#34;&gt;&lt;a href=&#34;#安装-NotePad-可选&#34; class=&#34;headerlink&#34; title=&#34;安装 NotePad++ (可选)&#34;&gt;&lt;/a&gt;安装 NotePad++ (可选)&lt;/h3&gt;&lt;p&gt;（Notepad++作者发表涉新疆言论，已经永久下架此软件）&lt;/p&gt;
 &lt;h2 id=&#34;Step-2-Hexo-安装&#34;&gt;&lt;a href=&#34;#Step-2-Hexo-安装&#34; class=&#34;headerlink&#34; title=&#34;Step 2 : Hexo 安装&#34;&gt;&lt;/a&gt;Step 2 : Hexo 安装&lt;/h2&gt;&lt;p&gt;既然都准备就绪了，那就开始安装 Hexo 吧！&lt;/p&gt;
 &lt;h3 id=&#34;载入-Hexo&#34;&gt;&lt;a href=&#34;#载入-Hexo&#34; class=&#34;headerlink&#34; title=&#34;载入 Hexo&#34;&gt;&lt;/a&gt;载入 Hexo&lt;/h3&gt;&lt;p&gt;先在自己想要存放博客的地方&lt;strong&gt;新建一个文件夹&lt;/strong&gt;，例如我想要让我的博客文件存放在 “C:&amp;#x2F;myblog” ，那么只需要在C盘目录下新建一个名叫 “myblog” 的文件夹，然后&lt;strong&gt;进入文件夹&lt;/strong&gt;，右键选择 **”Git Bash here”**。&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;新建文件夹&lt;/em&gt;&lt;/p&gt;
-&lt;img src=&#34;https://cdn.wenqi.ml:5244/d/gh/WenqiOfficial/wenqipic/img/00420201122133920.png&#34; alt=&#34;新建文件夹&#34; title=&#34;新建一个文件夹&#34; style=&#34;zoom:80%;&#34; /&gt;
+&lt;img src=&#34;https://cdn.wenqi.icu:5244/d/gh/WenqiOfficial/wenqipic/img/00420201122133920.png&#34; alt=&#34;新建文件夹&#34; title=&#34;新建一个文件夹&#34; style=&#34;zoom:80%;&#34; /&gt;
 
 &lt;p&gt;&lt;em&gt;进入文件夹并使用 “Git Bash here”&lt;/em&gt;&lt;/p&gt;
-&lt;img src=&#34;https://cdn.wenqi.ml:5244/d/gh/WenqiOfficial/wenqipic/img/00420201122134214.png&#34; alt=&#34;Git Bash here&#34; title=&#34;Git Bash here！&#34; style=&#34;zoom:80%;&#34; /&gt;
+&lt;img src=&#34;https://cdn.wenqi.icu:5244/d/gh/WenqiOfficial/wenqipic/img/00420201122134214.png&#34; alt=&#34;Git Bash here&#34; title=&#34;Git Bash here！&#34; style=&#34;zoom:80%;&#34; /&gt;
 
 &lt;p&gt;然后输入以下命令&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;//安装 Hexo
@@ -702,16 +702,16 @@ hexo s //开启本地预览＆启用本地服务
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;至此便是关于 Hexo 的安装了，下一篇文章中我将会说明&lt;strong&gt;博客的配置&lt;/strong&gt;和&lt;strong&gt;写文&lt;/strong&gt;(๑•̀ㅂ•́)و✧&lt;/p&gt;
 &lt;hr&gt;
-&lt;center&gt;&lt;img src=&#34;https://cdn.wenqi.ml:5244/d/gh/WenqiOfficial/wenqicdn/img/gugugu.png&#34; style=&#34;zoom: 33%; &#34; /&gt;&lt;br&gt;打死你个大鸽子！&lt;br&gt;封面图Pid:77252576&lt;/center&gt;
+&lt;center&gt;&lt;img src=&#34;https://cdn.wenqi.icu:5244/d/gh/WenqiOfficial/wenqicdn/img/gugugu.png&#34; style=&#34;zoom: 33%; &#34; /&gt;&lt;br&gt;打死你个大鸽子！&lt;br&gt;封面图Pid:77252576&lt;/center&gt;
 
 
 
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">http://wenqiblog.ml/2020/11/15/003/</guid>
+            <guid isPermalink="true">https://blog.wenqi.icu/2020/11/15/003/</guid>
             <title>「HexoSakura教程 #0」序言</title>
-            <link>http://wenqiblog.ml/2020/11/15/003/</link>
+            <link>https://blog.wenqi.icu/2020/11/15/003/</link>
             <category>Sakura</category>
             <pubDate>Sun, 15 Nov 2020 22:17:00 +0800</pubDate>
             <description><![CDATA[ &lt;link rel=&#34;stylesheet&#34; class=&#34;aplayer-secondary-style-marker&#34; href=&#34;\assets\css\APlayer.min.css&#34;&gt;&lt;script src=&#34;\assets\js\APlayer.min.js&#34; class=&#34;aplayer-secondary-script-marker&#34;&gt;&lt;/script&gt;&lt;blockquote&gt;
@@ -729,14 +729,14 @@ hexo s //开启本地预览＆启用本地服务
 &lt;li&gt;？？？&lt;/li&gt;
 &lt;/ol&gt;
 &lt;hr&gt;
-&lt;center&gt;&lt;img src=&#34;https://cdn.wenqi.ml:5244/d/gh/WenqiOfficial/wenqicdn/img/gugugu.png&#34; style=&#34;zoom: 33%; &#34; /&gt;&lt;br&gt;打死你个大鸽子！&lt;br&gt;封面图Pid:55294320&lt;/center&gt;
+&lt;center&gt;&lt;img src=&#34;https://cdn.wenqi.icu:5244/d/gh/WenqiOfficial/wenqicdn/img/gugugu.png&#34; style=&#34;zoom: 33%; &#34; /&gt;&lt;br&gt;打死你个大鸽子！&lt;br&gt;封面图Pid:55294320&lt;/center&gt;
 
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">http://wenqiblog.ml/2020/10/25/002/</guid>
+            <guid isPermalink="true">https://blog.wenqi.icu/2020/10/25/002/</guid>
             <title>P站的正确进入方法OxO</title>
-            <link>http://wenqiblog.ml/2020/10/25/002/</link>
+            <link>https://blog.wenqi.icu/2020/10/25/002/</link>
             <category>Pixiv</category>
             <category>LSP</category>
             <pubDate>Sun, 25 Oct 2020 15:29:00 +0800</pubDate>
@@ -749,7 +749,7 @@ hexo s //开启本地预览＆启用本地服务
 &lt;h3 id=&#34;Tips&#34;&gt;&lt;a href=&#34;#Tips&#34; class=&#34;headerlink&#34; title=&#34;Tips&#34;&gt;&lt;/a&gt;Tips&lt;/h3&gt;&lt;p&gt;手机端除了可以使用网页版，也可以安装客户端（支持安卓，IOS）&lt;br&gt;&lt;strong&gt;官方下载&lt;/strong&gt;&lt;br&gt;&lt;a href=&#34;https://wwa.lanzous.com/iR9E5eljotc&#34;&gt;安卓&lt;/a&gt;&lt;br&gt;&lt;a href=&#34;https://apps.apple.com/cn/app/pixivic/id1508873995&#34;&gt;IOS&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;附发现页：&lt;a href=&#34;https://m.pixivic.com/find&#34;&gt;https://m.pixivic.com/find&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;中级补给&#34;&gt;&lt;a href=&#34;#中级补给&#34; class=&#34;headerlink&#34; title=&#34;中级补给&#34;&gt;&lt;/a&gt;中级补给&lt;/h2&gt;&lt;h3 id=&#34;1-通过Pid搜画作&#34;&gt;&lt;a href=&#34;#1-通过Pid搜画作&#34; class=&#34;headerlink&#34; title=&#34;1.通过Pid搜画作&#34;&gt;&lt;/a&gt;1.通过Pid搜画作&lt;/h3&gt;&lt;p&gt;先随便点进去一个画作，然后复制好你要找的图片的&lt;strong&gt;Pid&lt;/strong&gt;，例如拉狗子的一张图&lt;strong&gt;PID:76931373&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://cdn.wenqi.ml:5244/d/gh/WenqiOfficial/wenqicdn/img/post/76931373_p0.jpg&#34; alt=&#34;無题&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://cdn.wenqi.icu:5244/d/gh/WenqiOfficial/wenqicdn/img/post/76931373_p0.jpg&#34; alt=&#34;無题&#34;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;拉狗美如画(๑•̀ㅂ•́)و✧&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;然后将地址栏改为这样子↓&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;//原来的地址
@@ -766,9 +766,9 @@ hexo s //开启本地预览＆启用本地服务
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">http://wenqiblog.ml/2020/09/05/001/</guid>
+            <guid isPermalink="true">https://blog.wenqi.icu/2020/09/05/001/</guid>
             <title>你好! 这里闻柒!</title>
-            <link>http://wenqiblog.ml/2020/09/05/001/</link>
+            <link>https://blog.wenqi.icu/2020/09/05/001/</link>
             <category>最初的开始</category>
             <category>你好</category>
             <pubDate>Sat, 05 Sep 2020 21:21:40 +0800</pubDate>
