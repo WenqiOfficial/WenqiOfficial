@@ -22,7 +22,7 @@
 	display: inline-block;
 	margin: 1em;
 	width: 80%;
-	min-width: 400px;
+	min-width: 200px;
 	vertical-align: top;
 }
 
@@ -46,7 +46,6 @@
 
 .hbe-input-field:focus {
 	outline: none;
-	border: none;
 }
 
 .hbe-input-label {
@@ -65,11 +64,6 @@
 	-moz-user-select: none;
 	-ms-user-select: none;
 	user-select: none;
-}
-
-.hbe-input-label-default .active {
-	color: white;
-	padding: 0px;
 }
 
 .hbe-input-label-content {
@@ -104,7 +98,7 @@
   text-indent: 5px;
   box-shadow: 0px 3px 0px 0px rgba(0,0,0,.2);
   cursor: pointer;
-  padding: 0;
+
   display: block;
   margin: 0 auto;
   margin-bottom: 20px;
