@@ -5,6 +5,17 @@
     "home_page_url": "https://blog.wenqi.icu",
     "items": [
         {
+            "id": "https://blog.wenqi.icu/2023/08/11/012/",
+            "url": "https://blog.wenqi.icu/2023/08/11/012/",
+            "title": "STUDY WITH MIKU",
+            "date_published": "2023-08-11T01:32:00.000Z",
+            "content_html": "<link rel=\"stylesheet\" class=\"aplayer-secondary-style-marker\" href=\"\\assets\\css\\APlayer.min.css\"><script src=\"\\assets\\js\\APlayer.min.js\" class=\"aplayer-secondary-script-marker\"></script><blockquote>\n<p>STUDY WITH MIKU 网页版</p>\n</blockquote>\n<h1 id=\"STUDY-WITH-MIKU\"><a href=\"#STUDY-WITH-MIKU\" class=\"headerlink\" title=\"STUDY WITH MIKU\"></a>STUDY WITH MIKU</h1><h2 id=\"介绍\"><a href=\"#介绍\" class=\"headerlink\" title=\"介绍\"></a>介绍</h2><p>受启发于最近很火的官方视频：STUDY WITH MIKU</p>\n<p>做成了网页版，这样就方便打开了，而且也有更多功能！</p>\n<h2 id=\"网址\"><a href=\"#网址\" class=\"headerlink\" title=\"网址\"></a>网址</h2><p><a href=\"https://studymiku.wenqi.icu/\">STUDY WITH MIKU</a></p>\n<p><a href=\"https://studymiku.wenqi.icu/\">STUDY WITH MIKU (Cloudflare)</a></p>\n<p><a href=\"https://github.com/WenqiOfficial/StudyWithMiku\">Github库</a></p>\n",
+            "tags": [
+                "Miku",
+                "Web"
+            ]
+        },
+        {
             "id": "https://blog.wenqi.icu/2023/01/01/011/",
             "url": "https://blog.wenqi.icu/2023/01/01/011/",
             "title": "2023，继续向前！",
