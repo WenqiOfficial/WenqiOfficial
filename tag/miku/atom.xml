@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://blog.wenqi.icu</id>
+    <title>秘密の小屋 • Posts by &#34;miku&#34; tag</title>
+    <link href="https://blog.wenqi.icu" />
+    <updated>2023-08-11T01:32:00.000Z</updated>
+    <category term="最初的开始" />
+    <category term="你好" />
+    <category term="Pixiv" />
+    <category term="LSP" />
+    <category term="Sakura" />
+    <category term="中秋" />
+    <category term="庆祝" />
+    <category term="Hexo" />
+    <category term="Blog" />
+    <category term="崩坏3" />
+    <category term="音乐" />
+    <category term="原声集" />
+    <category term="OST" />
+    <category term="主播女孩重度依赖" />
+    <category term="Needy Streamer Overload" />
+    <category term="新年" />
+    <category term="资源分享" />
+    <category term="WebTools" />
+    <category term="周五放克夜" />
+    <category term="Friday Night Funkin" />
+    <category term="FNF" />
+    <category term="音游" />
+    <category term="2023" />
+    <category term="Miku" />
+    <category term="Web" />
+    <entry>
+        <id>https://blog.wenqi.icu/2023/08/11/012/</id>
+        <title>STUDY WITH MIKU</title>
+        <link rel="alternate" href="https://blog.wenqi.icu/2023/08/11/012/"/>
+        <content type="html">&lt;link rel=&#34;stylesheet&#34; class=&#34;aplayer-secondary-style-marker&#34; href=&#34;\assets\css\APlayer.min.css&#34;&gt;&lt;script src=&#34;\assets\js\APlayer.min.js&#34; class=&#34;aplayer-secondary-script-marker&#34;&gt;&lt;/script&gt;&lt;blockquote&gt;
+&lt;p&gt;STUDY WITH MIKU 网页版&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h1 id=&#34;STUDY-WITH-MIKU&#34;&gt;&lt;a href=&#34;#STUDY-WITH-MIKU&#34; class=&#34;headerlink&#34; title=&#34;STUDY WITH MIKU&#34;&gt;&lt;/a&gt;STUDY WITH MIKU&lt;/h1&gt;&lt;h2 id=&#34;介绍&#34;&gt;&lt;a href=&#34;#介绍&#34; class=&#34;headerlink&#34; title=&#34;介绍&#34;&gt;&lt;/a&gt;介绍&lt;/h2&gt;&lt;p&gt;受启发于最近很火的官方视频：STUDY WITH MIKU&lt;/p&gt;
+&lt;p&gt;做成了网页版，这样就方便打开了，而且也有更多功能！&lt;/p&gt;
+&lt;h2 id=&#34;网址&#34;&gt;&lt;a href=&#34;#网址&#34; class=&#34;headerlink&#34; title=&#34;网址&#34;&gt;&lt;/a&gt;网址&lt;/h2&gt;&lt;p&gt;&lt;a href=&#34;https://studymiku.wenqi.icu/&#34;&gt;STUDY WITH MIKU&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://studymiku.wenqi.icu/&#34;&gt;STUDY WITH MIKU (Cloudflare)&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/WenqiOfficial/StudyWithMiku&#34;&gt;Github库&lt;/a&gt;&lt;/p&gt;
+</content>
+        <category term="Miku" />
+        <category term="Web" />
+        <updated>2023-08-11T01:32:00.000Z</updated>
+    </entry>
+</feed>

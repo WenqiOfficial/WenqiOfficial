@@ -11,7 +11,7 @@
  * See https://goo.gl/2aRDsh
  */
 
-importScripts("https://cdn.bootcdn.net/ajax/libs/workbox-sw/6.5.4/workbox-sw.min.js");
+importScripts("workbox-sw.min.js");
 
 importScripts(
   "precache-manifest.52c99a3bc30c13d3cd9d2139e13647a6.js"
