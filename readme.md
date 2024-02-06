@@ -1,6 +1,6 @@
 ### Hi 👋
 
-I'm a Code Noob, but Try to be better!
+Not best yet, but to be better!
 
 Nice to meet you!
 
