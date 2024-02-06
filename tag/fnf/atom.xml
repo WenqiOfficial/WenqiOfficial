@@ -1,0 +1,119 @@
+<?xml version="1.0"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://blog.wenqi.icu</id>
+    <title>秘密の小屋 • Posts by &#34;fnf&#34; tag</title>
+    <link href="https://blog.wenqi.icu" />
+    <updated>2022-06-07T07:38:00.000Z</updated>
+    <category term="最初的开始" />
+    <category term="你好" />
+    <category term="Pixiv" />
+    <category term="LSP" />
+    <category term="Sakura" />
+    <category term="中秋" />
+    <category term="庆祝" />
+    <category term="Hexo" />
+    <category term="Blog" />
+    <category term="崩坏3" />
+    <category term="音乐" />
+    <category term="原声集" />
+    <category term="OST" />
+    <category term="主播女孩重度依赖" />
+    <category term="Needy Streamer Overload" />
+    <category term="新年" />
+    <category term="资源分享" />
+    <category term="WebTools" />
+    <category term="周五放克夜" />
+    <category term="Friday Night Funkin" />
+    <category term="FNF" />
+    <category term="音游" />
+    <category term="2023" />
+    <category term="Miku" />
+    <category term="Web" />
+    <category term="2024" />
+    <entry>
+        <id>https://blog.wenqi.icu/2022/06/07/010/</id>
+        <title>Friday Night Funkin/周五放克夜</title>
+        <link rel="alternate" href="https://blog.wenqi.icu/2022/06/07/010/"/>
+        <content type="html">&lt;link rel=&#34;stylesheet&#34; class=&#34;aplayer-secondary-style-marker&#34; href=&#34;\assets\css\APlayer.min.css&#34;&gt;&lt;script src=&#34;\assets\js\APlayer.min.js&#34; class=&#34;aplayer-secondary-script-marker&#34;&gt;&lt;/script&gt;&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;我就要用R病毒做封面啊啊啊啊！！！&lt;/em&gt;&lt;br&gt;&lt;strong&gt;文中“FNF”均指代“Friday Night Funkin&amp;#x2F;周五放克夜”&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+        &lt;div id=&#34;aplayer-KqMapkNR&#34; class=&#34;aplayer aplayer-tag-marker&#34; style=&#34;margin-bottom: 20px;&#34;&gt;
+            &lt;pre class=&#34;aplayer-lrc-content&#34;&gt;&lt;/pre&gt;
+        &lt;/div&gt;
+        &lt;script&gt;
+          var ap = new APlayer({
+            element: document.getElementById(&#34;aplayer-KqMapkNR&#34;),
+            narrow: false,
+            autoplay: false,
+            showlrc: false,
+            music: {
+              title: &#34;Virus R&#34;,
+              author: &#34;Azure lag&#34;,
+              url: &#34;https://cloud.wenqi.icu:5221/api/v3/file/get/1191/Inst.ogg?sign=pOPyKBsiZaoFmUCm5ddQRMdiC8aaUnP15eHWLOI1i2k%3D%3A0&#34;,
+              pic: &#34;https://cdn.wenqi.icu:5244/d/gh/WenqiOfficial/wenqipic/img/3.png&#34;,
+              lrc: &#34;&#34;
+            }
+          });
+          window.aplayers || (window.aplayers = []);
+          window.aplayers.push(ap);
+        &lt;/script&gt;
+
+&lt;h1 id=&#34;介绍系列&#34;&gt;&lt;a href=&#34;#介绍系列&#34; class=&#34;headerlink&#34; title=&#34;介绍系列&#34;&gt;&lt;/a&gt;介绍系列&lt;/h1&gt;&lt;p&gt;FNF由于作为一个&lt;strong&gt;开源的游戏&lt;/strong&gt;，在除了本体之外还有非常多的玩家们自己制作的版本，在本文就不能全部阐述了。&lt;/p&gt;
+&lt;p&gt;本文就着重介绍 &lt;strong&gt;“FNF原版“&lt;/strong&gt; 以及一个我认为是很棒的国人发布版 **”Friday Night Funkin’：Virus R”**。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Friday Night Funkin’(原版)&lt;/li&gt;
+&lt;li&gt;Friday Night Funkin’：Virus R&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;FNF原版&#34;&gt;&lt;a href=&#34;#FNF原版&#34; class=&#34;headerlink&#34; title=&#34;FNF原版&#34;&gt;&lt;/a&gt;FNF原版&lt;/h2&gt;&lt;h3 id=&#34;详情&#34;&gt;&lt;a href=&#34;#详情&#34; class=&#34;headerlink&#34; title=&#34;详情&#34;&gt;&lt;/a&gt;详情&lt;/h3&gt;&lt;p&gt;在Github上是开源的。&lt;/p&gt;
+&lt;p&gt;截至 2022&amp;#x2F;6&amp;#x2F;8 已经更新到了 Week7 。&lt;/p&gt;
+&lt;p&gt;原版可以说是原汁原味的（没有什么大亮点），本文不做详细阐述，想体验的可以看下面的获取方式。&lt;/p&gt;
+&lt;h3 id=&#34;获取方式&#34;&gt;&lt;a href=&#34;#获取方式&#34; class=&#34;headerlink&#34; title=&#34;获取方式&#34;&gt;&lt;/a&gt;获取方式&lt;/h3&gt;&lt;p&gt;原版的发布页是支持在线游玩的，但也可以下载下来本地玩。&lt;/p&gt;
+&lt;p&gt;只是作者很懒，网页版更新到 Week7 了，结果Windows发布版才更新 Week5 …&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://cdn.wenqi.icu:5244/d/gh/WenqiOfficial/wenqipic/img/20220608000931.png&#34; alt=&#34;迟迟没有更新的本地版本...&#34;&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;网页版（可在线游玩）&amp;#x2F;下载：&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://ninja-muffin24.itch.io/funkin&#34;&gt;前往发布页&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;em&gt;点击”Download”之后会弹出打赏页面，点击”No thanks, just take me to the downloads”即可。&lt;/em&gt;&lt;br&gt;&lt;em&gt;有能力的金主可以打赏一下这个作者的，毕竟又开源又免费的。&lt;/em&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Github库源码：&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/ninjamuffin99/ld47&#34;&gt;Github&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;Friday-Night-Funkin’：Virus-R&#34;&gt;&lt;a href=&#34;#Friday-Night-Funkin’：Virus-R&#34; class=&#34;headerlink&#34; title=&#34;Friday Night Funkin’：Virus R&#34;&gt;&lt;/a&gt;Friday Night Funkin’：Virus R&lt;/h2&gt;&lt;h3 id=&#34;详情-1&#34;&gt;&lt;a href=&#34;#详情-1&#34; class=&#34;headerlink&#34; title=&#34;详情&#34;&gt;&lt;/a&gt;详情&lt;/h3&gt;&lt;p&gt;这个发布版是我最爱的的！！！&lt;/p&gt;
+&lt;p&gt;一个由国人制作的MOD版本。&lt;/p&gt;
+&lt;p&gt;B站上已经有游玩视频了 &lt;a href=&#34;https://www.bilibili.com/video/BV1w34y1a7Dt&#34;&gt;去看看&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;获取方式-1&#34;&gt;&lt;a href=&#34;#获取方式-1&#34; class=&#34;headerlink&#34; title=&#34;获取方式&#34;&gt;&lt;/a&gt;获取方式&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;MOD发布页：&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://gamebanana.com/mods/377135&#34;&gt;前往&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;主要操作指南&#34;&gt;&lt;a href=&#34;#主要操作指南&#34; class=&#34;headerlink&#34; title=&#34;主要操作指南&#34;&gt;&lt;/a&gt;主要操作指南&lt;/h3&gt;&lt;h4 id=&#34;中文-x2F-英文-切换&#34;&gt;&lt;a href=&#34;#中文-x2F-英文-切换&#34; class=&#34;headerlink&#34; title=&#34;中文&amp;#x2F;英文 切换&#34;&gt;&lt;/a&gt;中文&amp;#x2F;英文 切换&lt;/h4&gt;&lt;p&gt;&lt;strong&gt;进入方式：”OPTIONS”→”APPEARANCE”→”CURRENT LANGUAGE”&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;按下&lt;code&gt;Enter&lt;/code&gt;键即可在 中文&amp;#x2F;英文 切换&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;CHINESE&lt;/code&gt;中文&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;ENGLISH&lt;/code&gt;英文&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://cdn.wenqi.icu:5244/d/gh/WenqiOfficial/wenqipic/img/%E8%B0%83%E4%B8%AD%E6%96%87.gif&#34; alt=&#34;语言切换&#34;&gt;&lt;/p&gt;
+&lt;h4 id=&#34;自定义键位&#34;&gt;&lt;a href=&#34;#自定义键位&#34; class=&#34;headerlink&#34; title=&#34;自定义键位&#34;&gt;&lt;/a&gt;自定义键位&lt;/h4&gt;&lt;p&gt;&lt;strong&gt;进入方式：”OPTIONS”→”GAMEPLAY”→”KEY BINDINGS”&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;更换按键：&lt;code&gt;↑/↓/←/→&lt;/code&gt;移动到需要修改的按键，按下&lt;code&gt;Enter&lt;/code&gt;键，当显示”?”的时候按下自己需要自定义的按键即可&lt;/p&gt;
+&lt;p&gt;按键模式切换：按下&lt;code&gt;TAB&lt;/code&gt;键&lt;/p&gt;
+&lt;p&gt;保存：按下&lt;code&gt;Esc&lt;/code&gt;键&lt;/p&gt;
+&lt;p&gt;不保存&amp;#x2F;还原默认键位：按下&lt;code&gt;Backspace&lt;/code&gt;键&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://cdn.wenqi.icu:5244/d/gh/WenqiOfficial/wenqipic/img/%E8%B0%83%E9%94%AE%E4%BD%8D.gif&#34; alt=&#34;自定义键位&#34;&gt;&lt;/p&gt;
+&lt;h4 id=&#34;自动-观赏-模式&#34;&gt;&lt;a href=&#34;#自动-观赏-模式&#34; class=&#34;headerlink&#34; title=&#34;自动(观赏)模式&#34;&gt;&lt;/a&gt;自动(观赏)模式&lt;/h4&gt;&lt;p&gt;&lt;strong&gt;进入方式：”OPTIONS”→”MISC”→”BOTPLAY”&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;按下&lt;code&gt;Enter&lt;/code&gt;键即可在 开&amp;#x2F;关 切换&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;BOTPLAY OFF&lt;/code&gt;关闭自动(观赏)模式&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;BOTPLAY ON&lt;/code&gt;开启自动(观赏)模式&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://cdn.wenqi.icu:5244/d/gh/WenqiOfficial/wenqipic/img/%E8%87%AA%E5%8A%A8%E6%A8%A1%E5%BC%8F.gif&#34; alt=&#34;自动(观赏)模式&#34;&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h1 id=&#34;游戏内部分画面&#34;&gt;&lt;a href=&#34;#游戏内部分画面&#34; class=&#34;headerlink&#34; title=&#34;游戏内部分画面&#34;&gt;&lt;/a&gt;游戏内部分画面&lt;/h1&gt;&lt;h2 id=&#34;Virus-R&#34;&gt;&lt;a href=&#34;#Virus-R&#34; class=&#34;headerlink&#34; title=&#34;Virus R&#34;&gt;&lt;/a&gt;Virus R&lt;/h2&gt;&lt;p&gt;主界面：&lt;br&gt;&lt;img src=&#34;https://cloud.wenqi.icu:5221/api/v3/file/get/1201/2022-06-0801-13-41.gif?sign=Chgfpr95F3wEqIfRdRfF8F1jsfTiTg_b6_vSG-QoPlw=:0&#34; alt=&#34;主界面&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Memory R：&lt;br&gt;&lt;img src=&#34;https://cloud.wenqi.icu:5221/api/v3/file/get/1199/2022-06-0801-14-43.gif?sign=SJIcC7ka4LdRj4bR0yJY0pX6UGNRwVzC32lJsC2NPPg=:0&#34; alt=&#34;Memory R&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Virus R：&lt;br&gt;&lt;img src=&#34;https://cloud.wenqi.icu:5221/api/v3/file/get/1202/2022-06-0801-16-51.gif?sign=SDRj2aXf2R0yK1fBHThskg7U61TpsCAbJNnoqhYsW0w=:0&#34; alt=&#34;Virus R&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;华强买瓜&#34;&gt;&lt;a href=&#34;#华强买瓜&#34; class=&#34;headerlink&#34; title=&#34;华强买瓜&#34;&gt;&lt;/a&gt;华强买瓜&lt;/h2&gt;&lt;p&gt;&lt;em&gt;&lt;strong&gt;这个属实绷不住了wwwwww&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;主界面：&lt;br&gt;&lt;img src=&#34;https://cloud.wenqi.icu:5221/api/v3/file/get/1200/2022-06-0801-11-46.gif?sign=Yv9dQI_KU34fIhIcduQxB_Q__OUXXfPxT3Cx-XV4vQA=:0&#34; alt=&#34;主界面&#34;&gt;&lt;/p&gt;
+</content>
+        <category term="周五放克夜" />
+        <category term="Friday Night Funkin" />
+        <category term="FNF" />
+        <category term="音游" />
+        <updated>2022-06-07T07:38:00.000Z</updated>
+    </entry>
+</feed>

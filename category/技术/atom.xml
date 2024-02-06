@@ -1,0 +1,299 @@
+<?xml version="1.0"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://blog.wenqi.icu</id>
+    <title>秘密の小屋 • Posts by &#34;技术&#34; category</title>
+    <link href="https://blog.wenqi.icu" />
+    <updated>2023-08-11T01:32:00.000Z</updated>
+    <category term="最初的开始" />
+    <category term="你好" />
+    <category term="Pixiv" />
+    <category term="LSP" />
+    <category term="Sakura" />
+    <category term="中秋" />
+    <category term="庆祝" />
+    <category term="Hexo" />
+    <category term="Blog" />
+    <category term="崩坏3" />
+    <category term="音乐" />
+    <category term="原声集" />
+    <category term="OST" />
+    <category term="主播女孩重度依赖" />
+    <category term="Needy Streamer Overload" />
+    <category term="新年" />
+    <category term="资源分享" />
+    <category term="WebTools" />
+    <category term="周五放克夜" />
+    <category term="Friday Night Funkin" />
+    <category term="FNF" />
+    <category term="音游" />
+    <category term="2023" />
+    <category term="Miku" />
+    <category term="Web" />
+    <category term="2024" />
+    <entry>
+        <id>https://blog.wenqi.icu/2023/08/11/012/</id>
+        <title>STUDY WITH MIKU</title>
+        <link rel="alternate" href="https://blog.wenqi.icu/2023/08/11/012/"/>
+        <content type="html">&lt;link rel=&#34;stylesheet&#34; class=&#34;aplayer-secondary-style-marker&#34; href=&#34;\assets\css\APlayer.min.css&#34;&gt;&lt;script src=&#34;\assets\js\APlayer.min.js&#34; class=&#34;aplayer-secondary-script-marker&#34;&gt;&lt;/script&gt;&lt;blockquote&gt;
+&lt;p&gt;STUDY WITH MIKU 网页版&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h1 id=&#34;STUDY-WITH-MIKU&#34;&gt;&lt;a href=&#34;#STUDY-WITH-MIKU&#34; class=&#34;headerlink&#34; title=&#34;STUDY WITH MIKU&#34;&gt;&lt;/a&gt;STUDY WITH MIKU&lt;/h1&gt;&lt;h2 id=&#34;介绍&#34;&gt;&lt;a href=&#34;#介绍&#34; class=&#34;headerlink&#34; title=&#34;介绍&#34;&gt;&lt;/a&gt;介绍&lt;/h2&gt;&lt;p&gt;受启发于最近很火的官方视频：STUDY WITH MIKU&lt;/p&gt;
+&lt;p&gt;做成了网页版，这样就方便打开了，而且也有更多功能！&lt;/p&gt;
+&lt;h2 id=&#34;网址&#34;&gt;&lt;a href=&#34;#网址&#34; class=&#34;headerlink&#34; title=&#34;网址&#34;&gt;&lt;/a&gt;网址&lt;/h2&gt;&lt;p&gt;&lt;a href=&#34;https://studymiku.wenqi.icu/&#34;&gt;STUDY WITH MIKU&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://studymiku.cloudflare.wenqi.icu/&#34;&gt;STUDY WITH MIKU (Cloudflare)&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/WenqiOfficial/StudyWithMiku&#34;&gt;Github库&lt;/a&gt;&lt;/p&gt;
+</content>
+        <category term="Miku" />
+        <category term="Web" />
+        <updated>2023-08-11T01:32:00.000Z</updated>
+    </entry>
+    <entry>
+        <id>https://blog.wenqi.icu/2020/11/21/004/</id>
+        <title>如何搭建属于自己的Hexo博客(一)</title>
+        <link rel="alternate" href="https://blog.wenqi.icu/2020/11/21/004/"/>
+        <content type="html">&lt;link rel=&#34;stylesheet&#34; class=&#34;aplayer-secondary-style-marker&#34; href=&#34;\assets\css\APlayer.min.css&#34;&gt;&lt;script src=&#34;\assets\js\APlayer.min.js&#34; class=&#34;aplayer-secondary-script-marker&#34;&gt;&lt;/script&gt;&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;这篇教程文是专门用来介绍我目前使用的&lt;strong&gt;全免费 Hexo 博客&lt;/strong&gt;搭建方法，如果有什么问题都可以在评论里问博主 (￣▽￣)~*&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;注：本教程所针对的平台为 Windows ，其他系统的搭建方法基本一致&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;图片施工中…&lt;/p&gt;
+&lt;h1 id=&#34;1-Hexo-安装&#34;&gt;&lt;a href=&#34;#1-Hexo-安装&#34; class=&#34;headerlink&#34; title=&#34;1. Hexo 安装&#34;&gt;&lt;/a&gt;1. Hexo 安装&lt;/h1&gt;&lt;h2 id=&#34;Step-1-基础准备&#34;&gt;&lt;a href=&#34;#Step-1-基础准备&#34; class=&#34;headerlink&#34; title=&#34;Step 1 : 基础准备&#34;&gt;&lt;/a&gt;Step 1 : 基础准备&lt;/h2&gt;&lt;p&gt;安装 Hexo 之前需要先在电脑安装这几个软件来保证 Hexo 的正常运行&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://nodejs.org/zh-cn/&#34;&gt;Node.js&lt;/a&gt; (官方要求版本不低于 &lt;strong&gt;10.13&lt;/strong&gt; )&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://git-scm.com/&#34;&gt;Git&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;del&gt;NotePad++&lt;/del&gt; (Notepad++作者发表涉新疆言论，已经永久下架此软件)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;如果都已经安装了就直接 &lt;strong&gt;开始安装 Hexo&lt;/strong&gt; 吧！&lt;/p&gt;
+&lt;h3 id=&#34;安装-Node-js&#34;&gt;&lt;a href=&#34;#安装-Node-js&#34; class=&#34;headerlink&#34; title=&#34;安装 Node.js&#34;&gt;&lt;/a&gt;安装 Node.js&lt;/h3&gt;&lt;p&gt;Node.js 的安装可以直接在官网下载安装程序安装  &lt;a href=&#34;https://nodejs.org/zh-cn/&#34;&gt;Node.js官网&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;下载完成后便可直接打开安装&lt;/p&gt;
+&lt;img src=&#34;https://cdn.wenqi.icu:5244/d/gh/WenqiOfficial/wenqipic/img/00420201122095106.png&#34; alt=&#34;Node.js&#34; title=&#34;Node.js安装界面&#34; style=&#34;zoom: 70%;&#34; /&gt;
+
+&lt;p&gt;其中要注意的是在安装进行到这一步时↓ &lt;strong&gt;一定要保证 Add To PATH 处于勾选状态&lt;/strong&gt;&lt;/p&gt;
+&lt;img src=&#34;https://cdn.wenqi.icu:5244/d/gh/WenqiOfficial/wenqipic/img/00420201122095430.png&#34; alt=&#34;Add To PATH&#34; title=&#34;要勾选Add To PATH！&#34; style=&#34;zoom:70%;&#34; /&gt;
+
+&lt;p&gt;&lt;em&gt;等待安装中…我的电脑好菜啊…&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;那么在等待的时候我们去安装别的软件吧&lt;/p&gt;
+&lt;h3 id=&#34;安装-Git&#34;&gt;&lt;a href=&#34;#安装-Git&#34; class=&#34;headerlink&#34; title=&#34;安装 Git&#34;&gt;&lt;/a&gt;安装 Git&lt;/h3&gt;&lt;p&gt;与上面的 Node.js 同样，先进入 Git 的官网下载好安装程序吧 &lt;a href=&#34;https://git-scm.com/&#34;&gt;Git官网&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;但是 Git 从中国大陆访问或下载的速度十分感人↓ 所以我们可以通过 &lt;a href=&#34;https://npm.taobao.org/mirrors/git-for-windows/&#34;&gt;淘宝Git For Windows镜像&lt;/a&gt; 下载&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://cdn.wenqi.icu:5244/d/gh/WenqiOfficial/wenqipic/img/00420201122100815.png&#34; alt=&#34;感人的速度...&#34; title=&#34;感人啊...&#34;&gt;&lt;/p&gt;
+&lt;p&gt;从镜像站下载的方法就是先一直往下翻，找到最新版本的程序后点击进入再选择属于自己操作系统的版本，选择 &lt;strong&gt;exe&lt;/strong&gt; 格式的文件下载就行了。&lt;/p&gt;
+&lt;img src=&#34;https://cdn.wenqi.icu:5244/d/gh/WenqiOfficial/wenqipic/img/00420201122111100.png&#34; alt=&#34;Git安装&#34; title=&#34;Git安装界面&#34; style=&#34;zoom:70%;&#34; /&gt;
+
+&lt;h4 id=&#34;Default-Editor&#34;&gt;&lt;a href=&#34;#Default-Editor&#34; class=&#34;headerlink&#34; title=&#34;Default Editor&#34;&gt;&lt;/a&gt;Default Editor&lt;/h4&gt;&lt;p&gt;当安装执行到下面这一步时其实是让你选择 &lt;strong&gt;默认的编辑器&lt;/strong&gt; ，根据自己的喜好选择就好了(╹ . ╹)&lt;/p&gt;
+&lt;img src=&#34;https://cdn.wenqi.icu:5244/d/gh/WenqiOfficial/wenqipic/img/00420201122111856.png&#34; alt=&#34;默认编辑器&#34; title=&#34;根据自己的喜好选择叭&#34; style=&#34;zoom:70%;&#34; /&gt;
+
+&lt;h4 id=&#34;New-Repositories&#34;&gt;&lt;a href=&#34;#New-Repositories&#34; class=&#34;headerlink&#34; title=&#34;New Repositories&#34;&gt;&lt;/a&gt;New Repositories&lt;/h4&gt;&lt;p&gt;这一步的话是让你选择 Git 在执行新建 &lt;strong&gt;库(Repositories&amp;#x2F;repo)&lt;/strong&gt; 的时候建立的&lt;strong&gt;默认分支&lt;/strong&gt;的名称，如果没有特殊要求就选择 &lt;strong&gt;“Let Git decide”&lt;/strong&gt; 就行了&lt;/p&gt;
+&lt;img src=&#34;https://cdn.wenqi.icu:5244/d/gh/WenqiOfficial/wenqipic/img/00420201122112902.png&#34; alt=&#34;新建库的分支名&#34; title=&#34;分支名&#34; style=&#34;zoom:70%;&#34; /&gt;
+
+&lt;h4 id=&#34;PATH-Environment&#34;&gt;&lt;a href=&#34;#PATH-Environment&#34; class=&#34;headerlink&#34; title=&#34;PATH Environment&#34;&gt;&lt;/a&gt;PATH Environment&lt;/h4&gt;&lt;p&gt;这个步骤是选择 Git 如何去调整 &lt;strong&gt;PATH(环境变量)&lt;/strong&gt;&lt;/p&gt;
+&lt;img src=&#34;https://cdn.wenqi.icu:5244/d/gh/WenqiOfficial/wenqipic/img/00420201122114619.png&#34; alt=&#34;PATH 环境变量&#34; title=&#34;环境变量&#34; style=&#34;zoom:70%;&#34; /&gt;
+
+&lt;p&gt;  第一种配置：”仅从 Git Bash 使用 Git “，也就是 Git &lt;strong&gt;不会去修改 PATH&lt;/strong&gt; ，选择这个选项可以&lt;strong&gt;防止因为 PATH 修改而导致出现的一些问题&lt;/strong&gt;，但是如果要调用 Git 就&lt;strong&gt;只能使用 “Git Bash”&lt;strong&gt;，而且&lt;/strong&gt;第三方的软件无法调用 Git&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;  第二种配置：”从命令行以及第三方软件执行 Git “，Git 仅会向 PATH 添加最小的 Git包装器 ，以避免使用可选的 Unix 工具造成环境混乱，但是能够从&lt;strong&gt;Git Bash，命令提示符，Windows PowerShell 等第三方软件调用Git&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;  第三种配置：”从命令提示符使用 Git 和可选的 Unix工具 “，但是这个选项极大会导致系统出现问题，所以&lt;strong&gt;建议在了解其含义后才使用此选项&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;一般没有特殊要求也是选择&lt;strong&gt;第二个配置&lt;/strong&gt;就可以了&lt;/p&gt;
+&lt;h4 id=&#34;HTTPS-Transport-Backend&#34;&gt;&lt;a href=&#34;#HTTPS-Transport-Backend&#34; class=&#34;headerlink&#34; title=&#34;HTTPS Transport Backend&#34;&gt;&lt;/a&gt;HTTPS Transport Backend&lt;/h4&gt;&lt;p&gt;这一步是让你选择 &lt;strong&gt;HTTPS后端传输类型&lt;/strong&gt; ，同样也是默认选择第一个就行&lt;/p&gt;
+&lt;img src=&#34;https://cdn.wenqi.icu:5244/d/gh/WenqiOfficial/wenqipic/img/00420201122121435.png&#34; alt=&#34;HTTPS Transport&#34; title=&#34;HTTPS后端传输类型&#34; style=&#34;zoom:70%;&#34; /&gt;
+
+&lt;h4 id=&#34;更多的配置…&#34;&gt;&lt;a href=&#34;#更多的配置…&#34; class=&#34;headerlink&#34; title=&#34;更多的配置…&#34;&gt;&lt;/a&gt;更多的配置…&lt;/h4&gt;&lt;p&gt;后面的配置都是以 Git 的默认选择就可以了，不做过多论述了&amp;lt;(｀^´)&amp;gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;配置行尾符号转换&lt;/strong&gt;&lt;/p&gt;
+&lt;img src=&#34;https://cdn.wenqi.icu:5244/d/gh/WenqiOfficial/wenqipic/img/00420201122122306.png&#34; alt=&#34;配置行尾符号转换&#34; style=&#34;zoom:70%;&#34; /&gt;
+
+&lt;p&gt;&lt;strong&gt;配置终端模拟器来与 Git Bash 一起使用&lt;/strong&gt;&lt;/p&gt;
+&lt;img src=&#34;https://cdn.wenqi.icu:5244/d/gh/WenqiOfficial/wenqipic/img/00420201122122600.png&#34; alt=&#34;配置终端模拟器来与 Git Bash 一起使用&#34; style=&#34;zoom:70%;&#34; /&gt;
+
+&lt;p&gt;&lt;strong&gt;Git 在执行 “拉取(Pull)” 命令时的行为&lt;/strong&gt;&lt;/p&gt;
+&lt;img src=&#34;https://cdn.wenqi.icu:5244/d/gh/WenqiOfficial/wenqipic/img/00420201122123042.png&#34; alt=&#34;Git Pull&#34; style=&#34;zoom:70%;&#34; /&gt;
+
+&lt;p&gt;&lt;strong&gt;凭据管理的方式&lt;/strong&gt;&lt;/p&gt;
+&lt;img src=&#34;https://cdn.wenqi.icu:5244/d/gh/WenqiOfficial/wenqipic/img/00420201122123342.png&#34; alt=&#34;凭据管理&#34; style=&#34;zoom:70%;&#34; /&gt;
+
+&lt;p&gt;&lt;strong&gt;配置额外选项&lt;/strong&gt;&lt;/p&gt;
+&lt;img src=&#34;https://cdn.wenqi.icu:5244/d/gh/WenqiOfficial/wenqipic/img/00420201122123519.png&#34; alt=&#34;额外选项&#34; style=&#34;zoom:70%;&#34; /&gt;
+
+&lt;p&gt;然后就是要等待安装啦&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;检查-Git-和-Node-js-以及环境变量是否正常&#34;&gt;&lt;a href=&#34;#检查-Git-和-Node-js-以及环境变量是否正常&#34; class=&#34;headerlink&#34; title=&#34;检查 Git 和 Node.js 以及环境变量是否正常&#34;&gt;&lt;/a&gt;检查 Git 和 Node.js 以及环境变量是否正常&lt;/h3&gt;&lt;p&gt;在任何位置 &lt;strong&gt;右键单击 - “Git Bash here”&lt;/strong&gt; 出现Git命令窗口&lt;br&gt;或者是使用 “cmd” (使用”Win + R”打开”运行”窗口并输入”cmd”回车)&lt;/p&gt;
+&lt;p&gt;使用以下命令来检查 Git 和 Node.js 的安装情况&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;检查Git安装情况&#34;&gt;git --version
+//如果像下面出现了版本号则安装正常
+git version 2.29.2.windows.2
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code class=&#34;检查Node.js安装情况&#34;&gt;node -v
+//如果像下面出现了版本号则安装正常
+v15.2.1
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code class=&#34;检查npm安装情况&#34;&gt;npm -v
+//如果像下面出现了版本号则安装正常
+7.0.8
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Git 可以在设置里更改语言为 &lt;strong&gt;简体中文&lt;/strong&gt; ，具体操作如下↓&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://cdn.wenqi.icu:5244/d/gh/WenqiOfficial/wenqipic/img/00420201122134902.png&#34; alt=&#34;1&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://cdn.wenqi.icu:5244/d/gh/WenqiOfficial/wenqipic/img/00420201122135212.png&#34; alt=&#34;2&#34;&gt;&lt;/p&gt;
+&lt;p&gt;操作界面便可切换至中文&lt;/p&gt;
+&lt;h3 id=&#34;安装-NotePad-可选&#34;&gt;&lt;a href=&#34;#安装-NotePad-可选&#34; class=&#34;headerlink&#34; title=&#34;安装 NotePad++ (可选)&#34;&gt;&lt;/a&gt;安装 NotePad++ (可选)&lt;/h3&gt;&lt;p&gt;（Notepad++作者发表涉新疆言论，已经永久下架此软件）&lt;/p&gt;
+&lt;h2 id=&#34;Step-2-Hexo-安装&#34;&gt;&lt;a href=&#34;#Step-2-Hexo-安装&#34; class=&#34;headerlink&#34; title=&#34;Step 2 : Hexo 安装&#34;&gt;&lt;/a&gt;Step 2 : Hexo 安装&lt;/h2&gt;&lt;p&gt;既然都准备就绪了，那就开始安装 Hexo 吧！&lt;/p&gt;
+&lt;h3 id=&#34;载入-Hexo&#34;&gt;&lt;a href=&#34;#载入-Hexo&#34; class=&#34;headerlink&#34; title=&#34;载入 Hexo&#34;&gt;&lt;/a&gt;载入 Hexo&lt;/h3&gt;&lt;p&gt;先在自己想要存放博客的地方&lt;strong&gt;新建一个文件夹&lt;/strong&gt;，例如我想要让我的博客文件存放在 “C:&amp;#x2F;myblog” ，那么只需要在C盘目录下新建一个名叫 “myblog” 的文件夹，然后&lt;strong&gt;进入文件夹&lt;/strong&gt;，右键选择 **”Git Bash here”**。&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;新建文件夹&lt;/em&gt;&lt;/p&gt;
+&lt;img src=&#34;https://cdn.wenqi.icu:5244/d/gh/WenqiOfficial/wenqipic/img/00420201122133920.png&#34; alt=&#34;新建文件夹&#34; title=&#34;新建一个文件夹&#34; style=&#34;zoom:80%;&#34; /&gt;
+
+&lt;p&gt;&lt;em&gt;进入文件夹并使用 “Git Bash here”&lt;/em&gt;&lt;/p&gt;
+&lt;img src=&#34;https://cdn.wenqi.icu:5244/d/gh/WenqiOfficial/wenqipic/img/00420201122134214.png&#34; alt=&#34;Git Bash here&#34; title=&#34;Git Bash here！&#34; style=&#34;zoom:80%;&#34; /&gt;
+
+&lt;p&gt;然后输入以下命令&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;//安装 Hexo
+npm install -g hexo-cli
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;这里附上官方的 Hexo 与 Node.js 版本限制&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;left&#34;&gt;Hexo 版本&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;最低兼容 Node.js 版本&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;5.0+&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;10.13.0&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;4.1 - 4.2&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;8.10&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;4.0&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;8.6&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;3.3 - 3.9&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;6.9&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;3.2 - 3.3&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;0.12&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;3.0 - 3.1&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;0.10 or iojs&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;0.0.1 - 2.8&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;0.10&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;
+&lt;p&gt;安装完成后检查 Hexo &lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;//检查 Hexo 版本
+hexo -v
+//如果正常则会如下显示
+hexo-cli: 4.2.0
+os: Windows_NT 10.0.18363 win32 x64
+node: 15.2.1
+......
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;如果上面都很顺利的话就初始化文件夹吧&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;//初始化博客文件夹&amp;quot;myblog&amp;quot;
+hexo init
+//这一步时间可能会比较长，因为Hexo需要从GitHub克隆下来自己的文件
+//当出现下面这个信息就代表初始化完成了
+INFO Start blogging with Hexo!
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;然后安装基本组件&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;//安装基本组件
+npm install
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;安装完成后目录下便会出现这几个文件&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;.
+├── _config.yml //博客的基础配置
+├── package.json //你所安装的一些组件信息
+├── scaffolds //当你使用&amp;quot;hexo new&amp;quot;新建文章时模板就从这里获取
+├── source //你的网站内容
+|   ├── _drafts //文章草稿，不会显示在博客上
+|   └── _posts //发布的文章，会显示在博客上
+└── themes //博客使用的主题文件夹
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&#34;生成静态页面并开始预览&#34;&gt;&lt;a href=&#34;#生成静态页面并开始预览&#34; class=&#34;headerlink&#34; title=&#34;生成静态页面并开始预览&#34;&gt;&lt;/a&gt;生成静态页面并开始预览&lt;/h3&gt;&lt;p&gt;走到这一步了是不是已经很想看见自己的博客是什么样子的了呢，但是我们如果要欣赏自己的博客话需要先将它进行 静态页面的生成 并且 启用服务 才可以哦，具体怎么启用呢，我们就要用到下面的指令&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;hexo g //生成静态页面
+hexo s //开启本地预览＆启用本地服务
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;当出现了下面的信息就代表你可以用浏览器在&lt;strong&gt;自己的电脑上&lt;/strong&gt;预览博客了&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;INFO  Hexo is running at http://localhost:4000 . Press Ctrl+C to stop.
+//&amp;quot;http://localhost:4000&amp;quot;是访问博客的地址
+//按下 &amp;quot;Ctrl+C&amp;quot; 便可停止服务
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;// hexo s &amp;amp;&amp;amp; hexo server 的常用拓展参数
+
+-i, --ip       自定义使用的IP地址。默认绑定到所有IP
+-o, --open     启用本地服务后自动在默认浏览器中预览
+-p, --port     自定义使用的端口
+//使用时在命令后面加上即可，例如&amp;quot;hexo s -o&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;至此便是关于 Hexo 的安装了，下一篇文章中我将会说明&lt;strong&gt;博客的配置&lt;/strong&gt;和&lt;strong&gt;写文&lt;/strong&gt;(๑•̀ㅂ•́)و✧&lt;/p&gt;
+&lt;hr&gt;
+&lt;center&gt;&lt;img src=&#34;https://cdn.wenqi.icu:5244/d/gh/WenqiOfficial/wenqicdn/img/gugugu.png&#34; style=&#34;zoom: 33%; &#34; /&gt;&lt;br&gt;打死你个大鸽子！&lt;br&gt;封面图Pid:77252576&lt;/center&gt;
+
+
+
+</content>
+        <category term="Hexo" />
+        <category term="Blog" />
+        <updated>2020-11-21T11:21:44.000Z</updated>
+    </entry>
+    <entry>
+        <id>https://blog.wenqi.icu/2020/11/15/003/</id>
+        <title>「HexoSakura教程 #0」序言</title>
+        <link rel="alternate" href="https://blog.wenqi.icu/2020/11/15/003/"/>
+        <content type="html">&lt;link rel=&#34;stylesheet&#34; class=&#34;aplayer-secondary-style-marker&#34; href=&#34;\assets\css\APlayer.min.css&#34;&gt;&lt;script src=&#34;\assets\js\APlayer.min.js&#34; class=&#34;aplayer-secondary-script-marker&#34;&gt;&lt;/script&gt;&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;承接上周末的时候说要开的坑，现在来补了！&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;h1 id=&#34;鸽子来了&#34;&gt;&lt;a href=&#34;#鸽子来了&#34; class=&#34;headerlink&#34; title=&#34;鸽子来了&#34;&gt;&lt;/a&gt;鸽子来了&lt;/h1&gt;&lt;p&gt;一周过去了，秘密の小屋也是在一步一步的美化中变得越来越好了。所以我想借这个能开新坑的机会，来写一篇(多篇)教程，是关于Hexo博客搭建与Sakura主题调教的(主要还是写Sakura)，以此来让各位也在试图使用Hexo或者是Sakura的过程中少走弯路（博主就走了不少弯路…）。同时也是为自己搭建博客的一路以来的尝试做一个小记录叭&lt;/p&gt;
+&lt;h2 id=&#34;内容&#34;&gt;&lt;a href=&#34;#内容&#34; class=&#34;headerlink&#34; title=&#34;内容&#34;&gt;&lt;/a&gt;内容&lt;/h2&gt;&lt;p&gt;主要的内容就是关于Sakura，Hexo也会在这个过程中提到，总之绝对能大饱眼福的！&lt;/p&gt;
+&lt;h2 id=&#34;更新频率&#34;&gt;&lt;a href=&#34;#更新频率&#34; class=&#34;headerlink&#34; title=&#34;更新频率&#34;&gt;&lt;/a&gt;更新频率&lt;/h2&gt;&lt;p&gt;这个就随缘了…&lt;br&gt;可能到时候还会突然就有新的想写的东西写进来，不过大致能保证一周一更（博主是住宿生）。&lt;/p&gt;
+&lt;h2 id=&#34;教程更新进度&#34;&gt;&lt;a href=&#34;#教程更新进度&#34; class=&#34;headerlink&#34; title=&#34;教程更新进度&#34;&gt;&lt;/a&gt;教程更新进度&lt;/h2&gt;&lt;p&gt;其实可以在顶部的 &lt;strong&gt;Sakura&lt;/strong&gt; 分区查看，但还是列个列表吧&lt;/p&gt;
+&lt;hr&gt;
+&lt;h4 id=&#34;鸽子的进度&#34;&gt;&lt;a href=&#34;#鸽子的进度&#34; class=&#34;headerlink&#34; title=&#34;鸽子的进度&#34;&gt;&lt;/a&gt;鸽子的进度&lt;/h4&gt;&lt;ol&gt;
+&lt;li&gt;序章&lt;/li&gt;
+&lt;li&gt;？？？&lt;/li&gt;
+&lt;li&gt;？？？&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;center&gt;&lt;img src=&#34;https://cdn.wenqi.icu:5244/d/gh/WenqiOfficial/wenqicdn/img/gugugu.png&#34; style=&#34;zoom: 33%; &#34; /&gt;&lt;br&gt;打死你个大鸽子！&lt;br&gt;封面图Pid:55294320&lt;/center&gt;
+
+</content>
+        <category term="Sakura" />
+        <updated>2020-11-15T14:17:00.000Z</updated>
+    </entry>
+    <entry>
+        <id>https://blog.wenqi.icu/2020/10/25/002/</id>
+        <title>P站的正确进入方法OxO</title>
+        <link rel="alternate" href="https://blog.wenqi.icu/2020/10/25/002/"/>
+        <content type="html">&lt;link rel=&#34;stylesheet&#34; class=&#34;aplayer-secondary-style-marker&#34; href=&#34;\assets\css\APlayer.min.css&#34;&gt;&lt;script src=&#34;\assets\js\APlayer.min.js&#34; class=&#34;aplayer-secondary-script-marker&#34;&gt;&lt;/script&gt;&lt;blockquote&gt;
+&lt;p&gt;Pixivic已恢复正常&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h1 id=&#34;前期准备&#34;&gt;&lt;a href=&#34;#前期准备&#34; class=&#34;headerlink&#34; title=&#34;前期准备&#34;&gt;&lt;/a&gt;前期准备&lt;/h1&gt;&lt;p&gt;嗯…电脑手机浏览器，有线WiFi开4G（被打&lt;/p&gt;
+&lt;h1 id=&#34;正片开始！&#34;&gt;&lt;a href=&#34;#正片开始！&#34; class=&#34;headerlink&#34; title=&#34;正片开始！&#34;&gt;&lt;/a&gt;正片开始！&lt;/h1&gt;&lt;p&gt;我在这篇文章中介绍的方法则是使用搭建的“国内版”Pixiv&lt;br&gt;但是因为是“国内版”，所以大多数的R18内容都是被屏蔽的&lt;/p&gt;
+&lt;h2 id=&#34;进入方法&#34;&gt;&lt;a href=&#34;#进入方法&#34; class=&#34;headerlink&#34; title=&#34;进入方法&#34;&gt;&lt;/a&gt;进入方法&lt;/h2&gt;&lt;h3 id=&#34;电脑＆手机&#34;&gt;&lt;a href=&#34;#电脑＆手机&#34; class=&#34;headerlink&#34; title=&#34;电脑＆手机&#34;&gt;&lt;/a&gt;电脑＆手机&lt;/h3&gt;&lt;p&gt;&lt;a href=&#34;https://pixivic.com/&#34;&gt;点我点我！&lt;/a&gt;&lt;br&gt; 进入后可以自行创建账号，同时也支持PID搜索等功能，访问速度也不错&lt;/p&gt;
+&lt;h3 id=&#34;Tips&#34;&gt;&lt;a href=&#34;#Tips&#34; class=&#34;headerlink&#34; title=&#34;Tips&#34;&gt;&lt;/a&gt;Tips&lt;/h3&gt;&lt;p&gt;手机端除了可以使用网页版，也可以安装客户端（支持安卓，IOS）&lt;br&gt;&lt;strong&gt;官方下载&lt;/strong&gt;&lt;br&gt;&lt;a href=&#34;https://wwa.lanzous.com/iR9E5eljotc&#34;&gt;安卓&lt;/a&gt;&lt;br&gt;&lt;a href=&#34;https://apps.apple.com/cn/app/pixivic/id1508873995&#34;&gt;IOS&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;附发现页：&lt;a href=&#34;https://m.pixivic.com/find&#34;&gt;https://m.pixivic.com/find&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;中级补给&#34;&gt;&lt;a href=&#34;#中级补给&#34; class=&#34;headerlink&#34; title=&#34;中级补给&#34;&gt;&lt;/a&gt;中级补给&lt;/h2&gt;&lt;h3 id=&#34;1-通过Pid搜画作&#34;&gt;&lt;a href=&#34;#1-通过Pid搜画作&#34; class=&#34;headerlink&#34; title=&#34;1.通过Pid搜画作&#34;&gt;&lt;/a&gt;1.通过Pid搜画作&lt;/h3&gt;&lt;p&gt;先随便点进去一个画作，然后复制好你要找的图片的&lt;strong&gt;Pid&lt;/strong&gt;，例如拉狗子的一张图&lt;strong&gt;PID:76931373&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://cdn.wenqi.icu:5244/d/gh/WenqiOfficial/wenqicdn/img/post/76931373_p0.jpg&#34; alt=&#34;無题&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;拉狗美如画(๑•̀ㅂ•́)و✧&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;然后将地址栏改为这样子↓&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;//原来的地址
+&amp;quot;https://pixivic.com/illusts/85620721?VNK=7802c0f2&amp;quot;
+//改成下面这样
+&amp;quot;https://pixivic.com/illusts/76931373&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;a href=&#34;https://pixivic.com/illusts/76931373&#34;&gt;点我试试叭！(&lt;em&gt;^▽^&lt;/em&gt;)&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;如果图片加载失败的话可以把图片pid后面包括 “?”的那一串字符删掉重试&lt;/p&gt;
+&lt;h3 id=&#34;2-还有什么呢…&#34;&gt;&lt;a href=&#34;#2-还有什么呢…&#34; class=&#34;headerlink&#34; title=&#34;2.还有什么呢…&#34;&gt;&lt;/a&gt;2.还有什么呢…&lt;/h3&gt;&lt;p&gt;&lt;em&gt;想不起来了…到时再补充吧&lt;/em&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;center&gt;封面图Pid:74335123&lt;/center&gt;
+
+</content>
+        <category term="Pixiv" />
+        <category term="LSP" />
+        <updated>2020-10-25T07:29:00.000Z</updated>
+    </entry>
+</feed>

@@ -1,0 +1,74 @@
+<?xml version="1.0"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://blog.wenqi.icu</id>
+    <title>秘密の小屋 • Posts by &#34;新年&#34; tag</title>
+    <link href="https://blog.wenqi.icu" />
+    <updated>2022-01-31T16:00:00.000Z</updated>
+    <category term="最初的开始" />
+    <category term="你好" />
+    <category term="Pixiv" />
+    <category term="LSP" />
+    <category term="Sakura" />
+    <category term="中秋" />
+    <category term="庆祝" />
+    <category term="Hexo" />
+    <category term="Blog" />
+    <category term="崩坏3" />
+    <category term="音乐" />
+    <category term="原声集" />
+    <category term="OST" />
+    <category term="主播女孩重度依赖" />
+    <category term="Needy Streamer Overload" />
+    <category term="新年" />
+    <category term="资源分享" />
+    <category term="WebTools" />
+    <category term="周五放克夜" />
+    <category term="Friday Night Funkin" />
+    <category term="FNF" />
+    <category term="音游" />
+    <category term="2023" />
+    <category term="Miku" />
+    <category term="Web" />
+    <category term="2024" />
+    <entry>
+        <id>https://blog.wenqi.icu/2022/02/01/008/</id>
+        <title>新年快乐！以及一些想说的话</title>
+        <link rel="alternate" href="https://blog.wenqi.icu/2022/02/01/008/"/>
+        <content type="html">&lt;link rel=&#34;stylesheet&#34; class=&#34;aplayer-secondary-style-marker&#34; href=&#34;\assets\css\APlayer.min.css&#34;&gt;&lt;script src=&#34;\assets\js\APlayer.min.js&#34; class=&#34;aplayer-secondary-script-marker&#34;&gt;&lt;/script&gt;&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;新年快乐！ Happy New Year!&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+        &lt;div id=&#34;aplayer-zCnBWGmZ&#34; class=&#34;aplayer aplayer-tag-marker&#34; style=&#34;margin-bottom: 20px;&#34;&gt;
+            &lt;pre class=&#34;aplayer-lrc-content&#34;&gt;&lt;/pre&gt;
+        &lt;/div&gt;
+        &lt;script&gt;
+          var ap = new APlayer({
+            element: document.getElementById(&#34;aplayer-zCnBWGmZ&#34;),
+            narrow: false,
+            autoplay: false,
+            showlrc: false,
+            music: {
+              title: &#34;大喜&#34;,
+              author: &#34;泠鸢yousa,音阙诗听&#34;,
+              url: &#34;https://cdn.wenqi.icu:5244/d/gh/WenqiOfficial/wenqicdn/file/songs/%E5%A4%A7%E5%96%9C%20-%20%E6%B3%A0%E9%B8%A2yousa,%E9%9F%B3%E9%98%99%E8%AF%97%E5%90%AC.mp3&#34;,
+              pic: &#34;https://cdn.wenqi.icu:5244/d/gh/WenqiOfficial/wenqicdn/file/songs/%E5%A4%A7%E5%96%9C_s.webp&#34;,
+              lrc: &#34;&#34;
+            }
+          });
+          window.aplayers || (window.aplayers = []);
+          window.aplayers.push(ap);
+        &lt;/script&gt;
+
+&lt;h1 id=&#34;PART-ONE&#34;&gt;&lt;a href=&#34;#PART-ONE&#34; class=&#34;headerlink&#34; title=&#34;PART ONE&#34;&gt;&lt;/a&gt;PART ONE&lt;/h1&gt;&lt;p&gt;首先最主要的还是祝原无论是陪伴了小屋至今还是新的客人们：&lt;strong&gt;新年快乐，万事如意；虎年行大运，财源滚滚来！&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;在小屋经营的这一年里，感谢各位的陪伴！在将来，小屋也会愈发繁华，期待这一个新年里与各位继续前行！&lt;/p&gt;
+&lt;h1 id=&#34;PART-TWO&#34;&gt;&lt;a href=&#34;#PART-TWO&#34; class=&#34;headerlink&#34; title=&#34;PART TWO&#34;&gt;&lt;/a&gt;PART TWO&lt;/h1&gt;&lt;h2 id=&#34;思过去&#34;&gt;&lt;a href=&#34;#思过去&#34; class=&#34;headerlink&#34; title=&#34;思过去&#34;&gt;&lt;/a&gt;思过去&lt;/h2&gt;&lt;p&gt;对于这个新年，当然是要充满干劲啦！(●ˇ∀ˇ●)&lt;/p&gt;
+&lt;p&gt;在过去的这2021里，我也经历了很多，其中有开心过、颓废过、沮丧过、失望过，从一个懵懂的初中生变为高中新生，人生的酸甜苦辣也是逐渐尝尽。最大的感触当然还是对于这个社会的认识更加丰富广泛了，自己也成长了起来。&lt;/p&gt;
+&lt;p&gt;回首2021的遗憾，还是把自己吓一跳的：许许多多想要计划做的事情没有完成，对于部分东西也是做的并不满意。&lt;del&gt;嘛…看来是要好好鞭策一下自己了&lt;/del&gt;&lt;br&gt;毕竟从步入高中开始，学业的压力也是倍增，紧张的氛围也充斥着。&lt;del&gt;（就是不卷不行了）&lt;/del&gt;&lt;/p&gt;
+&lt;h2 id=&#34;盼未来&#34;&gt;&lt;a href=&#34;#盼未来&#34; class=&#34;headerlink&#34; title=&#34;盼未来&#34;&gt;&lt;/a&gt;盼未来&lt;/h2&gt;&lt;p&gt;2022是个全新的开始，希望自己能在这新的一年里更加努力，在学业、兴趣上有更好的进步，把2021的遗憾化为2022的美满。&lt;br&gt;学会 UE4、Kali ，在2022里拥有自己的小收入，还有不秃头！&lt;/p&gt;
+&lt;p&gt;那么我也将会在未来这段时间里继续努力，经营好这 秘密の小屋 ，同时也会努力抽出时间写写博文、做做视频，和各位分享点点滴滴，期待新的一年更加美好！&lt;/p&gt;
+&lt;h1 id=&#34;2022，加油！&#34;&gt;&lt;a href=&#34;#2022，加油！&#34; class=&#34;headerlink&#34; title=&#34;2022，加油！&#34;&gt;&lt;/a&gt;2022，加油！&lt;/h1&gt;&lt;hr&gt;
+&lt;center&gt;封面图Pid:95904340&lt;/center&gt;</content>
+        <category term="新年" />
+        <updated>2022-01-31T16:00:00.000Z</updated>
+    </entry>
+</feed>
