@@ -1,0 +1,103 @@
+<?xml version="1.0"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://blog.wenqi.icu</id>
+    <title>秘密の小屋 • Posts by &#34;hi-res&#34; tag</title>
+    <link href="https://blog.wenqi.icu" />
+    <updated>2024-02-09T16:00:00.000Z</updated>
+    <category term="最初的开始" />
+    <category term="你好" />
+    <category term="Pixiv" />
+    <category term="LSP" />
+    <category term="Sakura" />
+    <category term="中秋" />
+    <category term="庆祝" />
+    <category term="Hexo" />
+    <category term="Blog" />
+    <category term="崩坏3" />
+    <category term="音乐" />
+    <category term="原声集" />
+    <category term="OST" />
+    <category term="主播女孩重度依赖" />
+    <category term="Needy Streamer Overload" />
+    <category term="新年" />
+    <category term="资源分享" />
+    <category term="WebTools" />
+    <category term="周五放克夜" />
+    <category term="Friday Night Funkin" />
+    <category term="FNF" />
+    <category term="音游" />
+    <category term="2023" />
+    <category term="Miku" />
+    <category term="Web" />
+    <category term="2024" />
+    <category term="葬送的芙莉莲" />
+    <category term="ED" />
+    <category term="Hi-Res" />
+    <entry>
+        <id>https://blog.wenqi.icu/2024/02/10/014/</id>
+        <title>《葬送的芙莉莲》ED专辑 「Anytime Anywhere」- milet 48/24</title>
+        <link rel="alternate" href="https://blog.wenqi.icu/2024/02/10/014/"/>
+        <content type="html">&lt;link rel=&#34;stylesheet&#34; class=&#34;aplayer-secondary-style-marker&#34; href=&#34;\assets\css\APlayer.min.css&#34;&gt;&lt;script src=&#34;\assets\js\APlayer.min.js&#34; class=&#34;aplayer-secondary-script-marker&#34;&gt;&lt;/script&gt;&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;I’m whispering our lullaby for you to come back home.&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+        &lt;div id=&#34;aplayer-FyKCIGFU&#34; class=&#34;aplayer aplayer-tag-marker&#34; style=&#34;margin-bottom: 20px;&#34;&gt;
+            &lt;pre class=&#34;aplayer-lrc-content&#34;&gt;&lt;/pre&gt;
+        &lt;/div&gt;
+        &lt;script&gt;
+          var ap = new APlayer({
+            element: document.getElementById(&#34;aplayer-FyKCIGFU&#34;),
+            narrow: false,
+            autoplay: false,
+            showlrc: false,
+            music: {
+              title: &#34;bliss&#34;,
+              author: &#34;milet&#34;,
+              url: &#34;https://cloud.wenqi.icu:5221/api/v3/file/get/15385/02%20milet%20-%20bliss.flac?sign=T9THpAtQWDv-JEhHl_n01QtGR7XTRGHM3yoovdWOhG4%3D%3A0&#34;,
+              pic: &#34;https://proxy.wenqi.icu/httpproxy/www.acgjc.com/wp-content/uploads/2024/02/6cf1314700035cb3bdbacab851c4efb5-1024x911.jpg&#34;,
+              lrc: &#34;&#34;
+            }
+          });
+          window.aplayers || (window.aplayers = []);
+          window.aplayers.push(ap);
+        &lt;/script&gt;
+
+&lt;h1 id=&#34;一言&#34;&gt;&lt;a href=&#34;#一言&#34; class=&#34;headerlink&#34; title=&#34;一言&#34;&gt;&lt;/a&gt;一言&lt;/h1&gt;&lt;p&gt;愈加体验到了将来会更加常见的“繁忙感”…何不在心疲力竭的时候停下来，好好欣赏那一番曾经过却未能驻足停留的风景呢?&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;☆踏上曾走过的旅程☆&lt;/em&gt;&lt;/p&gt;
+&lt;h1 id=&#34;Album-List&#34;&gt;&lt;a href=&#34;#Album-List&#34; class=&#34;headerlink&#34; title=&#34;Album List&#34;&gt;&lt;/a&gt;Album List&lt;/h1&gt;&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;歌曲&lt;/th&gt;
+&lt;th&gt;歌手&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;&lt;tr&gt;
+&lt;td&gt;01 Anytime Anywhere&lt;/td&gt;
+&lt;td&gt;milet&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;02 bliss&lt;/td&gt;
+&lt;td&gt;milet&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;03 Higher&lt;/td&gt;
+&lt;td&gt;milet&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;04 Wings&lt;/td&gt;
+&lt;td&gt;milet&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;
+&lt;p&gt;已经投稿到漫音社了，审核过了就能看到啦！o(&lt;em&gt;￣▽￣&lt;/em&gt;)ブ&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.acgjc.com/?p=119314&#34;&gt;漫音社&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;/download/anytimeanywhere&#34;&gt;出发吧！&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;em&gt;新年快乐呀!&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;‘那个’2.0在走来啦…&lt;/em&gt;&lt;/p&gt;
+</content>
+        <category term="葬送的芙莉莲" />
+        <category term="ED" />
+        <category term="Hi-Res" />
+        <updated>2024-02-09T16:00:00.000Z</updated>
+    </entry>
+</feed>

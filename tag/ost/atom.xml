@@ -1,0 +1,339 @@
+<?xml version="1.0"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://blog.wenqi.icu</id>
+    <title>秘密の小屋 • Posts by &#34;ost&#34; tag</title>
+    <link href="https://blog.wenqi.icu" />
+    <updated>2022-04-04T09:30:00.000Z</updated>
+    <category term="最初的开始" />
+    <category term="你好" />
+    <category term="Pixiv" />
+    <category term="LSP" />
+    <category term="Sakura" />
+    <category term="中秋" />
+    <category term="庆祝" />
+    <category term="Hexo" />
+    <category term="Blog" />
+    <category term="崩坏3" />
+    <category term="音乐" />
+    <category term="原声集" />
+    <category term="OST" />
+    <category term="主播女孩重度依赖" />
+    <category term="Needy Streamer Overload" />
+    <category term="新年" />
+    <category term="资源分享" />
+    <category term="WebTools" />
+    <category term="周五放克夜" />
+    <category term="Friday Night Funkin" />
+    <category term="FNF" />
+    <category term="音游" />
+    <category term="2023" />
+    <category term="Miku" />
+    <category term="Web" />
+    <category term="2024" />
+    <category term="葬送的芙莉莲" />
+    <category term="ED" />
+    <category term="Hi-Res" />
+    <entry>
+        <id>https://blog.wenqi.icu/2022/04/04/009/</id>
+        <title>《主播女孩重度依赖》原声集 Needy Streamer Overload OST</title>
+        <link rel="alternate" href="https://blog.wenqi.icu/2022/04/04/009/"/>
+        <content type="html">&lt;link rel=&#34;stylesheet&#34; class=&#34;aplayer-secondary-style-marker&#34; href=&#34;\assets\css\APlayer.min.css&#34;&gt;&lt;script src=&#34;\assets\js\APlayer.min.js&#34; class=&#34;aplayer-secondary-script-marker&#34;&gt;&lt;/script&gt;&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;✝升天✝✝升天✝✝升天✝✝升天✝✝升天✝✝升天✝✝升天✝✝升天✝✝升天✝&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+        &lt;div id=&#34;aplayer-HtsWRtrG&#34; class=&#34;aplayer aplayer-tag-marker&#34; style=&#34;margin-bottom: 20px;&#34;&gt;
+            &lt;pre class=&#34;aplayer-lrc-content&#34;&gt;&lt;/pre&gt;
+        &lt;/div&gt;
+        &lt;script&gt;
+          var ap = new APlayer({
+            element: document.getElementById(&#34;aplayer-HtsWRtrG&#34;),
+            narrow: false,
+            autoplay: false,
+            showlrc: false,
+            music: {
+              title: &#34;INTERNET OVERDOSE feat. KOTOKO&#34;,
+              author: &#34;Aiobahn feat. KOTOKO&#34;,
+              url: &#34;https://cloud.wenqi.icu:5221/api/v3/file/get/472/03%20INTERNET%20OVERDOSE%20feat.%20KOTOKO.mp3?sign=Xf8wKafNA5RKkL3KBmclvXDRc8VBERjsVNdua6aYjPU%3D%3A0&#34;,
+              pic: &#34;https://cloud.wenqi.icu:5221/api/v3/file/get/493/cover.png?sign=CkVmvS_7QylVUSBTykurBY-TVbBq0smSewwsqT7Kkr0%3D%3A0&#34;,
+              lrc: &#34;&#34;
+            }
+          });
+          window.aplayers || (window.aplayers = []);
+          window.aplayers.push(ap);
+        &lt;/script&gt;
+
+&lt;h1 id=&#34;一言&#34;&gt;&lt;a href=&#34;#一言&#34; class=&#34;headerlink&#34; title=&#34;一言&#34;&gt;&lt;/a&gt;一言&lt;/h1&gt;&lt;p&gt;最近都没什么时间来更新了，刚好最近有了解到一个叫《主播女孩重度依赖》的游戏，就把OST分享给大家吧。&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;去玩一下也不错噢&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;小天使请安！&lt;/em&gt;&lt;/p&gt;
+&lt;h1 id=&#34;✝升天✝&#34;&gt;&lt;a href=&#34;#✝升天✝&#34; class=&#34;headerlink&#34; title=&#34;✝升天✝&#34;&gt;&lt;/a&gt;✝升天✝&lt;/h1&gt;&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;歌曲&lt;/th&gt;
+&lt;th&gt;歌手&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;&lt;tr&gt;
+&lt;td&gt;01 Boot&lt;/td&gt;
+&lt;td&gt;peposoft&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;02 Approval desire&lt;/td&gt;
+&lt;td&gt;Aiobahn&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;03 INTERNET OVERDOSE feat. KOTOKO&lt;/td&gt;
+&lt;td&gt;Aiobahn feat. KOTOKO&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;04 Angel fall down&lt;/td&gt;
+&lt;td&gt;Aiobahn&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;05 天使の輪の上て?&lt;/td&gt;
+&lt;td&gt;Aiobahn&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;06 Angel boring&lt;/td&gt;
+&lt;td&gt;Aiobahn&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;07 天使て?も喜んし?ゃいます&lt;/td&gt;
+&lt;td&gt;Aiobahn&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;08 天使た?って緊張する&lt;/td&gt;
+&lt;td&gt;Aiobahn&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;09 Angel yamu&lt;/td&gt;
+&lt;td&gt;Aiobahn&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;10 INTERNET ANGEL&lt;/td&gt;
+&lt;td&gt;Aiobahn&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;11 駄天&lt;/td&gt;
+&lt;td&gt;Aiobahn&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;12 天使た?から病みます&lt;/td&gt;
+&lt;td&gt;Aiobahn&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;13 天使は感動する&lt;/td&gt;
+&lt;td&gt;Aiobahn&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;14 Ascension of angel&lt;/td&gt;
+&lt;td&gt;Aiobahn&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;15 ニセモノの幸せた?けと?&lt;/td&gt;
+&lt;td&gt;Aiobahn&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;16 やっは?り天使なんていなかったね&lt;/td&gt;
+&lt;td&gt;Aiobahn&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;17 Do you love me _&lt;/td&gt;
+&lt;td&gt;Aiobahn&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;18 INTERNET OVERDOSE (8bit)&lt;/td&gt;
+&lt;td&gt;Aiobahn&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;19 Angel rests&lt;/td&gt;
+&lt;td&gt;Aiobahn&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;20 Angel emotion&lt;/td&gt;
+&lt;td&gt;Aiobahn&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;21 Angel flight&lt;/td&gt;
+&lt;td&gt;Aiobahn&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;22 Angel computer&lt;/td&gt;
+&lt;td&gt;Aiobahn&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;23 INTERNET OVERDOSE (inst)&lt;/td&gt;
+&lt;td&gt;Aiobahn&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;
+&lt;p&gt;&lt;a href=&#34;/download/needystreameroverloadost/&#34;&gt;点我҉升҉天҉&lt;/a&gt;&lt;/p&gt;
+</content>
+        <category term="原声集" />
+        <category term="OST" />
+        <category term="主播女孩重度依赖" />
+        <category term="Needy Streamer Overload" />
+        <updated>2022-04-04T09:30:00.000Z</updated>
+    </entry>
+    <entry>
+        <id>https://blog.wenqi.icu/2021/12/05/007/</id>
+        <title>[16bit 44.1kHz FLAC]崩坏3 Onwards-Original Soundtrack</title>
+        <link rel="alternate" href="https://blog.wenqi.icu/2021/12/05/007/"/>
+        <content type="html">&lt;link rel=&#34;stylesheet&#34; class=&#34;aplayer-secondary-style-marker&#34; href=&#34;\assets\css\APlayer.min.css&#34;&gt;&lt;script src=&#34;\assets\js\APlayer.min.js&#34; class=&#34;aplayer-secondary-script-marker&#34;&gt;&lt;/script&gt;
+        &lt;div id=&#34;aplayer-dpCvrGoj&#34; class=&#34;aplayer aplayer-tag-marker&#34; style=&#34;margin-bottom: 20px;&#34;&gt;
+            &lt;pre class=&#34;aplayer-lrc-content&#34;&gt;&lt;/pre&gt;
+        &lt;/div&gt;
+        &lt;script&gt;
+          var ap = new APlayer({
+            element: document.getElementById(&#34;aplayer-dpCvrGoj&#34;),
+            narrow: false,
+            autoplay: false,
+            showlrc: false,
+            music: {
+              title: &#34;Lyin (See you in the next world)&#34;,
+              author: &#34;HOYO-MiX&#34;,
+              url: &#34;https://cloud.wenqi.icu:5221/api/v3/file/get/179/30%20Lyin%20%28See%20you%20in%20the%20next%20world%29.flac?sign=KfA9CHSJ07Ybrt_0LfISoK10cr7lCeFUltnDl54OVCU%3D%3A0&#34;,
+              pic: &#34;https://cloud.wenqi.icu:5221/api/v3/file/get/180/Cover.jpg?sign=_Ti4V_auuTN0gDyi7LalizGVjsSeyXJFlXIfkQx_WSM%3D%3A0&#34;,
+              lrc: &#34;&#34;
+            }
+          });
+          window.aplayers || (window.aplayers = []);
+          window.aplayers.push(ap);
+        &lt;/script&gt;
+
+&lt;p&gt;《崩坏3》原声集&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;歌曲&lt;/th&gt;
+&lt;th align=&#34;center&#34;&gt;歌手&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;&lt;tr&gt;
+&lt;td&gt;1  Nightglow (崩坏3印象曲)&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;蔡健雅 ; HOYO-MiX&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;2 Dragon&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;HOYO-MiX&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;3  Routine&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;HOYO-MiX&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;4 Rave&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;HOYO-MiX&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;5 Revolt&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;HOYO-MiX&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;6 Raid&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;HOYO-MiX&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;7 Action&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;HOYO-MiX&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;8  Beloved&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;HOYO-MiX&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;9  Mystify&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;HOYO-MiX&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;10  Forbidden&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;HOYO-MiX&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;11  Clouds&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;HOYO-MiX&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;12 LinK&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;HOYO-MiX&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;13  Shimmer&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;HOYO-MiX&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;14  Moonrise&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;HOYO-MiX&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;15 Crush&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;HOYO-MiX&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;16  Bamboo&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;HOYO-MiX&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;17  Katana&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;HOYO-MiX&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;18  Shrine&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;HOYO-MiX&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;19  Shuttle&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;HOYO-MiX&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;20 Mist&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;HOYO-MiX&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;21  Dogfight&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;HOYO-MiX&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;22 Empty&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;HOYO-MiX&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;23  Colossus&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;HOYO-MiX&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;24  Elsewhere&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;HOYO-MiX&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;25 Que  ll&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;HOYO-MiX&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;26  Snowfield&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;HOYO-MiX&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;27 Trace&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;HOYO-MiX&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;28 Gion2&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;HOYO-MiX&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;29  Nightglow (instrumental)&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;HOYO-MiX&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;30 Lyin  (See You in the Next World)&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;HOYO-MiX&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;
+&lt;p&gt;&lt;a href=&#34;/download/bh3/&#34;&gt;点我下载&lt;/a&gt;&lt;/p&gt;
+</content>
+        <category term="崩坏3" />
+        <category term="音乐" />
+        <category term="原声集" />
+        <category term="OST" />
+        <updated>2021-12-05T03:27:48.000Z</updated>
+    </entry>
+</feed>
