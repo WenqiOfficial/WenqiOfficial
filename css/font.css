@@ -7,8 +7,8 @@
 
 @font-face {
     font-family: shoujo;
-    src: url(https://cdn.wenqi.icu:5244/d/gh/WenqiOfficial/wenqicdn/fonts/litsqure.eot);
-    src: url(https://cdn.wenqi.icu:5244/d/gh/WenqiOfficial/wenqicdn/fonts/litsqure.eot#iefix) format('embedded-opentype'), url(https://cdn.wenqi.icu:5244/d/gh/WenqiOfficial/wenqicdn/fonts/litsqure.woff) format('woff'), url(https://cdn.wenqi.icu:5244/d/gh/WenqiOfficial/wenqicdn/fonts/litsqure.ttf) format('truetype'), url(https://cdn.wenqi.icu:5244/d/gh/WenqiOfficial/wenqicdn/fonts/litsqure.svg#litsqure) format('svg');
+    src: url(https://cdn.wenqi.icu:5244/d/gh/WenqiOfficial/wenqicdn/fonts/litsquare/litsquare.eot);
+    src: url(https://cdn.wenqi.icu:5244/d/gh/WenqiOfficial/wenqicdn/fonts/litsquare/litsquare.eot#iefix) format('embedded-opentype'), url(https://cdn.wenqi.icu:5244/d/gh/WenqiOfficial/wenqicdn/fonts/litsquare/litsquare.woff) format('woff'), url(https://cdn.wenqi.icu:5244/d/gh/WenqiOfficial/wenqicdn/fonts/litsquare/litsquare.ttf) format('truetype'), url(https://cdn.wenqi.icu:5244/d/gh/WenqiOfficial/wenqicdn/fonts/litsquare/litsquare.svg#litsquare) format('svg');
     font-style: normal;
     font-weight: 400
 }
