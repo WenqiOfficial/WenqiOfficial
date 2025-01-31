@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <rss version="2.0">
     <channel>
-        <title>秘密の小屋 • Posts by &#34;新年&#34; tag</title>
+        <title>闻柒的次元小屋 • Posts by &#34;新年&#34; tag</title>
         <link>https://blog.wenqi.icu</link>
         <description>秘密的小屋有着秘密的东西(*╹▽╹*)</description>
         <language>zh-cn</language>
@@ -9,29 +9,33 @@
         <lastBuildDate>Tue, 01 Feb 2022 00:00:00 +0800</lastBuildDate>
         <category>最初的开始</category>
         <category>你好</category>
-        <category>Pixiv</category>
-        <category>LSP</category>
         <category>Sakura</category>
-        <category>中秋</category>
-        <category>庆祝</category>
         <category>Hexo</category>
         <category>Blog</category>
-        <category>崩坏3</category>
-        <category>音乐</category>
-        <category>原声集</category>
-        <category>OST</category>
-        <category>主播女孩重度依赖</category>
-        <category>Needy Streamer Overload</category>
-        <category>新年</category>
+        <category>Pixiv</category>
+        <category>LSP</category>
         <category>资源分享</category>
         <category>WebTools</category>
+        <category>中秋</category>
+        <category>庆祝</category>
+        <category>主播女孩重度依赖</category>
+        <category>Needy Streamer Overload</category>
+        <category>OST</category>
+        <category>原声集</category>
         <category>周五放克夜</category>
         <category>Friday Night Funkin</category>
         <category>FNF</category>
         <category>音游</category>
-        <category>2023</category>
+        <category>崩坏3</category>
+        <category>音乐</category>
         <category>Miku</category>
         <category>Web</category>
+        <category>2023</category>
+        <category>耳机</category>
+        <category>水月雨</category>
+        <category>《崩坏：星穹铁道》</category>
+        <category>知更鸟</category>
+        <category>新年</category>
         <category>2024</category>
         <category>葬送的芙莉莲</category>
         <category>ED</category>
@@ -46,12 +50,12 @@
 &lt;p&gt;&lt;strong&gt;新年快乐！ Happy New Year!&lt;/strong&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 
-        &lt;div id=&#34;aplayer-zCnBWGmZ&#34; class=&#34;aplayer aplayer-tag-marker&#34; style=&#34;margin-bottom: 20px;&#34;&gt;
+        &lt;div id=&#34;aplayer-aTJISrdr&#34; class=&#34;aplayer aplayer-tag-marker&#34; style=&#34;margin-bottom: 20px;&#34;&gt;
             &lt;pre class=&#34;aplayer-lrc-content&#34;&gt;&lt;/pre&gt;
         &lt;/div&gt;
         &lt;script&gt;
           var ap = new APlayer({
-            element: document.getElementById(&#34;aplayer-zCnBWGmZ&#34;),
+            element: document.getElementById(&#34;aplayer-aTJISrdr&#34;),
             narrow: false,
             autoplay: false,
             showlrc: false,

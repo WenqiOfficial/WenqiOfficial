@@ -170,20 +170,20 @@ function imgError (ele, type) {
   switch (type) {
     case 1:
       if (ele.src.includes('https://cn.gravatar.com/avatar')) {
-        ele.src = ele.src.replace('https://cn.gravatar.com/avatar/', 'https://cdn.wenqi.icu:5244/d/gh/WenqiOfficial/wenqicdn/img/other/gravatar.jpg')
+        ele.src = ele.src.replace('https://cn.gravatar.com/avatar/', 'https://cdn.wenqi.icu:5244/d/gh/WenqiOfficial/wenqicdn/img/other/gravatar.webp')
       } else {
-        ele.src = 'https://cdn.wenqi.icu:5244/d/gh/WenqiOfficial/wenqicdn/img/other/default_avatar.jpg'
+        ele.src = 'https://cdn.wenqi.icu:5244/d/gh/WenqiOfficial/wenqicdn/img/other/default_avatar.webp'
       }
       break
     case 2:
-      ele.src = 'https://cdn.wenqi.icu:5244/d/gh/WenqiOfficial/wenqicdn/img/other/default_gavatar.jpg'
+      ele.src = 'https://cdn.wenqi.icu:5244/d/gh/WenqiOfficial/wenqicdn/img/other/default_gavatar.webp'
       break
     case 3:
 
-      ele.src = 'https://cdn.wenqi.icu:5244/d/gh/WenqiOfficial/wenqicdn/img/other/image-404.png'
+      ele.src = 'https://cdn.wenqi.icu:5244/d/gh/WenqiOfficial/wenqicdn/img/other/image-404.webp'
       break
     default:
-      ele.src = 'https://cdn.wenqi.icu:5244/d/gh/WenqiOfficial/wenqicdn/img/other/image-404.png'
+      ele.src = 'https://cdn.wenqi.icu:5244/d/gh/WenqiOfficial/wenqicdn/img/other/image-404.webp'
   }
 }
 mashiro_global.post_list_show_animation = new function () {
@@ -219,30 +219,32 @@ mashiro_global.font_control = new function () {
     if ($('body').hasClass('serif')) {
       $('body').removeClass('serif')
       $('.control-btn-serif').removeClass('selected')
-      $('.control-btn-sans-serif').addClass('selected')
-      setCookie('font_family', 'sans-serif', 30)
+      $('.control-btn-misans').addClass('selected')
+      setCookie('font_family', 'misans', 30)
     } else {
       $('body').addClass('serif')
       $('.control-btn-serif').addClass('selected')
-      $('.control-btn-sans-serif').removeClass('selected')
+      $('.control-btn-misans').removeClass('selected')
       setCookie('font_family', 'serif', 30)
       if (document.body.clientWidth <= 860) {
         addComment.createButterbar('将从网络加载字体，请注意流量~')
       }
     }
   }
-  this.ini = function () {
+  this.ini = async function () {
     if (document.body.clientWidth > 860) {
       if (!getCookie('font_family') || getCookie('font_family') == 'serif') { $('body').addClass('serif') }
     }
-    if (getCookie('font_family') == 'sans-serif') {
-      $('body').removeClass('sans-serif')
+    if (getCookie('font_family') == 'misans') {
+      $('body').removeClass('serif')
       $('.control-btn-serif').removeClass('selected')
-      $('.control-btn-sans-serif').addClass('selected')
+      $('.control-btn-misans').addClass('selected')
     }
   }
 }()
-mashiro_global.font_control.ini()
+window.onload = function() {
+  mashiro_global.font_control.ini();
+};
 
 function code_highlight_style () {
   function gen_top_bar (i) {
@@ -252,7 +254,7 @@ function code_highlight_style () {
       'autocapitalize': 'off',
       'spellcheck': 'false',
       'contenteditable': 'false',
-      'design': 'by hojun'
+      'design': 'by Wenqi'
     }
     var ele_name = $('pre:eq(' + i + ')')[0].children[0].className
     var lang = ele_name.substr(0, ele_name.indexOf(' ')).replace('language-', '')
@@ -432,7 +434,7 @@ function checkBgImgCookie () {
     $('#banner_wave_2').addClass('banner_wave_hide_fit_skin')
   }
   if (bgurl != '') {
-    if (bgurl == 'https://cdn.wenqi.icu:5244/d/gh/WenqiOfficial/wenqicdn/img/themebg/sakura.png' || bgurl == 'https://cdn.wenqi.icu:5244/d/gh/WenqiOfficial/wenqicdn/img/themebg/plaid.jpg' || bgurl == 'https://cdn.wenqi.icu:5244/d/gh/WenqiOfficial/wenqicdn/img/themebg/star.png' || bgurl == 'https://cdn.wenqi.icu:5244/d/gh/WenqiOfficial/wenqicdn/img/themebg/point.png' || bgurl == 'https://cdn.wenqi.icu:5244/d/gh/WenqiOfficial/wenqicdn/img/themebg/little-monster.png') {
+    if (bgurl == 'https://cdn.wenqi.icu:5244/d/gh/WenqiOfficial/wenqicdn/img/themebg/sakura.png' || bgurl == 'https://cdn.wenqi.icu:5244/d/gh/WenqiOfficial/wenqicdn/img/themebg/plaid.webp' || bgurl == 'https://cdn.wenqi.icu:5244/d/gh/WenqiOfficial/wenqicdn/img/themebg/star.png' || bgurl == 'https://cdn.wenqi.icu:5244/d/gh/WenqiOfficial/wenqicdn/img/themebg/point.png' || bgurl == 'https://cdn.wenqi.icu:5244/d/gh/WenqiOfficial/wenqicdn/img/themebg/little-monster.webp') {
       mashiro_global.variables.skinSecter = true
       mashiro_global.variables.isNight = false
       $('#night-mode-cover').css('visibility', 'hidden')
@@ -530,11 +532,11 @@ $(document).ready(function () {
       setCookie('bgImgSetting', url, 30)
     })
   }
-  changeBG('#sakura-bg', 'https://cdn.wenqi.icu:5244/d/gh/WenqiOfficial/wenqicdn/img/themebg/sakura.png')
-  changeBG('#gribs-bg', 'https://cdn.wenqi.icu:5244/d/gh/WenqiOfficial/wenqicdn/img/themebg/plaid.jpg')
-  changeBG('#pixiv-bg', 'https://cdn.wenqi.icu:5244/d/gh/WenqiOfficial/wenqicdn/img/themebg/star.png')
-  changeBG('#KAdots-bg', 'https://cdn.wenqi.icu:5244/d/gh/WenqiOfficial/wenqicdn/img/themebg/point.png')
-  changeBG('#totem-bg', 'https://cdn.wenqi.icu:5244/d/gh/WenqiOfficial/wenqicdn/img/themebg/little-monster.png')
+  changeBG('#sakura-bg', 'https://cdn.wenqi.icu:5244/d/gh/WenqiOfficial/wenqicdn/img/themebg/sakura.webp')
+  changeBG('#gribs-bg', 'https://cdn.wenqi.icu:5244/d/gh/WenqiOfficial/wenqicdn/img/themebg/plaid.webp')
+  changeBG('#pixiv-bg', 'https://cdn.wenqi.icu:5244/d/gh/WenqiOfficial/wenqicdn/img/themebg/star.webp')
+  changeBG('#KAdots-bg', 'https://cdn.wenqi.icu:5244/d/gh/WenqiOfficial/wenqicdn/img/themebg/point.webp')
+  changeBG('#totem-bg', 'https://cdn.wenqi.icu:5244/d/gh/WenqiOfficial/wenqicdn/img/themebg/little-monster.webp')
   changeBGnoTrans('#bing-bg', 'https://api.xygeng.cn/Bing/')
   $('.skin-menu #white-bg').click(function () {
     mashiro_global.variables.skinSecter = false
@@ -552,7 +554,7 @@ $(document).ready(function () {
   $('.skin-menu #dark-bg').click(function () {
     mashiro_global.variables.skinSecter = true
     mashiro_global.variables.isNight = true
-    $('body').css('background-image', 'url(https://cdn.wenqi.icu:5244/d/gh/WenqiOfficial/wenqicdn/img/other/starry_sky.png)')
+    $('body').css('background-image', 'url(https://cdn.wenqi.icu:5244/d/gh/WenqiOfficial/wenqicdn/img/other/starry_sky.webp)')
     $('.blank').css('background-color', 'rgba(255,255,255,.8)')
     $('#night-mode-cover').css('visibility', 'visible')
     $('.pattern-center').removeClass('pattern-center').addClass('pattern-center-sakura')
@@ -721,13 +723,13 @@ $(document).ready(function () {
 
 function nextBG () {
   bgindex = bgindex + 1
-  console.log(bg[Math.abs(bgindex % bg.length)])
+  // console.log(bg[Math.abs(bgindex % bg.length)])
   $('.centerbg').css('background-image', 'url("' + bg[Math.abs(bgindex % bg.length)] + '")')
 }
 
 function preBG () {
   bgindex = bgindex - 1
-  console.log(bg[Math.abs(bgindex % bg.length)])
+  // console.log(bg[Math.abs(bgindex % bg.length)])
   $('.centerbg').css('background-image', 'url("' + bg[Math.abs(bgindex % bg.length)] + '")')
 }
 $(document).ready(function () {
@@ -811,10 +813,10 @@ function timeSeriesReload (flag) {
       var al_expand_collapse_click = 0
       $('#al_expand_collapse').click(function () {
         if (al_expand_collapse_click == 0) {
-          $al_post_list.show()
+          $al_post_list.show(400)
           al_expand_collapse_click++
         } else if (al_expand_collapse_click == 1) {
-          $al_post_list.hide()
+          $al_post_list.hide(400)
           al_expand_collapse_click--
         }
       })
@@ -1337,7 +1339,7 @@ var home = location.href,
         Siren.spause()
         $('.video-stu').css({
           'bottom': '0px'
-        }).html('已暂停 ...')
+        }).html('已暂停')
       }
     }, addsource: function () {
       $('.video-stu').html('正在载入视频 ...').css({
@@ -1367,7 +1369,7 @@ var home = location.href,
             _btn.removeClass('videolive')
             $('.video-stu').css({
               'bottom': '0px'
-            }).html('已暂停 ...')
+            }).html('已暂停')
           } else {
             Siren.splay()
             _btn.addClass('videolive')
@@ -1805,7 +1807,7 @@ if ((isWebkit || isOpera || isIe) && document.getElementById && window.addEventL
 // loadCSS(mashiro_option.jsdelivr_css_src);
 // loadCSS("https://at.alicdn.com/t/font_679578_dishi1yoavm.css");
 // loadCSS("https://fastly.jsdelivr.net/gh/moezx/cdn@3.5.4/fonts/Moe-Mashiro/stylesheet.css");
-// loadCSS("https://fonts.googleapis.com/css?family=Noto+SerifMerriweather|Merriweather+Sans|Source+Code+Pro|Ubuntu:400,700");
+// loadCSS("https://fonts.font.im/css?family=Noto+SerifMerriweather|Merriweather+Sans|Source+Code+Pro|Ubuntu:400,700");
 // loadCSS("https://fastly.jsdelivr.net/gh/moezx/cdn@3.3.9/css/sharejs.css");;
 
 function render (template, context) {

@@ -16,11 +16,17 @@
     }
 
     function searchItem (icon, title, slug, preview, url) {
+        // return $('<div>').addClass('ins-selectable').addClass('ins-search-item')
+        //     .append($('<header>').append($('<i>').addClass('fa').addClass('fa-' + icon)).append(title != null && title != '' ? title : CONFIG.TRANSLATION['UNTITLED'])
+        //     .append(slug ? $('<span>').addClass('ins-slug').text(slug) : null))
+        //     .append(preview ? $('<p>').addClass('ins-search-preview').text(preview) : null)
+        //     .attr('data-url', url);
+
+        //.attr('style', 'color: #404040;font-size: 15px;line-height: 1.5;')
         return $('<div>').addClass('ins-selectable').addClass('ins-search-item')
-            .append($('<header>').append($('<i>').addClass('fa').addClass('fa-' + icon)).append(title != null && title != '' ? title : CONFIG.TRANSLATION['UNTITLED'])
-                .append(slug ? $('<span>').addClass('ins-slug').text(slug) : null))
-            .append(preview ? $('<p>').addClass('ins-search-preview').text(preview) : null)
-            .attr('data-url', url);
+            .append($('<a>').attr('href', url).attr('target', '_blank').append($('<header>').append($('<i>').addClass('fa').addClass('fa-' + icon)).append(title != null && title != '' ? title : CONFIG.TRANSLATION['UNTITLED'])
+            .append(slug ? $('<span>').addClass('ins-slug').text(slug) : null)).append(preview ? $('<p>').addClass('ins-search-preview').text(preview) : null)
+            .attr('data-url', url))
     }
 
     function sectionFactory (type, array) {
@@ -207,7 +213,8 @@
 
     $.getJSON(CONFIG.CONTENT_URL, function (json) {
         if (location.hash.trim() === '#ins-search') {
-            $main.addClass('show');
+            // $main.addClass('show');
+            $main.fadeIn('fast');
         }
         $input.on('input', function () {
             var keywords = $(this).val();
@@ -218,20 +225,26 @@
 
 
     $(document).on('click focus', '.search-field', function () {
-        $main.addClass('show');
+        // $main.addClass('show');
+        $main.fadeIn('fast');
         $main.find('.ins-search-input').focus();
     }).on('click focus', '.search-form-submit', function () {
-        $main.addClass('show');
+        // $main.addClass('show');
+        $main.fadeIn('fast');
         $main.find('.ins-search-input').focus();
     }).on('click', '.ins-search-item', function () {
-        gotoLink($(this));
+        // gotoLink($(this));
+        // $main.removeClass('show');
+        $main.fadeOut('fast');
     }).on('click', '.ins-close', function () {
-        $main.removeClass('show');
+        // $main.removeClass('show');
+        $main.fadeOut('fast');
     }).on('keydown', function (e) {
         if (!$main.hasClass('show')) return;
         switch (e.keyCode) {
             case 27: // ESC
-                $main.removeClass('show'); break;
+                // $main.removeClass('show'); 
+                $main.fadeOut('fast'); break;
             case 38: // UP
                 selectItemByDiff(-1); break;
             case 40: // DOWN
