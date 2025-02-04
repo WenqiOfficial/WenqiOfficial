@@ -41,9 +41,9 @@
         <category>ED</category>
         <category>Hi-Res</category>
         <item>
-            <guid isPermalink="true">https://blog.wenqi.icu/posts/012/</guid>
+            <guid isPermalink="true">https://blog.wenqi.icu/2023/08/11/012/</guid>
             <title>STUDY WITH MIKU</title>
-            <link>https://blog.wenqi.icu/posts/012/</link>
+            <link>https://blog.wenqi.icu/2023/08/11/012/</link>
             <category>Miku</category>
             <category>Web</category>
             <pubDate>Fri, 11 Aug 2023 09:32:00 +0800</pubDate>
@@ -58,9 +58,9 @@
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">https://blog.wenqi.icu/posts/004/</guid>
+            <guid isPermalink="true">https://blog.wenqi.icu/2020/11/21/004/</guid>
             <title>如何搭建属于自己的Hexo博客(一)</title>
-            <link>https://blog.wenqi.icu/posts/004/</link>
+            <link>https://blog.wenqi.icu/2020/11/21/004/</link>
             <category>Hexo</category>
             <category>Blog</category>
             <pubDate>Sat, 21 Nov 2020 19:21:44 +0800</pubDate>
@@ -253,9 +253,9 @@ hexo s //开启本地预览＆启用本地服务
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">https://blog.wenqi.icu/posts/003/</guid>
+            <guid isPermalink="true">https://blog.wenqi.icu/2020/11/15/003/</guid>
             <title>「HexoSakura教程 #0」序言</title>
-            <link>https://blog.wenqi.icu/posts/003/</link>
+            <link>https://blog.wenqi.icu/2020/11/15/003/</link>
             <category>Sakura</category>
             <pubDate>Sun, 15 Nov 2020 22:17:00 +0800</pubDate>
             <description><![CDATA[ &lt;link rel=&#34;stylesheet&#34; class=&#34;aplayer-secondary-style-marker&#34; href=&#34;\assets\css\APlayer.min.css&#34;&gt;&lt;script src=&#34;\assets\js\APlayer.min.js&#34; class=&#34;aplayer-secondary-script-marker&#34;&gt;&lt;/script&gt;&lt;blockquote&gt;
@@ -278,9 +278,9 @@ hexo s //开启本地预览＆启用本地服务
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">https://blog.wenqi.icu/posts/002/</guid>
+            <guid isPermalink="true">https://blog.wenqi.icu/2020/10/25/002/</guid>
             <title>P站的正确进入方法OxO</title>
-            <link>https://blog.wenqi.icu/posts/002/</link>
+            <link>https://blog.wenqi.icu/2020/10/25/002/</link>
             <category>Pixiv</category>
             <category>LSP</category>
             <pubDate>Sun, 25 Oct 2020 15:29:00 +0800</pubDate>
