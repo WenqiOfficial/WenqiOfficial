@@ -58,7 +58,7 @@
 
 <br clear="both">
 
-<img src="https://raw.githubusercontent.com/WenqiOfficial/WenqiOfficial/output/snake.svg" alt="Snake animation" />
+<img src="https://raw.githubusercontent.com/WenqiOfficial/profile/output/snake.svg" alt="Snake animation" />
 
 ###
 
