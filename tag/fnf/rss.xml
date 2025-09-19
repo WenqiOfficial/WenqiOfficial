@@ -7,35 +7,35 @@
         <language>zh-cn</language>
         <pubDate>Tue, 07 Jun 2022 15:38:00 +0800</pubDate>
         <lastBuildDate>Tue, 07 Jun 2022 15:38:00 +0800</lastBuildDate>
-        <category>最初的开始</category>
-        <category>你好</category>
-        <category>Sakura</category>
-        <category>Hexo</category>
-        <category>Blog</category>
-        <category>Pixiv</category>
-        <category>LSP</category>
-        <category>资源分享</category>
-        <category>WebTools</category>
-        <category>中秋</category>
-        <category>庆祝</category>
-        <category>主播女孩重度依赖</category>
-        <category>Needy Streamer Overload</category>
-        <category>OST</category>
-        <category>原声集</category>
-        <category>周五放克夜</category>
-        <category>Friday Night Funkin</category>
-        <category>FNF</category>
-        <category>音游</category>
-        <category>崩坏3</category>
-        <category>音乐</category>
-        <category>Miku</category>
-        <category>Web</category>
-        <category>2023</category>
         <category>耳机</category>
         <category>水月雨</category>
         <category>《崩坏：星穹铁道》</category>
         <category>知更鸟</category>
+        <category>最初的开始</category>
+        <category>你好</category>
+        <category>Pixiv</category>
+        <category>LSP</category>
+        <category>Sakura</category>
+        <category>Hexo</category>
+        <category>Blog</category>
+        <category>中秋</category>
+        <category>庆祝</category>
+        <category>崩坏3</category>
+        <category>音乐</category>
+        <category>原声集</category>
+        <category>OST</category>
+        <category>资源分享</category>
+        <category>WebTools</category>
         <category>新年</category>
+        <category>主播女孩重度依赖</category>
+        <category>Needy Streamer Overload</category>
+        <category>周五放克夜</category>
+        <category>Friday Night Funkin</category>
+        <category>FNF</category>
+        <category>音游</category>
+        <category>2023</category>
+        <category>Miku</category>
+        <category>Web</category>
         <category>2024</category>
         <category>葬送的芙莉莲</category>
         <category>ED</category>
@@ -53,12 +53,12 @@
 &lt;p&gt;&lt;em&gt;我就要用R病毒做封面啊啊啊啊！！！&lt;/em&gt;&lt;br&gt;&lt;strong&gt;文中“FNF”均指代“Friday Night Funkin&amp;#x2F;周五放克夜”&lt;/strong&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 
-        &lt;div id=&#34;aplayer-Aawboken&#34; class=&#34;aplayer aplayer-tag-marker&#34; style=&#34;margin-bottom: 20px;&#34;&gt;
+        &lt;div id=&#34;aplayer-hVuUSNhG&#34; class=&#34;aplayer aplayer-tag-marker&#34; style=&#34;margin-bottom: 20px;&#34;&gt;
             &lt;pre class=&#34;aplayer-lrc-content&#34;&gt;&lt;/pre&gt;
         &lt;/div&gt;
         &lt;script&gt;
           var ap = new APlayer({
-            element: document.getElementById(&#34;aplayer-Aawboken&#34;),
+            element: document.getElementById(&#34;aplayer-hVuUSNhG&#34;),
             narrow: false,
             autoplay: false,
             showlrc: false,
@@ -66,7 +66,7 @@
               title: &#34;Virus R&#34;,
               author: &#34;Azure lag&#34;,
               url: &#34;https://cloud.wenqi.icu:5221/api/v3/file/get/1191/Inst.ogg?sign=pOPyKBsiZaoFmUCm5ddQRMdiC8aaUnP15eHWLOI1i2k%3D%3A0&#34;,
-              pic: &#34;https://cdn.wenqi.icu:5244/d/gh/WenqiOfficial/wenqicdn/img/post/3.webp&#34;,
+              pic: &#34;https://raw.hubproxy.wenqi.icu/WenqiOfficial/wenqicdn/master/img/post/3.webp&#34;,
               lrc: &#34;&#34;
             }
           });
@@ -85,7 +85,7 @@
 &lt;p&gt;原版可以说是原汁原味的（没有什么大亮点），本文不做详细阐述，想体验的可以看下面的获取方式。&lt;/p&gt;
 &lt;h3 id=&#34;获取方式&#34;&gt;&lt;a href=&#34;#获取方式&#34; class=&#34;headerlink&#34; title=&#34;获取方式&#34;&gt;&lt;/a&gt;获取方式&lt;/h3&gt;&lt;p&gt;原版的发布页是支持在线游玩的，但也可以下载下来本地玩。&lt;/p&gt;
 &lt;p&gt;只是作者很懒，网页版更新到 Week7 了，结果Windows发布版才更新 Week5 …&lt;/p&gt;
-&lt;center&gt;&lt;a href=&#34;https://cdn.wenqi.icu:5244/d/gh/WenqiOfficial/wenqicdn/img/post/20220608000931.webp&#34; data-fancybox=&#34;images&#34; data-caption=&#34;迟迟没有更新的本地版本...&#34;&gt;&lt;img class=&#34;article&#34; src=&#34;https://cdn.wenqi.icu:5244/d/gh/WenqiOfficial/wenqicdn/img/post/20220608000931.webp&#34; alt=&#34;迟迟没有更新的本地版本...&#34; /&gt;&lt;/a&gt;&lt;div id=&#34;article_img_tag&#34; style=&#34;color: #707070;font-size: .9em;&#34;&gt;&lt;span&gt;迟迟没有更新的本地版本...&lt;/span&gt;&lt;/div&gt;&lt;/center&gt;
+&lt;center&gt;&lt;a href=&#34;https://raw.hubproxy.wenqi.icu/WenqiOfficial/wenqicdn/master/img/post/20220608000931.webp&#34; data-fancybox=&#34;images&#34; data-caption=&#34;迟迟没有更新的本地版本...&#34;&gt;&lt;img class=&#34;article&#34; src=&#34;https://raw.hubproxy.wenqi.icu/WenqiOfficial/wenqicdn/master/img/post/20220608000931.webp&#34; alt=&#34;迟迟没有更新的本地版本...&#34; /&gt;&lt;/a&gt;&lt;div id=&#34;article_img_tag&#34; style=&#34;color: #707070;font-size: .9em;&#34;&gt;&lt;span&gt;迟迟没有更新的本地版本...&lt;/span&gt;&lt;/div&gt;&lt;/center&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;网页版（可在线游玩）&amp;#x2F;下载：&lt;/p&gt;
@@ -108,20 +108,20 @@
 &lt;p&gt;按下&lt;code&gt;Enter&lt;/code&gt;键即可在 中文&amp;#x2F;英文 切换&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;CHINESE&lt;/code&gt;中文&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;ENGLISH&lt;/code&gt;英文&lt;/p&gt;
-&lt;center&gt;&lt;a href=&#34;https://cdn.wenqi.icu:5244/d/gh/WenqiOfficial/wenqicdn/img/post/language.gif&#34; data-fancybox=&#34;images&#34; data-caption=&#34;语言切换&#34;&gt;&lt;img class=&#34;article&#34; src=&#34;https://cdn.wenqi.icu:5244/d/gh/WenqiOfficial/wenqicdn/img/post/language.gif&#34; alt=&#34;语言切换&#34; /&gt;&lt;/a&gt;&lt;div id=&#34;article_img_tag&#34; style=&#34;color: #707070;font-size: .9em;&#34;&gt;&lt;span&gt;语言切换&lt;/span&gt;&lt;/div&gt;&lt;/center&gt;
+&lt;center&gt;&lt;a href=&#34;https://raw.hubproxy.wenqi.icu/WenqiOfficial/wenqicdn/master/img/post/language.gif&#34; data-fancybox=&#34;images&#34; data-caption=&#34;语言切换&#34;&gt;&lt;img class=&#34;article&#34; src=&#34;https://raw.hubproxy.wenqi.icu/WenqiOfficial/wenqicdn/master/img/post/language.gif&#34; alt=&#34;语言切换&#34; /&gt;&lt;/a&gt;&lt;div id=&#34;article_img_tag&#34; style=&#34;color: #707070;font-size: .9em;&#34;&gt;&lt;span&gt;语言切换&lt;/span&gt;&lt;/div&gt;&lt;/center&gt;
 
 &lt;h4 id=&#34;自定义键位&#34;&gt;&lt;a href=&#34;#自定义键位&#34; class=&#34;headerlink&#34; title=&#34;自定义键位&#34;&gt;&lt;/a&gt;自定义键位&lt;/h4&gt;&lt;p&gt;&lt;strong&gt;进入方式：”OPTIONS”→”GAMEPLAY”→”KEY BINDINGS”&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;更换按键：&lt;code&gt;↑/↓/←/→&lt;/code&gt;移动到需要修改的按键，按下&lt;code&gt;Enter&lt;/code&gt;键，当显示”?”的时候按下自己需要自定义的按键即可&lt;/p&gt;
 &lt;p&gt;按键模式切换：按下&lt;code&gt;TAB&lt;/code&gt;键&lt;/p&gt;
 &lt;p&gt;保存：按下&lt;code&gt;Esc&lt;/code&gt;键&lt;/p&gt;
 &lt;p&gt;不保存&amp;#x2F;还原默认键位：按下&lt;code&gt;Backspace&lt;/code&gt;键&lt;/p&gt;
-&lt;center&gt;&lt;a href=&#34;https://cdn.wenqi.icu:5244/d/gh/WenqiOfficial/wenqicdn/img/post/keyset.gif&#34; data-fancybox=&#34;images&#34; data-caption=&#34;自定义键位&#34;&gt;&lt;img class=&#34;article&#34; src=&#34;https://cdn.wenqi.icu:5244/d/gh/WenqiOfficial/wenqicdn/img/post/keyset.gif&#34; alt=&#34;自定义键位&#34; /&gt;&lt;/a&gt;&lt;div id=&#34;article_img_tag&#34; style=&#34;color: #707070;font-size: .9em;&#34;&gt;&lt;span&gt;自定义键位&lt;/span&gt;&lt;/div&gt;&lt;/center&gt;
+&lt;center&gt;&lt;a href=&#34;https://raw.hubproxy.wenqi.icu/WenqiOfficial/wenqicdn/master/img/post/keyset.gif&#34; data-fancybox=&#34;images&#34; data-caption=&#34;自定义键位&#34;&gt;&lt;img class=&#34;article&#34; src=&#34;https://raw.hubproxy.wenqi.icu/WenqiOfficial/wenqicdn/master/img/post/keyset.gif&#34; alt=&#34;自定义键位&#34; /&gt;&lt;/a&gt;&lt;div id=&#34;article_img_tag&#34; style=&#34;color: #707070;font-size: .9em;&#34;&gt;&lt;span&gt;自定义键位&lt;/span&gt;&lt;/div&gt;&lt;/center&gt;
 
 &lt;h4 id=&#34;自动-观赏-模式&#34;&gt;&lt;a href=&#34;#自动-观赏-模式&#34; class=&#34;headerlink&#34; title=&#34;自动(观赏)模式&#34;&gt;&lt;/a&gt;自动(观赏)模式&lt;/h4&gt;&lt;p&gt;&lt;strong&gt;进入方式：”OPTIONS”→”MISC”→”BOTPLAY”&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;按下&lt;code&gt;Enter&lt;/code&gt;键即可在 开&amp;#x2F;关 切换&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;BOTPLAY OFF&lt;/code&gt;关闭自动(观赏)模式&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;BOTPLAY ON&lt;/code&gt;开启自动(观赏)模式&lt;/p&gt;
-&lt;center&gt;&lt;a href=&#34;https://cdn.wenqi.icu:5244/d/gh/WenqiOfficial/wenqicdn/img/post/auto.gif&#34; data-fancybox=&#34;images&#34; data-caption=&#34;自动(观赏)模式&#34;&gt;&lt;img class=&#34;article&#34; src=&#34;https://cdn.wenqi.icu:5244/d/gh/WenqiOfficial/wenqicdn/img/post/auto.gif&#34; alt=&#34;自动(观赏)模式&#34; /&gt;&lt;/a&gt;&lt;div id=&#34;article_img_tag&#34; style=&#34;color: #707070;font-size: .9em;&#34;&gt;&lt;span&gt;自动(观赏)模式&lt;/span&gt;&lt;/div&gt;&lt;/center&gt;
+&lt;center&gt;&lt;a href=&#34;https://raw.hubproxy.wenqi.icu/WenqiOfficial/wenqicdn/master/img/post/auto.gif&#34; data-fancybox=&#34;images&#34; data-caption=&#34;自动(观赏)模式&#34;&gt;&lt;img class=&#34;article&#34; src=&#34;https://raw.hubproxy.wenqi.icu/WenqiOfficial/wenqicdn/master/img/post/auto.gif&#34; alt=&#34;自动(观赏)模式&#34; /&gt;&lt;/a&gt;&lt;div id=&#34;article_img_tag&#34; style=&#34;color: #707070;font-size: .9em;&#34;&gt;&lt;span&gt;自动(观赏)模式&lt;/span&gt;&lt;/div&gt;&lt;/center&gt;
 
 &lt;hr&gt;
 &lt;h1 id=&#34;游戏内部分画面&#34;&gt;&lt;a href=&#34;#游戏内部分画面&#34; class=&#34;headerlink&#34; title=&#34;游戏内部分画面&#34;&gt;&lt;/a&gt;游戏内部分画面&lt;/h1&gt;&lt;h2 id=&#34;Virus-R&#34;&gt;&lt;a href=&#34;#Virus-R&#34; class=&#34;headerlink&#34; title=&#34;Virus R&#34;&gt;&lt;/a&gt;Virus R&lt;/h2&gt;&lt;p&gt;主界面：&lt;/p&gt;

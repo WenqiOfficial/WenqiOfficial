@@ -59,7 +59,7 @@ function bot_ui_ini() {
         end = function () {
             botui.message.add({
                 delay: 600,
-                content: "![...](https://cdn.wenqi.icu:5244/d/gh/WenqiOfficial/wenqicdn/img/gao_ci.webp)"
+                content: "![...](https://raw.hubproxy.wenqi.icu/WenqiOfficial/wenqicdn/master/img/gao_ci.webp)"
             })
         },
         secondpart = function () {

@@ -1,26 +1,10 @@
-<br clear="both">
-
-<h2 align="center">泥嚎 !👋</h2>
+<h1 align="center">⭐泥嚎！欢迎来到我的主页！</h1>
 
 ###
 
-<img align="right" width="150" src="https://i.imgflip.com/65efzo.gif"  />
+<img align="right" width="150" src="https://avatars.githubusercontent.com/u/67701681"  />
 
-###
-
-<div align="center">
-  <img height="80" src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=39C5BB&center=true&vCenter=true&width=435&lines=Hi+there%F0%9F%91%8B!;Welcome+to+my+page!"  />
-</div>
-
-###
-
-<br clear="both">
-
-<h2 align="center">⭐关于我？</h2>
-
-###
-
-🍀一枚大学生——
+🍀现役大学生一枚——
 
 ❤喜欢动漫和音乐的科技宅！
 

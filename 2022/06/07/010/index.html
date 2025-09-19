@@ -16,12 +16,12 @@
   <link rel="dns-prefetch" href="//cdn.wenqi.icu">
   <!-- <link rel="stylesheet" href="https://fonts.font.im/css?family=Noto+SerifMerriweather|Merriweather+Sans|Source+Code+Pro|Ubuntu:400,700|Noto+Serif+SC" media="all">-->
   <link rel="stylesheet" href="https://at.alicdn.com/t/font_679578_dishi1yoavm.css" media ="all">
-  <link rel="stylesheet" href="https://npm.elemecdn.com/@fontsource/ubuntu@5.1.0/400.min.css" media="all">
+  <link rel="stylesheet" href="https://s4.zstatic.net/npm/@fontsource/ubuntu@5.1.0/400.css" media="all">
   <link rel="stylesheet" id="saukra_css-css" href="/css/style.css" type="text/css" media="all">
   <link rel="stylesheet" href="/css/lib.min.css" media="all">
   <link rel="stylesheet" href="/css/font.css" media="all">
   
-    <link rel="stylesheet" href="/css/loading_style_slowout2.css" >
+    <link rel="stylesheet" href="/css/loader.css" >
   
   <link rel="stylesheet" href="https://cdnjs.snrat.com/ajax/libs/hack-font/3.3.0/web/hack.min.css" integrity="sha512-XgCw4Srl8lC1ECwcaHwAU0WnxQwHkqmInzg9wJLtGB7DRuMaXPuK2k9WJ2AwRDGdrgK9eJpZl2hUlLi2WQssmw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="/css/insight.css" media="all">
@@ -32,6 +32,7 @@
   <link rel="stylesheet" type="text/css" href="/css/sharejs.css">
 <!--   <link rel="stylesheet" id="saukra_css-css" href="https://2heng.xin/wp-content/cache/autoptimize/css/autoptimize_ceaa143491a29f248c1ca9a9fa9d6316.css
 " type="text/css" media="all"> -->
+  <script type="text/javascript" src="https://cdnjs.snrat.com/ajax/libs/jquery/3.7.1/jquery.min.js" ></script>	
   <script>
   /*Initial Variables*/
   var mashiro_option = new Object();
@@ -60,7 +61,7 @@
   /*End of Initial Variables*/
   </script>
   <script type="text/javascript">
-  var bg = "https://cdn.wenqi.icu:5244/d/gh/WenqiOfficial/wenqicdn/img/cover/mainimg9.webp,https://cdn.wenqi.icu:5244/d/gh/WenqiOfficial/wenqicdn/img/cover/mainimg.webp,https://cdn.wenqi.icu:5244/d/gh/WenqiOfficial/wenqicdn/img/cover/mainimg2.webp,https://cdn.wenqi.icu:5244/d/gh/WenqiOfficial/wenqicdn/img/cover/mainimg3.webp,https://cdn.wenqi.icu:5244/d/gh/WenqiOfficial/wenqicdn/img/cover/mainimg4.webp,https://cdn.wenqi.icu:5244/d/gh/WenqiOfficial/wenqicdn/img/cover/mainimg5.webp,https://cdn.wenqi.icu:5244/d/gh/WenqiOfficial/wenqicdn/img/cover/mainimg6.webp,https://cdn.wenqi.icu:5244/d/gh/WenqiOfficial/wenqicdn/img/cover/mainimg7.webp,https://cdn.wenqi.icu:5244/d/gh/WenqiOfficial/wenqicdn/img/cover/mainimg8.webp,https://cdn.wenqi.icu:5244/d/gh/WenqiOfficial/wenqicdn/img/cover/mainimg10.webp".split(",");
+  var bg = "https://raw.hubproxy.wenqi.icu/WenqiOfficial/wenqicdn/master/img/cover/mainimg9.webp,https://raw.hubproxy.wenqi.icu/WenqiOfficial/wenqicdn/master/img/cover/mainimg.webp,https://raw.hubproxy.wenqi.icu/WenqiOfficial/wenqicdn/master/img/cover/mainimg2.webp,https://raw.hubproxy.wenqi.icu/WenqiOfficial/wenqicdn/master/img/cover/mainimg3.webp,https://raw.hubproxy.wenqi.icu/WenqiOfficial/wenqicdn/master/img/cover/mainimg4.webp,https://raw.hubproxy.wenqi.icu/WenqiOfficial/wenqicdn/master/img/cover/mainimg5.webp,https://raw.hubproxy.wenqi.icu/WenqiOfficial/wenqicdn/master/img/cover/mainimg6.webp,https://raw.hubproxy.wenqi.icu/WenqiOfficial/wenqicdn/master/img/cover/mainimg7.webp,https://raw.hubproxy.wenqi.icu/WenqiOfficial/wenqicdn/master/img/cover/mainimg8.webp,https://raw.hubproxy.wenqi.icu/WenqiOfficial/wenqicdn/master/img/cover/mainimg10.webp".split(",");
   var bgindex = Math.floor(Math.random()*bg.length);
   if (!!window.ActiveXObject || "ActiveXObject" in window) { //is IE?
     alert('你的浏览器不支持本站所需ActiveX控件，更换其他浏览器试试吧');
@@ -85,15 +86,52 @@
 <div id='loader'>
     <div class="wenqiload">
 		<div class="center">
-			<bb>加载中</bb>
-			<ovo style="display:none;">加载完毕</ovo>
+			<span id="title">加载中</span>
+			<span id="done" style="display:none;">加载完毕</span>
 		</div>
-		<div class="toolong">
-			<oxo style="display:none;"></oxo>
-			<qwq style="display:none;font-size: 17px;">2025 | 闻柒</qwq>
+		<div class="tips">
+			<span id="content" style="display:none;"></span>
+			<span id="author" style="display:none;font-size: 17px;">2025 | 闻柒</span>
 		</div>
 	</div>
 </div>
+<script>
+	$(".wenqiload qwq").fadeIn(1000); //渐入logo
+	$(".wenqiload bb").fadeIn();
+	$(function(){
+		var img=$("img");
+		img.each(function(i){
+		var oImg=new Image();
+		oImg.onload=function(){
+			oImg.onload=null;
+			$(".wenqiload bb").fadeOut(300);
+			$(".wenqiload qwq").fadeOut(300);
+			$(".wenqiload oxo").fadeOut(300);
+			setTimeout(done,500);
+		}
+		oImg.src=img[i].src;
+		});  
+	});
+	function done(){
+		clearTimeout(toolong);
+		$(".wenqiload ovo").fadeIn();
+		setTimeout(doneout,2000);
+		setTimeout(removeall,5000);
+	};
+	var toolong;
+	toolong = setTimeout(toolong,10000);
+	function doneout(){
+		$(".wenqiload").fadeOut("slow");
+	}
+	function removeall(){
+		$("#loader").remove();
+	}
+	function toolong(){
+		$(".wenqiload oxo").html("「没有变化的话就刷新一下吧！」<br>");
+		$(".wenqiload oxo").fadeIn("slow");
+	}
+</script>
+
 
 <body class="page-template page-template-user page-template-page-analytics page-template-userpage-analytics-php page page-id-1297 chinese-font serif isWebKit">
   <div class="scrollbar" id="bar">
@@ -114,14 +152,14 @@
         <p></p>
         <div class="top-social_v2">
           <li id="bg-pre">
-            <img class="flipx" src="https://cdn.wenqi.icu:5244/d/gh/WenqiOfficial/wenqicdn/img/other/next-b.svg">
+            <img class="flipx" src="https://raw.hubproxy.wenqi.icu/WenqiOfficial/wenqicdn/master/img/other/next-b.svg">
           </li>
           
             
               
                 <li>
                   <a href="http://github.com/wenqiofficial" target="_blank" class="social-github" title="github">
-                    <img src="https://cdn.wenqi.icu:5244/d/gh/WenqiOfficial/wenqicdn/img/social/github_1.png">
+                    <img src="https://raw.hubproxy.wenqi.icu/WenqiOfficial/wenqicdn/master/img/social/github_1.png">
                   </a>
                 </li>
               
@@ -129,7 +167,7 @@
               
                 <li>
                   <a href="https://music.163.com/#/user/home?id=497495164" target="_blank" class="social-github" title="wangyiyun">
-                    <img src="https://cdn.wenqi.icu:5244/d/gh/WenqiOfficial/wenqicdn/img/social/wangyiyun.png">
+                    <img src="https://raw.hubproxy.wenqi.icu/WenqiOfficial/wenqicdn/master/img/social/wangyiyun.png">
                   </a>
                 </li>
               
@@ -137,7 +175,7 @@
               
                 <li>
                   <a href="mailto:wenqiofficial@outlook.com" target="_blank" class="social-github" title="email">
-                    <img src="https://cdn.wenqi.icu:5244/d/gh/WenqiOfficial/wenqicdn/img/social/mail_1.svg">
+                    <img src="https://raw.hubproxy.wenqi.icu/WenqiOfficial/wenqicdn/master/img/social/mail_1.svg">
                   </a>
                 </li>
               
@@ -145,7 +183,7 @@
               
                 <li>
                   <a href="https://space.bilibili.com/168567806" target="_blank" class="social-github" title="bilibili">
-                    <img src="https://cdn.wenqi.icu:5244/d/gh/WenqiOfficial/wenqicdn/img/social/bilibili-line.svg">
+                    <img src="https://raw.hubproxy.wenqi.icu/WenqiOfficial/wenqicdn/master/img/social/bilibili-line.svg">
                   </a>
                 </li>
               
@@ -153,14 +191,14 @@
               
                 <li>
                   <a href="" target="_blank" class="social-github" title="qq">
-                    <img src="https://cdn.wenqi.icu:5244/d/gh/WenqiOfficial/wenqicdn/img/social/QQ.svg">
+                    <img src="https://raw.hubproxy.wenqi.icu/WenqiOfficial/wenqicdn/master/img/social/QQ.svg">
                   </a>
                 </li>
               
             
           
           <li id="bg-next">
-            <img src="https://cdn.wenqi.icu:5244/d/gh/WenqiOfficial/wenqicdn/img/other/next-b.svg">
+            <img src="https://raw.hubproxy.wenqi.icu/WenqiOfficial/wenqicdn/master/img/other/next-b.svg">
           </li>
         </div>
       </div>
@@ -526,7 +564,7 @@
 
   <div class="pattern-center single-center">
     <!-- 有配图默认渲染第一张 -->
-    <div class="pattern-attachment-img lazyload" style="background-image: url(https://cdn.wenqi.icu:5244/d/gh/WenqiOfficial/wenqicdn/img/post/4.webp);" src="https://cdn.wenqi.icu:5244/d/gh/WenqiOfficial/wenqicdn/img/loader/white.square-circle-preloader.svg" data-src="https://cdn.wenqi.icu:5244/d/gh/WenqiOfficial/wenqicdn/img/post/4.webp">
+    <div class="pattern-attachment-img lazyload" style="background-image: url(https://raw.hubproxy.wenqi.icu/WenqiOfficial/wenqicdn/master/img/post/4.webp);" src="https://raw.hubproxy.wenqi.icu/WenqiOfficial/wenqicdn/master/img/loader/white.square-circle-preloader.svg" data-src="https://raw.hubproxy.wenqi.icu/WenqiOfficial/wenqicdn/master/img/post/4.webp">
     </div>
     <header class="pattern-header single-header">
       <h1 class="entry-title">
@@ -534,7 +572,7 @@
       <p class="entry-census">
         <span>
           <a href="">
-            <img src="https://cdn.wenqi.icu:5244/d/gh/WenqiOfficial/wenqicdn/img/custom/avatar.webp">
+            <img src="https://raw.hubproxy.wenqi.icu/WenqiOfficial/wenqicdn/master/img/custom/avatar.webp">
           </a>
         </span>
         <span>
@@ -553,7 +591,7 @@
         <i class="fa fa-keyboard-o"></i>
 	    <span class="post-meta-item-text">  本文字数: </span>
         <!-- 安装插件npm install hexo-wordcount --save -->
-        <span class="post-count">659字</span>
+        <span class="post-count">658字</span>
       </span>
     </span>
 
@@ -583,12 +621,12 @@
 <p><em>我就要用R病毒做封面啊啊啊啊！！！</em><br><strong>文中“FNF”均指代“Friday Night Funkin&#x2F;周五放克夜”</strong></p>
 </blockquote>
 
-        <div id="aplayer-Aawboken" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">
+        <div id="aplayer-hVuUSNhG" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">
             <pre class="aplayer-lrc-content"></pre>
         </div>
         <script>
           var ap = new APlayer({
-            element: document.getElementById("aplayer-Aawboken"),
+            element: document.getElementById("aplayer-hVuUSNhG"),
             narrow: false,
             autoplay: false,
             showlrc: false,
@@ -596,7 +634,7 @@
               title: "Virus R",
               author: "Azure lag",
               url: "https://cloud.wenqi.icu:5221/api/v3/file/get/1191/Inst.ogg?sign=pOPyKBsiZaoFmUCm5ddQRMdiC8aaUnP15eHWLOI1i2k%3D%3A0",
-              pic: "https://cdn.wenqi.icu:5244/d/gh/WenqiOfficial/wenqicdn/img/post/3.webp",
+              pic: "https://raw.hubproxy.wenqi.icu/WenqiOfficial/wenqicdn/master/img/post/3.webp",
               lrc: ""
             }
           });
@@ -615,7 +653,7 @@
 <p>原版可以说是原汁原味的（没有什么大亮点），本文不做详细阐述，想体验的可以看下面的获取方式。</p>
 <h3 id="获取方式"><a href="#获取方式" class="headerlink" title="获取方式"></a>获取方式</h3><p>原版的发布页是支持在线游玩的，但也可以下载下来本地玩。</p>
 <p>只是作者很懒，网页版更新到 Week7 了，结果Windows发布版才更新 Week5 …</p>
-<center><a target="_blank" rel="noopener" href="https://cdn.wenqi.icu:5244/d/gh/WenqiOfficial/wenqicdn/img/post/20220608000931.webp" data-fancybox="images" data-caption="迟迟没有更新的本地版本..."><img class="article" src="https://cdn.wenqi.icu:5244/d/gh/WenqiOfficial/wenqicdn/img/post/20220608000931.webp" alt="迟迟没有更新的本地版本..." /></a><div id="article_img_tag" style="color: #707070;font-size: .9em;"><span>迟迟没有更新的本地版本...</span></div></center>
+<center><a target="_blank" rel="noopener" href="https://raw.hubproxy.wenqi.icu/WenqiOfficial/wenqicdn/master/img/post/20220608000931.webp" data-fancybox="images" data-caption="迟迟没有更新的本地版本..."><img class="article" src="https://raw.hubproxy.wenqi.icu/WenqiOfficial/wenqicdn/master/img/post/20220608000931.webp" alt="迟迟没有更新的本地版本..." /></a><div id="article_img_tag" style="color: #707070;font-size: .9em;"><span>迟迟没有更新的本地版本...</span></div></center>
 
 <ul>
 <li><p>网页版（可在线游玩）&#x2F;下载：</p>
@@ -638,20 +676,20 @@
 <p>按下<code>Enter</code>键即可在 中文&#x2F;英文 切换</p>
 <p><code>CHINESE</code>中文</p>
 <p><code>ENGLISH</code>英文</p>
-<center><a target="_blank" rel="noopener" href="https://cdn.wenqi.icu:5244/d/gh/WenqiOfficial/wenqicdn/img/post/language.gif" data-fancybox="images" data-caption="语言切换"><img class="article" src="https://cdn.wenqi.icu:5244/d/gh/WenqiOfficial/wenqicdn/img/post/language.gif" alt="语言切换" /></a><div id="article_img_tag" style="color: #707070;font-size: .9em;"><span>语言切换</span></div></center>
+<center><a target="_blank" rel="noopener" href="https://raw.hubproxy.wenqi.icu/WenqiOfficial/wenqicdn/master/img/post/language.gif" data-fancybox="images" data-caption="语言切换"><img class="article" src="https://raw.hubproxy.wenqi.icu/WenqiOfficial/wenqicdn/master/img/post/language.gif" alt="语言切换" /></a><div id="article_img_tag" style="color: #707070;font-size: .9em;"><span>语言切换</span></div></center>
 
 <h4 id="自定义键位"><a href="#自定义键位" class="headerlink" title="自定义键位"></a>自定义键位</h4><p><strong>进入方式：”OPTIONS”→”GAMEPLAY”→”KEY BINDINGS”</strong></p>
 <p>更换按键：<code>↑/↓/←/→</code>移动到需要修改的按键，按下<code>Enter</code>键，当显示”?”的时候按下自己需要自定义的按键即可</p>
 <p>按键模式切换：按下<code>TAB</code>键</p>
 <p>保存：按下<code>Esc</code>键</p>
 <p>不保存&#x2F;还原默认键位：按下<code>Backspace</code>键</p>
-<center><a target="_blank" rel="noopener" href="https://cdn.wenqi.icu:5244/d/gh/WenqiOfficial/wenqicdn/img/post/keyset.gif" data-fancybox="images" data-caption="自定义键位"><img class="article" src="https://cdn.wenqi.icu:5244/d/gh/WenqiOfficial/wenqicdn/img/post/keyset.gif" alt="自定义键位" /></a><div id="article_img_tag" style="color: #707070;font-size: .9em;"><span>自定义键位</span></div></center>
+<center><a target="_blank" rel="noopener" href="https://raw.hubproxy.wenqi.icu/WenqiOfficial/wenqicdn/master/img/post/keyset.gif" data-fancybox="images" data-caption="自定义键位"><img class="article" src="https://raw.hubproxy.wenqi.icu/WenqiOfficial/wenqicdn/master/img/post/keyset.gif" alt="自定义键位" /></a><div id="article_img_tag" style="color: #707070;font-size: .9em;"><span>自定义键位</span></div></center>
 
 <h4 id="自动-观赏-模式"><a href="#自动-观赏-模式" class="headerlink" title="自动(观赏)模式"></a>自动(观赏)模式</h4><p><strong>进入方式：”OPTIONS”→”MISC”→”BOTPLAY”</strong></p>
 <p>按下<code>Enter</code>键即可在 开&#x2F;关 切换</p>
 <p><code>BOTPLAY OFF</code>关闭自动(观赏)模式</p>
 <p><code>BOTPLAY ON</code>开启自动(观赏)模式</p>
-<center><a target="_blank" rel="noopener" href="https://cdn.wenqi.icu:5244/d/gh/WenqiOfficial/wenqicdn/img/post/auto.gif" data-fancybox="images" data-caption="自动(观赏)模式"><img class="article" src="https://cdn.wenqi.icu:5244/d/gh/WenqiOfficial/wenqicdn/img/post/auto.gif" alt="自动(观赏)模式" /></a><div id="article_img_tag" style="color: #707070;font-size: .9em;"><span>自动(观赏)模式</span></div></center>
+<center><a target="_blank" rel="noopener" href="https://raw.hubproxy.wenqi.icu/WenqiOfficial/wenqicdn/master/img/post/auto.gif" data-fancybox="images" data-caption="自动(观赏)模式"><img class="article" src="https://raw.hubproxy.wenqi.icu/WenqiOfficial/wenqicdn/master/img/post/auto.gif" alt="自动(观赏)模式" /></a><div id="article_img_tag" style="color: #707070;font-size: .9em;"><span>自动(观赏)模式</span></div></center>
 
 <hr>
 <h1 id="游戏内部分画面"><a href="#游戏内部分画面" class="headerlink" title="游戏内部分画面"></a>游戏内部分画面</h1><h2 id="Virus-R"><a href="#Virus-R" class="headerlink" title="Virus R"></a>Virus R</h2><p>主界面：</p>
@@ -672,8 +710,8 @@
           <div class="reward-open">赏
             <div class="reward-main">
               <ul class="reward-row">
-                <!-- <li class="alipay-code"><img src="https://cdn.wenqi.icu:5244/d/gh/WenqiOfficial/wenqicdnundefined"></li> -->
-                <li class="wechat-code"><img src="https://cdn.wenqi.icu:5244/d/gh/WenqiOfficial/wenqicdn/img/custom/donate/wechat_donate.png"></li>
+                <!-- <li class="alipay-code"><img src="https://raw.hubproxy.wenqi.icu/WenqiOfficial/wenqicdn/masterundefined"></li> -->
+                <li class="wechat-code"><img src="https://raw.hubproxy.wenqi.icu/WenqiOfficial/wenqicdn/master/img/custom/donate/wechat_donate.png"></li>
               </ul>
             </div>
           </div>
@@ -698,7 +736,7 @@
           
             <a href="/2023/01/01/011/" rel="prev">
               <div class="background">
-                <img class="lazyload" src="https://cdn.wenqi.icu:5244/d/gh/WenqiOfficial/wenqicdn/img/loader/white.square-circle-preloader.svg" data-src="https://cdn.wenqi.icu:5244/d/gh/WenqiOfficial/wenqicdn/img/banner/143_95215205_p0.webp" style="width: 100%; height: 100%; object-fit: cover; pointer-events: none;" onerror="imgError(this,3)" src="https://cdn.wenqi.icu:5244/d/gh/WenqiOfficial/wenqicdn/img/banner/143_95215205_p0.webp">
+                <img class="lazyload" src="https://raw.hubproxy.wenqi.icu/WenqiOfficial/wenqicdn/master/img/loader/white.square-circle-preloader.svg" data-src="https://raw.hubproxy.wenqi.icu/WenqiOfficial/wenqicdn/master/img/banner/143_95215205_p0.webp" style="width: 100%; height: 100%; object-fit: cover; pointer-events: none;" onerror="imgError(this,3)" src="https://raw.hubproxy.wenqi.icu/WenqiOfficial/wenqicdn/master/img/banner/143_95215205_p0.webp">
               </div>
               <span class="label">
               上一篇文章(新的)</span>
@@ -716,7 +754,7 @@
           
             <a href="/2022/04/04/009/" rel="next">
               <div class="background">
-                <img class="lazyload" src="https://cdn.wenqi.icu:5244/d/gh/WenqiOfficial/wenqicdn/img/loader/white.square-circle-preloader.svg" data-src="https://cloud.wenqi.icu:5221/api/v3/file/get/493/cover.png?sign=CkVmvS_7QylVUSBTykurBY-TVbBq0smSewwsqT7Kkr0%3D%3A0" style="width: 100%; height: 100%; object-fit: cover; pointer-events: none;" onerror="imgError(this,3)" src="https://cloud.wenqi.icu:5221/api/v3/file/get/493/cover.png?sign=CkVmvS_7QylVUSBTykurBY-TVbBq0smSewwsqT7Kkr0%3D%3A0">
+                <img class="lazyload" src="https://raw.hubproxy.wenqi.icu/WenqiOfficial/wenqicdn/master/img/loader/white.square-circle-preloader.svg" data-src="https://cloud.wenqi.icu:5221/api/v3/file/get/493/cover.png?sign=CkVmvS_7QylVUSBTykurBY-TVbBq0smSewwsqT7Kkr0%3D%3A0" style="width: 100%; height: 100%; object-fit: cover; pointer-events: none;" onerror="imgError(this,3)" src="https://cloud.wenqi.icu:5221/api/v3/file/get/493/cover.png?sign=CkVmvS_7QylVUSBTykurBY-TVbBq0smSewwsqT7Kkr0%3D%3A0">
               </div>
               <span class="label">
               下一篇文章(旧的)</span>
@@ -967,7 +1005,7 @@
 
       <section class="author-profile">
         <div class="info" itemprop="author" itemscope="" itemtype="https://schema.org/Person">
-          <a href="" class="profile gravatar"><img src="https://cdn.wenqi.icu:5244/d/gh/WenqiOfficial/wenqicdn/img/custom/avatar.webp" itemprop="image" alt="闻柒" height="70" width="70"></a>
+          <a href="" class="profile gravatar"><img src="https://raw.hubproxy.wenqi.icu/WenqiOfficial/wenqicdn/master/img/custom/avatar.webp" itemprop="image" alt="闻柒" height="70" width="70"></a>
           <div class="meta">
             <span class="title">Author</span>
             <h3 itemprop="name">
@@ -1026,8 +1064,8 @@
   <div class="site-info">
     <div class="footertext">
       <div class="img-preload">
-        <img src="https://cdn.wenqi.icu:5244/d/gh/WenqiOfficial/wenqicdn/img/other/wordpress-rotating-ball-o.svg">
-        <img src="https://cdn.wenqi.icu:5244/d/gh/WenqiOfficial/wenqicdn/img/other/disqus-preloader.svg">
+        <img src="https://raw.hubproxy.wenqi.icu/WenqiOfficial/wenqicdn/master/img/other/wordpress-rotating-ball-o.svg">
+        <img src="https://raw.hubproxy.wenqi.icu/WenqiOfficial/wenqicdn/master/img/other/disqus-preloader.svg">
       </div>
       <p style="color: #666666;">&copy 2025 | 闻柒</p>
     </div>
@@ -1095,7 +1133,7 @@
   </script>
 	
 	<!--<a href="/" target="_blank" alt="Wenqi" rel="nofollow">
-	<img src="https://cdn.wenqi.icu:5244/d/gh/WenqiOfficial/wenqicdn/img/logo/wenqi_logo.webp" alt="Wenqi" style="height: 5.2em; max-height: 5.5em;padding-bottom: 0px;">
+	<img src="https://raw.hubproxy.wenqi.icu/WenqiOfficial/wenqicdn/master/img/logo/wenqi_logo.webp" alt="Wenqi" style="height: 5.2em; max-height: 5.5em;padding-bottom: 0px;">
 	</a>--> <br><a href="javascript:;" style="color: #FF8C00;">闻柒のCDN Ⅰ号 & Ⅱ号 驱动中！</a>
 	<br><a href="https://stats.uptimerobot.com/MWr42S54wL" target="_blank" style="color: #FF8C00;">→闻柒·系统运行状态←</a>
 	
@@ -1110,44 +1148,8 @@
 
 
 <!-- <script src="/js/tocbot.js"></script> -->
-<script type="text/javascript" src="https://cdnjs.snrat.com/ajax/libs/jquery/3.7.1/jquery.min.js" ></script>	
-<script>
-	$(".wenqiload qwq").fadeIn(1000); //渐入logo
-	$(".wenqiload bb").fadeIn();
-	$(function(){
-		var img=$("img");
-		img.each(function(i){
-		var oImg=new Image();
-		oImg.onload=function(){
-			oImg.onload=null;
-			$(".wenqiload bb").fadeOut(300);
-			$(".wenqiload qwq").fadeOut(300);
-			$(".wenqiload oxo").fadeOut(300);
-			setTimeout(done,500);
-		}
-		oImg.src=img[i].src;
-		});  
-	});
-	function done(){
-		clearTimeout(toolong);
-		$(".wenqiload ovo").fadeIn();
-		setTimeout(doneout,2000);
-		setTimeout(removeall,5000);
-	};
-	var toolong;
-	toolong = setTimeout(toolong,10000);
-	function doneout(){
-		$(".wenqiload").fadeOut("slow");
-	}
-	function removeall(){
-		$("#loader").remove();
-	}
-	function toolong(){
-		$(".wenqiload oxo").html("「没有变化的话就刷新一下吧！」<br>");
-		$(".wenqiload oxo").fadeIn("slow");
-	}
-</script>
-<script type="text/javascript" src="https://cdn.wenqi.icu:5244/d/gh/WenqiOfficial/wenqicdn/js/lib.min.js"></script>
+<!-- <script type="text/javascript" src="https://raw.hubproxy.wenqi.icu/WenqiOfficial/wenqicdn/master/js/lib.min.js"></script> -->
+<script type="text/javascript" src="/js/lib.min.js"></script>
 <script src="https://npm.elemecdn.com/clipboard@2/dist/clipboard.min.js"></script>
 <script type="text/javascript" src="/js/InsightSearch.js"></script>
 <!-- <script type="text/javascript" src="/js/jquery.fancybox.min.js"></script> -->
@@ -1264,7 +1266,7 @@ $(document).ready(function() {
   </section>
   <div id="mo-nav" class="">
   <div class="m-avatar">
-    <img src="https://cdn.wenqi.icu:5244/d/gh/WenqiOfficial/wenqicdn/img/custom/avatar.png">
+    <img src="https://raw.hubproxy.wenqi.icu/WenqiOfficial/wenqicdn/master/img/custom/avatar.png">
   </div>
   <p style="text-align: center; color: #333; font-weight: 900; font-family: 'Ubuntu', sans-serif; letter-spacing: 1.5px">闻柒的秘密的小屋</p>
   <p style="text-align: center; word-spacing: 20px;">
@@ -1628,8 +1630,8 @@ $(document).ready(function() {
   </span> 
  </div> 
 </div>
-	<script src="https://cdn.wenqi.icu:5244/d/gh/WenqiOfficial/wenqicdn/js/hititle.js"></script>
-	<script src="https://cdn.wenqi.icu:5244/d/gh/WenqiOfficial/wenqicdn/live2d/wenqi_autoload.js"></script>
+	<script src="https://raw.hubproxy.wenqi.icu/WenqiOfficial/wenqicdn/master/js/hititle.js"></script>
+	<script src="https://raw.hubproxy.wenqi.icu/WenqiOfficial/wenqicdn/master/live2d/wenqi_autoload.js"></script>
 	<script src="/js/wenqi.js"></script>
 </body>
 </html>
