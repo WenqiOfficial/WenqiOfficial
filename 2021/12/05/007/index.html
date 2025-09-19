@@ -96,17 +96,21 @@
 	</div>
 </div>
 <script>
-	$(".wenqiload qwq").fadeIn(1000); //渐入logo
-	$(".wenqiload bb").fadeIn();
+	const title = $("#loader #title"),
+		over = $("#loader #done"),
+		content = $("#loader #content"),
+		author = $("#loader #author");
+	author.fadeIn(1000); //渐入logo
+	title.fadeIn();
 	$(function(){
 		var img=$("img");
 		img.each(function(i){
 		var oImg=new Image();
 		oImg.onload=function(){
 			oImg.onload=null;
-			$(".wenqiload bb").fadeOut(300);
-			$(".wenqiload qwq").fadeOut(300);
-			$(".wenqiload oxo").fadeOut(300);
+			content.fadeOut(300);
+			author.fadeOut(300);
+			title.fadeOut(300);
 			setTimeout(done,500);
 		}
 		oImg.src=img[i].src;
@@ -114,7 +118,7 @@
 	});
 	function done(){
 		clearTimeout(toolong);
-		$(".wenqiload ovo").fadeIn();
+		over.fadeIn();
 		setTimeout(doneout,2000);
 		setTimeout(removeall,5000);
 	};
@@ -127,8 +131,8 @@
 		$("#loader").remove();
 	}
 	function toolong(){
-		$(".wenqiload oxo").html("「没有变化的话就刷新一下吧！」<br>");
-		$(".wenqiload oxo").fadeIn("slow");
+		content.html("「没有变化的话就刷新一下吧！」<br>");
+		content.fadeIn("slow");
 	}
 </script>
 
