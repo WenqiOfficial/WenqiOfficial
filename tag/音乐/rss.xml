@@ -50,20 +50,20 @@
             <category>OST</category>
             <pubDate>Sun, 05 Dec 2021 11:27:48 +0800</pubDate>
             <description><![CDATA[ &lt;link rel=&#34;stylesheet&#34; class=&#34;aplayer-secondary-style-marker&#34; href=&#34;\assets\css\APlayer.min.css&#34;&gt;&lt;script src=&#34;\assets\js\APlayer.min.js&#34; class=&#34;aplayer-secondary-script-marker&#34;&gt;&lt;/script&gt;
-        &lt;div id=&#34;aplayer-ceQipfgl&#34; class=&#34;aplayer aplayer-tag-marker&#34; style=&#34;margin-bottom: 20px;&#34;&gt;
+        &lt;div id=&#34;aplayer-COAmkzhF&#34; class=&#34;aplayer aplayer-tag-marker&#34; style=&#34;margin-bottom: 20px;&#34;&gt;
             &lt;pre class=&#34;aplayer-lrc-content&#34;&gt;&lt;/pre&gt;
         &lt;/div&gt;
         &lt;script&gt;
           var ap = new APlayer({
-            element: document.getElementById(&#34;aplayer-ceQipfgl&#34;),
+            element: document.getElementById(&#34;aplayer-COAmkzhF&#34;),
             narrow: false,
             autoplay: false,
             showlrc: false,
             music: {
-              title: &#34;Lyin (See you in the next world)&#34;,
+              title: &#34;Nightglow（Instrumental）&#34;,
               author: &#34;HOYO-MiX&#34;,
-              url: &#34;https://cloud.wenqi.icu:5221/api/v3/file/get/179/30%20Lyin%20%28See%20you%20in%20the%20next%20world%29.flac?sign=KfA9CHSJ07Ybrt_0LfISoK10cr7lCeFUltnDl54OVCU%3D%3A0&#34;,
-              pic: &#34;https://cloud.wenqi.icu:5221/api/v3/file/get/180/Cover.jpg?sign=_Ti4V_auuTN0gDyi7LalizGVjsSeyXJFlXIfkQx_WSM%3D%3A0&#34;,
+              url: &#34;https://cloud.dorm.wenqi.icu:5221/f/4LTW/29%20Nightglow%EF%BC%88Instrumental%EF%BC%89.flac&#34;,
+              pic: &#34;https://cloud.dorm.wenqi.icu:5221/f/pJfx/Cover.jpg&#34;,
               lrc: &#34;&#34;
             }
           });
