@@ -1,0 +1,1234 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="google-site-verification" content="CI9yYKE_qbBn1iUS0WHeZT2Hoq_cfkjlpMtPJQhEBcM" />
+  <meta name="msvalidate.01" content="9A3F7E5553DD92CA2FE12C6B833214BA" />
+  <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+  
+  <title itemprop="name">Tag: 虚拟机 | 闻柒的次元小屋</title>
+  
+    <link rel="shortcut icon" href="/images/wenqi.ico">
+  
+  <meta http-equiv="x-dns-prefetch-control" content="on">
+  <link rel="dns-prefetch" href="//fastly.jsdelivr.net">
+  <link rel="dns-prefetch" href="//cdnjs.snrat.com">
+  <link rel="dns-prefetch" href="//cdn.wenqi.icu">
+  <!-- <link rel="stylesheet" href="https://fonts.font.im/css?family=Noto+SerifMerriweather|Merriweather+Sans|Source+Code+Pro|Ubuntu:400,700|Noto+Serif+SC" media="all">-->
+  <link rel="stylesheet" href="https://at.alicdn.com/t/font_679578_dishi1yoavm.css" media ="all">
+  <link rel="stylesheet" href="https://s4.zstatic.net/npm/@fontsource/ubuntu@5.1.0/400.css" media="all">
+  <link rel="stylesheet" id="saukra_css-css" href="/css/style.css" type="text/css" media="all">
+  <link rel="stylesheet" href="/css/lib.min.css" media="all">
+  <link rel="stylesheet" href="/css/font.css" media="all">
+  
+    <link rel="stylesheet" href="/css/loader.css" >
+  
+  <link rel="stylesheet" href="https://cdnjs.snrat.com/ajax/libs/hack-font/3.3.0/web/hack.min.css" integrity="sha512-XgCw4Srl8lC1ECwcaHwAU0WnxQwHkqmInzg9wJLtGB7DRuMaXPuK2k9WJ2AwRDGdrgK9eJpZl2hUlLi2WQssmw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="/css/insight.css" media="all">
+  <!-- <link rel="stylesheet" href="/css/jquery.fancybox.min.css" media="all"> -->
+  <link href="https://cdnjs.snrat.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" rel="stylesheet">
+  <!-- <link rel="stylesheet" href="/css/zoom.css" media="all"> -->
+  <link rel="stylesheet" type="text/css" href="/fonts/logo/logo.css">
+  <link rel="stylesheet" type="text/css" href="/css/sharejs.css">
+<!--   <link rel="stylesheet" id="saukra_css-css" href="https://2heng.xin/wp-content/cache/autoptimize/css/autoptimize_ceaa143491a29f248c1ca9a9fa9d6316.css
+" type="text/css" media="all"> -->
+  <script type="text/javascript" src="https://cdnjs.snrat.com/ajax/libs/jquery/3.7.1/jquery.min.js" ></script>	
+  <script>
+  /*Initial Variables*/
+  var mashiro_option = new Object();
+  var mashiro_global = new Object();
+  mashiro_option.NProgressON = true;
+  /* 
+   * 邮箱信息之类的东西可以填在这里，这些js变量基本都作用于sakura-app.js
+   * 这样的设置仅是为了方便在基于PHP开发的主题中设置js变量，既然移植到了Node上，我想或许可以精简这一逻辑吧
+   */
+  mashiro_option.email_domain = "";
+  mashiro_option.email_name = "";
+  mashiro_option.cookie_version_control = "";
+  mashiro_option.qzone_autocomplete = false;
+  mashiro_option.site_name = "的次元小屋";
+  mashiro_option.author_name = "闻柒";
+  mashiro_option.site_url = "./";
+  // mashiro_option.v_appId = "";
+  // mashiro_option.v_appKey = "";
+  mashiro_option.mathjax = "0";
+  mashiro_option.qq_api_url = "https://api.mashiro.top/qqinfo/"; 
+  mashiro_option.qq_avatar_api_url = "https://api.mashiro.top/qqinfo/";
+
+  // mashiro_option.jsdelivr_css_src = "https://fastly.jsdelivr.net/gh/moezx/cdn/css/lib.min.css";
+  // mashiro_option.float_player_on = true;
+
+  /*End of Initial Variables*/
+  </script>
+  <script type="text/javascript">
+  var bg = "https://raw.hubproxy.wenqi.icu/WenqiOfficial/wenqicdn/master/img/cover/mainimg9.webp,https://raw.hubproxy.wenqi.icu/WenqiOfficial/wenqicdn/master/img/cover/mainimg.webp,https://raw.hubproxy.wenqi.icu/WenqiOfficial/wenqicdn/master/img/cover/mainimg2.webp,https://raw.hubproxy.wenqi.icu/WenqiOfficial/wenqicdn/master/img/cover/mainimg3.webp,https://raw.hubproxy.wenqi.icu/WenqiOfficial/wenqicdn/master/img/cover/mainimg4.webp,https://raw.hubproxy.wenqi.icu/WenqiOfficial/wenqicdn/master/img/cover/mainimg5.webp,https://raw.hubproxy.wenqi.icu/WenqiOfficial/wenqicdn/master/img/cover/mainimg6.webp,https://raw.hubproxy.wenqi.icu/WenqiOfficial/wenqicdn/master/img/cover/mainimg7.webp,https://raw.hubproxy.wenqi.icu/WenqiOfficial/wenqicdn/master/img/cover/mainimg8.webp,https://raw.hubproxy.wenqi.icu/WenqiOfficial/wenqicdn/master/img/cover/mainimg10.webp".split(",");
+  var bgindex = Math.floor(Math.random()*bg.length);
+  if (!!window.ActiveXObject || "ActiveXObject" in window) { //is IE?
+    alert('你的浏览器不支持本站所需ActiveX控件，更换其他浏览器试试吧');
+  }
+  </script>
+
+  <style type="text/css">
+  .hljs-ln{border-collapse:collapse}.hljs-ln td{padding:0}.hljs-ln-n:before{content:attr(data-line-number)}
+  </style>
+  <style type="text/css">.site-top .lower nav{display:block !important;}.author-profile i,.post-like a,.post-share .show-share,.sub-text,.we-info a,span.sitename,.post-more i:hover,#pagination a:hover,.post-content a:hover,.float-content i:hover{color:#FE9600}.feature i,.download,.navigator i:hover,.links ul li:before,.ar-time i,span.ar-circle,.object,.comment .comment-reply-link,.siren-checkbox-radio:checked + .siren-checkbox-radioInput:after{background:#FE9600}::-webkit-scrollbar-thumb{background:#FE9600}.download,.navigator i:hover,.link-title,.links ul li:hover,#pagination a:hover,.comment-respond input[type='submit']:hover{border-color:#FE9600}.entry-content a:hover,.site-info a:hover,.comment h4 a,#comments-navi a.prev,#comments-navi a.next,.comment h4 a:hover,.site-top ul li a:hover,.entry-title a:hover,#archives-temp h3,span.page-numbers.current,.sorry li a:hover,.site-title a:hover,i.iconfont.js-toggle-search.iconsearch:hover,.comment-respond input[type='submit']:hover{color:#FE9600}.comments .comments-main{display:block !important;}.comments .comments-hidden{display:none !important;}background-position:center center;background-attachment:inherit;}
+  </style>
+  
+	<script type="text/javascript" src='/js/Valine1.5.1.min.js'></script>
+	
+	
+<meta name="generator" content="Hexo 5.4.2"><link rel="alternate" href="/atom.xml" title="闻柒的次元小屋" type="application/atom+xml">
+</head>
+
+
+<div id='loader'>
+    <div class="wenqiload">
+		<div class="center">
+			<span id="title">加载中</span>
+			<span id="done" style="display:none;">加载完毕</span>
+		</div>
+		<div class="tips">
+			<span id="content" style="display:none;"></span>
+			<span id="author" style="display:none;font-size: 17px;">2025 | 闻柒</span>
+		</div>
+	</div>
+</div>
+<script>
+	const title = $("#loader #title"),
+		over = $("#loader #done"),
+		content = $("#loader #content"),
+		author = $("#loader #author");
+	author.fadeIn(1000); //渐入logo
+	title.fadeIn();
+	$(function(){
+		var img=$("img");
+		img.each(function(i){
+		var oImg=new Image();
+		oImg.onload=function(){
+			oImg.onload=null;
+			content.fadeOut(300);
+			author.fadeOut(300);
+			title.fadeOut(300);
+			setTimeout(done,500);
+		}
+		oImg.src=img[i].src;
+		});  
+	});
+	function done(){
+		clearTimeout(toolong);
+		over.fadeIn();
+		setTimeout(doneout,2000);
+		setTimeout(removeall,5000);
+	};
+	var toolong;
+	toolong = setTimeout(toolong,10000);
+	function doneout(){
+		$(".wenqiload").fadeOut("slow");
+	}
+	function removeall(){
+		$("#loader").remove();
+	}
+	function toolong(){
+		content.html("「没有变化的话就刷新一下吧！」<br>");
+		content.fadeIn("slow");
+	}
+</script>
+
+
+<body class="page-template page-template-user page-template-page-analytics page-template-userpage-analytics-php page page-id-1297 chinese-font serif isWebKit">
+  <div class="scrollbar" id="bar">
+  </div>
+  <a href="#" class="cd-top faa-float animated"></a>
+  <section id="main-container">
+    <div class="headertop filter-dot">
+  <!--首页顶部波浪-->
+  <!-- <div id="banner_wave_1"></div>
+  <div id="banner_wave_2"></div> -->
+  <figure id="centerbg" class="centerbg">
+    <div class="focusinfo no-select">
+      <div class="header-tou">
+        <h1 class="center-text glitch is-glitching Ubuntu-font" data-text="wenqi">wenqi
+		</h1>
+      </div>
+      <div class="header-info">
+        <p></p>
+        <div class="top-social_v2">
+          <li id="bg-pre">
+            <img class="flipx" src="https://raw.hubproxy.wenqi.icu/WenqiOfficial/wenqicdn/master/img/other/next-b.svg">
+          </li>
+          
+            
+              
+                <li>
+                  <a href="http://github.com/wenqiofficial" target="_blank" class="social-github" title="github">
+                    <img src="https://raw.hubproxy.wenqi.icu/WenqiOfficial/wenqicdn/master/img/social/github_1.png">
+                  </a>
+                </li>
+              
+            
+              
+                <li>
+                  <a href="https://music.163.com/#/user/home?id=497495164" target="_blank" class="social-github" title="wangyiyun">
+                    <img src="https://raw.hubproxy.wenqi.icu/WenqiOfficial/wenqicdn/master/img/social/wangyiyun.png">
+                  </a>
+                </li>
+              
+            
+              
+                <li>
+                  <a href="mailto:wenqiofficial@outlook.com" target="_blank" class="social-github" title="email">
+                    <img src="https://raw.hubproxy.wenqi.icu/WenqiOfficial/wenqicdn/master/img/social/mail_1.svg">
+                  </a>
+                </li>
+              
+            
+              
+                <li>
+                  <a href="https://space.bilibili.com/168567806" target="_blank" class="social-github" title="bilibili">
+                    <img src="https://raw.hubproxy.wenqi.icu/WenqiOfficial/wenqicdn/master/img/social/bilibili-line.svg">
+                  </a>
+                </li>
+              
+            
+              
+                <li>
+                  <a href="" target="_blank" class="social-github" title="qq">
+                    <img src="https://raw.hubproxy.wenqi.icu/WenqiOfficial/wenqicdn/master/img/social/QQ.svg">
+                  </a>
+                </li>
+              
+            
+          
+          <li id="bg-next">
+            <img src="https://raw.hubproxy.wenqi.icu/WenqiOfficial/wenqicdn/master/img/other/next-b.svg">
+          </li>
+        </div>
+      </div>
+    </div>
+  </figure>
+  <div id="video-container" style="">
+    <video style="object-fit: fill" id="bgvideo" class="video" video-name="" src="" width="auto" preload="auto">
+    </video>
+    <div id="video-btn" class="loadvideo videolive">
+    </div>
+    <div id="video-add">
+    </div>
+	<div id="video-sound" class="video-sound">
+		<div id="video-sound-up" class="video-sound-up" onclick="upup()"></div>
+		<div id="video-sound-down" class="video-sound-down" onclick="downdown()"></div>
+    </div>
+	<div class="video-stu">
+    </div>
+  </div>
+  <div class="headertop-down faa-float animated" onclick="headertop_down()">
+    <span>
+      <i class="fa fa-chevron-down" aria-hidden="true">
+      </i>
+    </span>
+  </div>
+</div>
+<script>
+	var videoElement = document.getElementById("bgvideo");
+	var vol = 0.1;
+	var outtime = 0;
+    function upup(){
+		voln=videoElement.volume*100;
+		if(voln < 90)
+		{
+		videoElement.volume !== 1 ? videoElement.volume += vol : 1;
+		voln=videoElement.volume*100;
+		$('.video-stu').css({
+              'bottom': '0px'
+        }).html('音量: ' + parseInt(voln) + '%')
+		}else
+		{
+		videoElement.volume = 1;
+		$('.video-stu').css({
+              'bottom': '0px'
+        }).html('音量: 100% 已经是最大音量啦！注意保护好耳朵哦！')
+		}
+		if(outtime==0)
+		{
+			setTimeout(stuout,1000);
+		}
+    outtime=3;
+    }
+	function downdown(){
+		voln=videoElement.volume*100;
+		if(voln > 10)
+		{
+		videoElement.volume !== 0 ? videoElement.volume -= vol : 1;
+		voln=videoElement.volume*100;
+		$('.video-stu').css({
+              'bottom': '0px'
+        }).html('音量: ' + parseInt(voln) + '%')
+		}else
+		{
+		videoElement.volume = 0;
+		$('.video-stu').css({
+              'bottom': '0px'
+        }).html('音量: 0% 已经是最低音量啦！')
+		}
+		if(outtime==0)
+		{
+			setTimeout(stuout,1000);
+		}
+    outtime=3;
+	}
+	function stuout(){
+    if(outtime>=1)
+    {
+      outtime--;
+      setTimeout(stuout,1000);
+    }else
+    {
+      $('.video-stu').css({
+			'bottom': '-100px'
+		  })
+    }
+	}
+</script>
+    <div id="page" class="site wrapper">
+      <header class="site-header no-select gizle sabit" role="banner">
+  <div class="site-top">
+    <div class="site-branding">
+      <span class="site-title">
+        <span class="logolink logo">
+          <a href="/">
+            <ruby>
+            <span class="sakuraso">闻柒</span>
+			<span class="no">的</span>
+            <span class="shironeko">次元小屋</span>
+            <rp></rp>
+            <rt class="logo">秘密的小屋</rt>
+            <rp></rp>
+            </ruby>
+		  </a>
+        </span>
+      </span>
+    </div>
+    <div class="searchbox search-form-submit">
+      <i class="iconfont js-toggle-search iconsearch icon-search">
+      </i>
+    </div>
+    <div id="show-nav" class="showNav mobile-fit">
+      <div class="line line1">
+      </div>
+      <div class="line line2">
+      </div>
+      <div class="line line3">
+      </div>
+    </div>
+    <div class="lower-cantiner">
+      <div class="lower">
+        <nav class="mobile-fit-control hide">
+          <ul id="menu-new" class="menu">
+            
+              <li>
+                <a href="/">
+                  <span class="faa-parent animated-hover">
+                    <i class="fa  fa-fort-awesome faa-shake" aria-hidden="true"></i>
+                    首页
+                  </span>
+                </a>
+                
+              </li>
+            
+              <li>
+                <a href="/archives/">
+                  <span class="faa-parent animated-hover">
+                    <i class="fa  fa-archive faa-shake" aria-hidden="true"></i>
+                    归档
+                  </span>
+                </a>
+                
+                  <ul class="sub-menu">
+                    
+                      <li>
+                        <a href="/categories/%E6%8A%80%E6%9C%AF/">
+                          <i class="fa fa-code" aria-hidden="true"></i>
+                          技术
+                        </a>
+                      </li>
+                    
+                      <li>
+                        <a href="/categories/%E8%AF%84%E6%B5%8B/">
+                          <i class="fa fa-file-text-o" aria-hidden="true"></i>
+                          评测
+                        </a>
+                      </li>
+                    
+                      <li>
+                        <a href="/categories/%E8%B5%84%E6%BA%90/">
+                          <i class="fa fa-cloud-download" aria-hidden="true"></i>
+                          资源
+                        </a>
+                      </li>
+                    
+                      <li>
+                        <a href="/categories/%E9%9A%8F%E6%83%B3/">
+                          <i class="fa fa-commenting-o" aria-hidden="true"></i>
+                          随想
+                        </a>
+                      </li>
+                    
+                  </ul>
+                
+              </li>
+            
+              <li>
+                <a href="/categories/Sakura/">
+                  <span class="faa-parent animated-hover">
+                    <i class="fa  iconfont icon-sakura faa-spin" aria-hidden="true"></i>
+                    Sakura
+                  </span>
+                </a>
+                
+              </li>
+            
+              <li>
+                <a href="javascript:;">
+                  <span class="faa-parent animated-hover">
+                    <i class="fa  fa-gamepad faa-vertical" aria-hidden="true"></i>
+                    游戏
+                  </span>
+                </a>
+                
+                  <ul class="sub-menu">
+                    
+                      <li>
+                        <a href="/game/menja/">
+                          <i class="fa fa-square" aria-hidden="true"></i>
+                          Menja
+                        </a>
+                      </li>
+                    
+                      <li>
+                        <a href="/game/Mikutap/">
+                          <i class="fa fa-music" aria-hidden="true"></i>
+                          Miku39
+                        </a>
+                      </li>
+                    
+                      <li>
+                        <a href="/game/canvas/">
+                          <i class="fa fa-star" aria-hidden="true"></i>
+                          Canvas
+                        </a>
+                      </li>
+                    
+                      <li>
+                        <a href="/game/powerful-wind/">
+                          <i class="fa fa-stumbleupon" aria-hidden="true"></i>
+                          强风大背头
+                        </a>
+                      </li>
+                    
+                  </ul>
+                
+              </li>
+            
+              <li>
+                <a href="javascript:;">
+                  <span class="faa-parent animated-hover">
+                    <i class="fa  fa-list-ul faa-vertical" aria-hidden="true"></i>
+                    清单
+                  </span>
+                </a>
+                
+                  <ul class="sub-menu">
+                    
+                      <li>
+                        <a href="/bangumi/">
+                          <i class="fa fa-film faa-vertical" aria-hidden="true"></i>
+                          番组
+                        </a>
+                      </li>
+                    
+                      <li>
+                        <a href="/music/">
+                          <i class="fa fa-headphones" aria-hidden="true"></i>
+                          歌单
+                        </a>
+                      </li>
+                    
+                      <li>
+                        <a href="/topvideo/">
+                          <i class="fa fa-video-camera" aria-hidden="true"></i>
+                          视频
+                        </a>
+                      </li>
+                    
+                      <li>
+                        <a href="/tools/">
+                          <i class="fa fa-wrench" aria-hidden="true"></i>
+                          工具
+                        </a>
+                      </li>
+                    
+                  </ul>
+                
+              </li>
+            
+              <li>
+                <a href="/comment/">
+                  <span class="faa-parent animated-hover">
+                    <i class="fa  fa-pencil-square-o faa-tada" aria-hidden="true"></i>
+                    留言板
+                  </span>
+                </a>
+                
+                  <ul class="sub-menu">
+                    
+                      <li>
+                        <a href="/comment/">
+                          <i class="fa fa-vine" aria-hidden="true"></i>
+                          Valine
+                        </a>
+                      </li>
+                    
+                      <li>
+                        <a href="/commentlivere/">
+                          <i class="fa fa-comment-o" aria-hidden="true"></i>
+                          Livere
+                        </a>
+                      </li>
+                    
+                  </ul>
+                
+              </li>
+            
+              <li>
+                <a href="/links/">
+                  <span class="faa-parent animated-hover">
+                    <i class="fa  fa-link faa-shake" aria-hidden="true"></i>
+                    友人帐
+                  </span>
+                </a>
+                
+              </li>
+            
+              <li>
+                <a href="/donate/">
+                  <span class="faa-parent animated-hover">
+                    <i class="fa  fa-paw faa-vertical" aria-hidden="true"></i>
+                    投喂
+                  </span>
+                </a>
+                
+              </li>
+            
+              <li>
+                <a href="javascript:;">
+                  <span class="faa-parent animated-hover">
+                    <i class="fa  fa-leaf faa-wrench" aria-hidden="true"></i>
+                    关于
+                  </span>
+                </a>
+                
+                  <ul class="sub-menu">
+                    
+                      <li>
+                        <a href="/about/">
+                          <i class="fa fa-info-circle" aria-hidden="true"></i>
+                          我
+                        </a>
+                      </li>
+                    
+                      <li>
+                        <a href="/theme-sakura/">
+                          <i class="fa fa-desktop" aria-hidden="true"></i>
+                          主题
+                        </a>
+                      </li>
+                    
+                      <li>
+                        <a target="_blank" rel="noopener" href="https://stats.uptimerobot.com/MWr42S54wL">
+                          <i class="fa fa-heartbeat" aria-hidden="true"></i>
+                          状态
+                        </a>
+                      </li>
+                    
+                  </ul>
+                
+              </li>
+            
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </div>
+</header>
+
+      <div class="pattern-center-blank"></div>
+<div class="pattern-center ">
+  <div class="pattern-attachment-img">
+    <img src="https://raw.hubproxy.wenqi.icu/WenqiOfficial/wenqicdn/master/img/loader/white.square-circle-preloader.svg" data-src="https://raw.hubproxy.wenqi.icu/WenqiOfficial/wenqicdn/master/img/banner/111_58102922_p0.webp" class="lazyload" onerror="imgError(this,3)" style="width: 100%; height: 100%; object-fit: cover; pointer-events: none;">
+  </div>
+  <header class="pattern-header ">
+    <h1 class="cat-title">虚拟机</h1>
+  </header>
+</div>
+<div id="content" class="site-content">
+  <div id="primary" class="content-area">
+    <main id="main" class="site-main" role="main">
+      
+  <!-- 首页默认取最最新文章集 -->
+  
+    
+      <article class="post post-list" itemscope="" itemtype="https://schema.org/BlogPosting">
+  <div class="post-entry">
+    <div class="feature">
+      <a href="/2025/12/09/016/">
+        <div class="overlay">
+          <i class="iconfont icon-text">
+          </i>
+        </div>
+        <img width="150" height="150" src="https://raw.hubproxy.wenqi.icu/WenqiOfficial/wenqicdn/master/img/banner/ROBIN-bg.webp" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" >
+      </a>
+    </div>
+    <h1 class="entry-title">
+    <a href="/2025/12/09/016/">
+    如何解决Esxi中虚拟机的时间同步问题</a>
+    </h1>
+    <div class="p-time">
+      <i class="iconfont icon-time">
+      </i>
+    2025-12-9</div>
+    <p>
+    特别针对Windows系统时间问题</p>
+    <footer class="entry-footer">
+      <div class="post-more">
+        <a href="/2025/12/09/016/">
+          <i class="iconfont icon-caidan">
+          </i>
+        </a>
+      </div>
+    </footer>
+  </div>
+  <hr>
+</article>
+    
+  
+
+
+      <div class="clearer">
+      </div>
+    </main>
+    <!--  -->
+    
+  </div>
+</div>
+    </div>    
+    <div class="ins-search">
+    <div class="ins-search-mask"></div>
+    <div class="ins-search-container">
+        <div class="ins-input-wrapper">
+            <input type="text" class="ins-search-input" placeholder="要搜些什么呢..."/>
+            <span class="ins-close ins-selectable"><i class="fa fa-times-circle"></i></span>
+        </div>
+        <div class="ins-section-wrapper">
+            <div class="ins-section-container"></div>
+        </div>
+    </div>
+</div>
+<script>
+(function (window) {
+    var INSIGHT_CONFIG = {
+        TRANSLATION: {
+            POSTS: '文章',
+            // PAGES: '页面',
+            CATEGORIES: '分类',
+            TAGS: '标签',
+        },
+        ROOT_URL: '/',
+        CONTENT_URL: '/content.json',
+    };
+    window.INSIGHT_CONFIG = INSIGHT_CONFIG;
+})(window);
+</script>
+    <!-- <footer id="footer">
+  
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      &copy; 2025 闻柒<br>
+      powered_by <a href="http://hexo.io/" target="_blank">Hexo</a>
+    </div>
+  </div>
+</footer> -->
+
+<footer id="colophon" class="site-footer" role="contentinfo">
+  <div class="site-info">
+    <div class="footertext">
+      <div class="img-preload">
+        <img src="https://raw.hubproxy.wenqi.icu/WenqiOfficial/wenqicdn/master/img/other/wordpress-rotating-ball-o.svg">
+        <img src="https://raw.hubproxy.wenqi.icu/WenqiOfficial/wenqicdn/master/img/other/disqus-preloader.svg">
+      </div>
+      <p style="color: #666666;">&copy 2025 | 闻柒</p>
+    </div>
+    <div class="footer-device">
+	<span id="timeDate">载入天数...</span><span id="times">载入时分秒...</span><script>
+    var now = new Date();
+    function createtime() {
+    var grt= new Date("09/05/2020 21:09:00");//此处修改你的建站时间或者网站上线时间
+    now.setTime(now.getTime()+250);
+    days = (now - grt ) / 1000 / 60 / 60 / 24; dnum = Math.floor(days);
+    hours = (now - grt ) / 1000 / 60 / 60 - (24 * dnum); hnum = Math.floor(hours);
+    if(String(hnum).length ==1 ){hnum = "0" + hnum;} minutes = (now - grt ) / 1000 /60 - (24 * 60 * dnum) - (60 * hnum);
+    mnum = Math.floor(minutes); if(String(mnum).length ==1 ){mnum = "0" + mnum;}
+    seconds = (now - grt ) / 1000 - (24 * 60 * 60 * dnum) - (60 * 60 * hnum) - (60 * mnum);
+    snum = Math.round(seconds); if(String(snum).length ==1 ){snum = "0" + snum;}
+    document.getElementById("timeDate").innerHTML = "「小屋已经营 "+dnum+" 天 ";
+    document.getElementById("times").innerHTML = hnum + " 小时 " + mnum + " 分 " + snum + " 秒」";
+  }
+  setInterval("createtime()",250);</script><br>
+  <span id="busuanzi_container_site_pv" style='display:none'>
+   小屋访问数量 <span id="busuanzi_value_site_pv" style="color: #FF8C00;"></span> 次 | 小屋访客人数 <span id="busuanzi_value_site_uv" style="color: #FF8C00;"></span> 人
+  </span>
+
+<div id="binft" style="color: #666666;"></div>
+  <script>
+    var binft = function (r) {
+      function t() {
+        return b[Math.floor(Math.random() * b.length)]
+      }
+      function e() {
+        return String.fromCharCode(94 * Math.random() + 33)
+      }
+      function n(r) {
+        for (var n = document.createDocumentFragment(), i = 0; r > i; i++) {
+          var l = document.createElement("span");
+          l.textContent = e(), l.style.color = t(), n.appendChild(l)
+        }
+        return n
+      }
+      function i() {
+        var t = o[c.skillI];
+        c.step ? c.step-- : (c.step = g, c.prefixP < l.length ? (c.prefixP >= 0 && (c.text += l[c.prefixP]), c.prefixP++) : "forward" === c.direction ? c.skillP < t.length ? (c.text += t[c.skillP], c.skillP++) : c.delay ? c.delay-- : (c.direction = "backward", c.delay = a) : c.skillP > 0 ? (c.text = c.text.slice(0, -1), c.skillP--) : (c.skillI = (c.skillI + 1) % o.length, c.direction = "forward")), r.textContent = c.text, r.appendChild(n(c.prefixP < l.length ? Math.min(s, s + c.prefixP) : Math.min(s, t.length - c.skillP))), setTimeout(i, d)
+      }
+      var l = "",
+      o = ["青青陵上柏，磊磊涧中石。", "人生天地间，忽如远行客。","混入了一些奇怪的东西QwQ","看不见我吧...","如果可以的话投喂一下博主吧(*╹▽╹*)"].map(function (r) {
+      return r + ""
+      }),
+      a = 2,
+      g = 1,
+      s = 5,
+      d = 75,
+      b = ["rgb(110,64,170)", "rgb(150,61,179)", "rgb(191,60,175)", "rgb(228,65,157)", "rgb(254,75,131)", "rgb(255,94,99)", "rgb(255,120,71)", "rgb(251,150,51)", "rgb(226,183,47)", "rgb(198,214,60)", "rgb(175,240,91)", "rgb(127,246,88)", "rgb(82,246,103)", "rgb(48,239,130)", "rgb(29,223,163)", "rgb(26,199,194)", "rgb(35,171,216)", "rgb(54,140,225)", "rgb(76,110,219)", "rgb(96,84,200)"],
+      c = {
+        text: "",
+        prefixP: -s,
+        skillI: 0,
+        skillP: 0,
+        direction: "forward",
+        delay: a,
+        step: g
+      };
+      i()
+      };
+      binft(document.getElementById('binft'));
+  </script>
+	
+	<!--<a href="/" target="_blank" alt="Wenqi" rel="nofollow">
+	<img src="https://raw.hubproxy.wenqi.icu/WenqiOfficial/wenqicdn/master/img/logo/wenqi_logo.webp" alt="Wenqi" style="height: 5.2em; max-height: 5.5em;padding-bottom: 0px;">
+	</a>--> <br><a href="javascript:;" style="color: #FF8C00;">闻柒のCDN Ⅰ号 & Ⅱ号 驱动中！</a>
+	<br><a href="https://stats.uptimerobot.com/MWr42S54wL" target="_blank" style="color: #FF8C00;">→闻柒·系统运行状态←</a>
+	
+	<p style="font-family: 'Ubuntu', sans-serif;">
+        <span style="color: #b9b9b9;">Powered by Hexo</a> <i class="iconfont icon-sakura rotating" style="color: #ffc0cb;display:inline-block"></i> Theme <a href="/theme-sakura" target="_blank" style="color: #b9b9b9;;text-decoration: underline dotted rgba(0, 0, 0, .1);">Sakura Plus By Wenqi</a>
+        </span>
+		
+    </p>
+    </div>
+  </div><!-- .site-info -->
+</footer>
+
+
+<!-- <script src="/js/tocbot.js"></script> -->
+<!-- <script type="text/javascript" src="https://raw.hubproxy.wenqi.icu/WenqiOfficial/wenqicdn/master/js/lib.min.js"></script> -->
+<script type="text/javascript" src="/js/lib.min.js"></script>
+<script src="https://npm.elemecdn.com/clipboard@2/dist/clipboard.min.js"></script>
+<script type="text/javascript" src="/js/InsightSearch.js"></script>
+<!-- <script type="text/javascript" src="/js/jquery.fancybox.min.js"></script> -->
+<script src="https://cdnjs.snrat.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+<script>
+  $('[data-fancybox]').fancybox({//启用函数，必须
+    protect: true, //图片右键不能下载，可选
+    thumbs : {
+      autoStart : false //缩略图
+    },
+    buttons : [
+        'zoom',
+        //'thumbs',
+        'close'
+    ],
+    keyboard : true,
+
+    lang : 'zh',
+    i18n : {
+        'en' : {
+            CLOSE       : 'Close',
+            NEXT        : 'Next',
+            PREV        : 'Previous',
+            ERROR       : 'The requested content cannot be loaded. <br/> Please try again later.',
+            PLAY_START  : 'Start slideshow',
+            PLAY_STOP   : 'Pause slideshow',
+            FULL_SCREEN : 'Full screen',
+            THUMBS      : 'Thumbnails',
+            DOWNLOAD    : 'Download',
+            SHARE       : 'Share',
+            ZOOM        : 'Zoom'
+        },
+        'zh' : {
+            CLOSE       : '关闭',
+            NEXT        : '下一张',
+            PREV        : '上一张',
+            ERROR       : '加载失败了...',
+            PLAY_START  : '开始自动播放',
+            PLAY_STOP   : '暂停自动播放',
+            FULL_SCREEN : '全屏',
+            THUMBS      : '缩略图',
+            DOWNLOAD    : '下载',
+            SHARE       : '分享',
+            ZOOM        : '缩放'
+        }
+    }
+  });
+</script>
+<!-- <script type="text/javascript" src="/js/zoom.min.js"></script> -->
+<script type="text/javascript" src="/js/sakura-app.js"></script>
+<!--<script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>-->
+<script src="/js/botui.js"></script>
+<!-- 不蒜子 网页计数器 -->
+<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+<!-- <script src="https://cdnjs.snrat.com/ajax/libs/tocbot/4.4.2/tocbot.min.js"></script> -->
+<script type="text/javascript">
+/* <![CDATA[ */
+if (/Android|webOS|iPhone|iPod|BlackBerry/i.test(navigator.userAgent)) {
+  var Poi = {"pjax":"1","movies":{"url": "https://cloud.dorm.wenqi.icu:5221/f","name":"BaCL/deco_low.mp4","live":"close"},"windowheight":"fixed","codelamp":"close","ajaxurl":"","order":"asc","formpostion":"bottom"};
+} else {
+  var Poi = {"pjax":"1","movies":{"url": "https://cloud.dorm.wenqi.icu:5221/f","name":"BaCL/deco_low.mp4","live":"open"},"windowheight":"auto","codelamp":"close","ajaxurl":"","order":"asc","formpostion":"bottom"};
+}
+/* ]]> */
+
+</script>
+<script>
+$(document).ready(function() {
+  if ($(".toc").length > 0 && document.body.clientWidth > 1200) {
+    if ($(".pattern-center").length > 0) { //有图的情况
+      tocbot.init({
+          // Where to render the table of contents.
+          tocSelector: '.toc', // 放置目录的容器
+          // Where to grab the headings to build the table of contents.
+          contentSelector: '.entry-content', // 正文内容所在
+          // Which headings to grab inside of the contentSelector element.
+          scrollSmooth: true,
+          headingSelector: 'h1, h2, h3, h4, h5', // 需要索引的标题级别
+          headingsOffset: -400,
+          scrollSmoothOffset: -85
+      });
+    } else {
+      tocbot.init({
+          // Where to render the table of contents.
+          tocSelector: '.toc', // 放置目录的容器
+          // Where to grab the headings to build the table of contents.
+          contentSelector: '.entry-content', // 正文内容所在
+          // Which headings to grab inside of the contentSelector element.
+          scrollSmooth: true,
+          headingSelector: 'h1, h2, h3, h4, h5', // 需要索引的标题级别
+          headingsOffset: -85,
+          scrollSmoothOffset: -85
+      });
+    }
+    var offsetTop = $('.toc').offset().top - 95;
+    window.onscroll = function() {
+      var scrollTop = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop;
+      if (scrollTop >= offsetTop) {
+        $('.toc').addClass('toc-fixed');
+      } else {
+        $('.toc').removeClass('toc-fixed');
+      }
+    }
+  }
+});
+</script>
+    <div class="openNav no-select" style="height: 50px;">
+      <div class="iconflat no-select" style="width: 50px; height: 50px;">
+        <div class="icon"></div>
+      </div>
+      <div class="site-branding search-form-submit">
+        <i class="iconfont js-toggle-search iconsearch icon-search"></i>
+      </div>
+    </div>
+  </section>
+  <div id="mo-nav" class="">
+  <div class="m-avatar">
+    <img src="https://raw.hubproxy.wenqi.icu/WenqiOfficial/wenqicdn/master/img/custom/avatar.png">
+  </div>
+  <p style="text-align: center; color: #333; font-weight: 900; font-family: 'Ubuntu', sans-serif; letter-spacing: 1.5px">闻柒的秘密的小屋</p>
+  <p style="text-align: center; word-spacing: 20px;">
+    
+      
+        <a href="http://github.com/wenqiofficial" class="fa fa-github" target="_blank" style="color: #333; margin-left:20px"></a>
+      
+        <a href="" class="fa fa-qq" target="_blank" style="color: #25c6fe; margin-left:20px"></a>
+      
+    
+  </p>
+  <ul id="menu-new-1" class="menu">
+    
+      <li>
+        <a href="/">
+          <span class="faa-parent animated-hover">
+            <i class="fa  fa-fort-awesome faa-shake" aria-hidden="true"></i>
+            首页
+          </span>
+        </a>
+        
+      </li>
+    
+      <li>
+        <a href="/archives/">
+          <span class="faa-parent animated-hover">
+            <i class="fa  fa-archive faa-shake" aria-hidden="true"></i>
+            归档
+          </span>
+        </a>
+        
+          <ul class="sub-menu">
+            
+              <li>
+                <a href="/categories/%E6%8A%80%E6%9C%AF/">
+                  <i class="fa fa-code" aria-hidden="true"></i>
+                  技术
+                </a>
+              </li>
+            
+              <li>
+                <a href="/categories/%E8%AF%84%E6%B5%8B/">
+                  <i class="fa fa-file-text-o" aria-hidden="true"></i>
+                  评测
+                </a>
+              </li>
+            
+              <li>
+                <a href="/categories/%E8%B5%84%E6%BA%90/">
+                  <i class="fa fa-cloud-download" aria-hidden="true"></i>
+                  资源
+                </a>
+              </li>
+            
+              <li>
+                <a href="/categories/%E9%9A%8F%E6%83%B3/">
+                  <i class="fa fa-commenting-o" aria-hidden="true"></i>
+                  随想
+                </a>
+              </li>
+            
+          </ul>
+        
+      </li>
+    
+      <li>
+        <a href="/categories/Sakura/">
+          <span class="faa-parent animated-hover">
+            <i class="fa  iconfont icon-sakura faa-spin" aria-hidden="true"></i>
+            Sakura
+          </span>
+        </a>
+        
+      </li>
+    
+      <li>
+        <a href="javascript:;">
+          <span class="faa-parent animated-hover">
+            <i class="fa  fa-gamepad faa-vertical" aria-hidden="true"></i>
+            游戏
+          </span>
+        </a>
+        
+          <ul class="sub-menu">
+            
+              <li>
+                <a href="/game/menja/">
+                  <i class="fa fa-square" aria-hidden="true"></i>
+                  Menja
+                </a>
+              </li>
+            
+              <li>
+                <a href="/game/Mikutap/">
+                  <i class="fa fa-music" aria-hidden="true"></i>
+                  Miku39
+                </a>
+              </li>
+            
+              <li>
+                <a href="/game/canvas/">
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  Canvas
+                </a>
+              </li>
+            
+              <li>
+                <a href="/game/powerful-wind/">
+                  <i class="fa fa-stumbleupon" aria-hidden="true"></i>
+                  强风大背头
+                </a>
+              </li>
+            
+          </ul>
+        
+      </li>
+    
+      <li>
+        <a href="javascript:;">
+          <span class="faa-parent animated-hover">
+            <i class="fa  fa-list-ul faa-vertical" aria-hidden="true"></i>
+            清单
+          </span>
+        </a>
+        
+          <ul class="sub-menu">
+            
+              <li>
+                <a href="/bangumi/">
+                  <i class="fa fa-film faa-vertical" aria-hidden="true"></i>
+                  番组
+                </a>
+              </li>
+            
+              <li>
+                <a href="/music/">
+                  <i class="fa fa-headphones" aria-hidden="true"></i>
+                  歌单
+                </a>
+              </li>
+            
+              <li>
+                <a href="/topvideo/">
+                  <i class="fa fa-video-camera" aria-hidden="true"></i>
+                  视频
+                </a>
+              </li>
+            
+              <li>
+                <a href="/tools/">
+                  <i class="fa fa-wrench" aria-hidden="true"></i>
+                  工具
+                </a>
+              </li>
+            
+          </ul>
+        
+      </li>
+    
+      <li>
+        <a href="/comment/">
+          <span class="faa-parent animated-hover">
+            <i class="fa  fa-pencil-square-o faa-tada" aria-hidden="true"></i>
+            留言板
+          </span>
+        </a>
+        
+          <ul class="sub-menu">
+            
+              <li>
+                <a href="/comment/">
+                  <i class="fa fa-vine" aria-hidden="true"></i>
+                  Valine
+                </a>
+              </li>
+            
+              <li>
+                <a href="/commentlivere/">
+                  <i class="fa fa-comment-o" aria-hidden="true"></i>
+                  Livere
+                </a>
+              </li>
+            
+          </ul>
+        
+      </li>
+    
+      <li>
+        <a href="/links/">
+          <span class="faa-parent animated-hover">
+            <i class="fa  fa-link faa-shake" aria-hidden="true"></i>
+            友人帐
+          </span>
+        </a>
+        
+      </li>
+    
+      <li>
+        <a href="/donate/">
+          <span class="faa-parent animated-hover">
+            <i class="fa  fa-paw faa-vertical" aria-hidden="true"></i>
+            投喂
+          </span>
+        </a>
+        
+      </li>
+    
+      <li>
+        <a href="javascript:;">
+          <span class="faa-parent animated-hover">
+            <i class="fa  fa-leaf faa-wrench" aria-hidden="true"></i>
+            关于
+          </span>
+        </a>
+        
+          <ul class="sub-menu">
+            
+              <li>
+                <a href="/about/">
+                  <i class="fa fa-info-circle" aria-hidden="true"></i>
+                  我
+                </a>
+              </li>
+            
+              <li>
+                <a href="/theme-sakura/">
+                  <i class="fa fa-desktop" aria-hidden="true"></i>
+                  主题
+                </a>
+              </li>
+            
+              <li>
+                <a target="_blank" rel="noopener" href="https://stats.uptimerobot.com/MWr42S54wL">
+                  <i class="fa fa-heartbeat" aria-hidden="true"></i>
+                  状态
+                </a>
+              </li>
+            
+          </ul>
+        
+      </li>
+    
+  </ul>
+  <p style="text-align: center; font-size: 13px; color: #b9b9b9;">&copy 2025 | 闻柒</p>
+</div>
+<button onclick="topFunction()" class="mobile-cd-top" id="moblieGoTop" title="Go to top" style="display: none;"><i class="fa fa-chevron-up" aria-hidden="true"></i></button>
+  <link rel="stylesheet" href="https://npm.elemecdn.com/aplayer/dist/APlayer.min.css">
+<script src="https://npm.elemecdn.com/aplayer/dist/APlayer.min.js"></script>
+<!-- require MetingJS -->
+<script src="https://npm.elemecdn.com/meting/dist/Meting.min.js"></script>
+<style>
+  .aplayer {
+	font-family: misans,'Source Han Serif SC','Source Han Serif',source-han-serif-sc,'PT Serif','SongTi SC','MicroSoft Yahei',Georgia,serif;
+  }
+  .serif .aplayer {
+    font-family: litsquare,misans,'Source Han Serif SC','Source Han Serif',source-han-serif-sc,'PT Serif','SongTi SC','MicroSoft Yahei',Georgia,serif !important;
+  }
+  
+  .aplayer .aplayer-lrc {
+    height: 35px;
+  }
+  .aplayer .aplayer-lrc p{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18px !important;
+  }
+  .aplayer .aplayer-lrc p.aplayer-lrc-current{
+    color: #FF1493;
+  }
+  .aplayer.aplayer-narrow .aplayer-body{
+    left: -66px !important;
+  }
+  .aplayer.aplayer-fixed .aplayer-lrc {
+    display: none;
+  }
+  .aplayer .aplayer-lrc.aplayer-lrc-hide {
+      display:none !important;
+  }
+  .aplayer.aplayer-fixed .lrc-show {
+    display: block;
+    background: rgba(255, 255, 255, 0.8);
+  }
+</style>
+<meting-js
+
+    id="5089333489"
+
+    server="netease"
+
+    type="playlist"
+
+    fixed="true"
+
+    autoplay="false"
+
+    loop="all"
+
+    order="random"
+
+    preload="auto"
+
+    volume="0.5"
+
+    mutex="true"
+
+</meting-js>
+<script>
+  $(function(){
+    $('body').on('click', '.aplayer', function(){
+      if($('.aplayer-button').hasClass('aplayer-play')) {
+        $('.aplayer-lrc').removeClass('lrc-show');
+      } else {
+        $('.aplayer-lrc').addClass('lrc-show');
+      }
+    })
+  });
+</script>
+  <script src="/js/instantpage5.2.0.js" type="module"></script>
+  <div class="skin-menu no-select" id="mainskin" style="position: fixed">
+ <div class="theme-controls row-container">
+  <p style="text-align:center;font-weight:700;color:#444">
+      <i style="color:grey" class="fa fa-chevron-left"></i> 背景
+      <i style="color:grey" class="fa fa-chevron-right"></i></p>
+  <ul class="menu-list">
+   <li id="white-bg"> <i class="fa fa-television" aria-hidden="true"></i></li>
+   <li id="sakura-bg"> <i class="iconfont icon-sakura"></i></li>
+   <li id="gribs-bg"> <i class="fa fa-slack" aria-hidden="true"></i></li>
+   <li id="KAdots-bg"> <i class="iconfont icon-dots"></i></li>
+   <li id="totem-bg"> <i class="fa fa-optin-monster" aria-hidden="true"></i></li>
+   <li id="pixiv-bg"> <i class="iconfont icon-pixiv"></i></li>
+   <li id="bing-bg"> <i class="iconfont icon-bing"></i></li>
+   <li id="dark-bg"> <i class="fa fa-moon-o" aria-hidden="true"></i></li>
+  </ul>
+ </div>
+<p style="text-align:center;font-weight:700;color:#444">
+    <i style="color:grey" class="fa fa-chevron-left"></i> 字体
+    <i style="color:grey" class="fa fa-chevron-right"></i></p>
+<div class="font-family-controls row-container"> 
+    <button type="button" class="control-btn-serif selected" data-mode="litsquare" onclick="mashiro_global.font_control.change_font()">LitSquare</button>
+    <button type="button" class="control-btn-misans" data-mode="misans" onclick="mashiro_global.font_control.change_font()">Misans</button>  
+</div>
+<p style="text-align:center;font-weight:700;color:#444">
+    <i style="color:grey" class="fa fa-chevron-left"></i> 漂浮效果
+    <i style="color:grey" class="fa fa-chevron-right"></i></p>
+    <div class="theme-controls row-container">
+  <ul class="menu-list">
+	<li id="empty-effect"><i class="fa fa-ban"></i></li>
+    <li id="sakura-rain-effect"><i class="iconfont icon-sakura"></i></li>
+    <li id="snowy-effect"><i class="fa fa-snowflake-o"></i></li>
+    <li id="point-rain-effect"><i class="iconfont icon-dots"></i></li>
+  </ul>
+</div>
+
+<p style="text-align:center">☆过多的效果会导致卡顿☆</p>
+</div>
+<canvas id="night-mode-cover"></canvas>
+ 
+  <div class="changeSkin-gear no-select" style="bottom: -999px;"> 
+ <div class="keys"> 
+  <span id="open-skinMenu"> <i class="iconfont icon-gear inline-block rotating"></i>&nbsp; 主题工具 | THEME TOOL 
+  </span> 
+ </div> 
+</div>
+	<script src="https://raw.hubproxy.wenqi.icu/WenqiOfficial/wenqicdn/master/js/hititle.js"></script>
+	<script src="https://raw.hubproxy.wenqi.icu/WenqiOfficial/wenqicdn/master/live2d/wenqi_autoload.js"></script>
+	<script src="/js/wenqi.js"></script>
+</body>
+</html>

@@ -5,8 +5,8 @@
         <link>https://blog.wenqi.icu</link>
         <description>秘密的小屋有着秘密的东西(*╹▽╹*)</description>
         <language>zh-cn</language>
-        <pubDate>Fri, 11 Aug 2023 09:32:00 +0800</pubDate>
-        <lastBuildDate>Fri, 11 Aug 2023 09:32:00 +0800</lastBuildDate>
+        <pubDate>Tue, 09 Dec 2025 00:58:00 +0800</pubDate>
+        <lastBuildDate>Tue, 09 Dec 2025 00:58:00 +0800</lastBuildDate>
         <category>耳机</category>
         <category>水月雨</category>
         <category>《崩坏：星穹铁道》</category>
@@ -40,6 +40,23 @@
         <category>葬送的芙莉莲</category>
         <category>ED</category>
         <category>Hi-Res</category>
+        <category>Esxi</category>
+        <category>VMware</category>
+        <category>虚拟机</category>
+        <item>
+            <guid isPermalink="true">https://blog.wenqi.icu/2025/12/09/016/</guid>
+            <title>如何解决Esxi中虚拟机的时间同步问题</title>
+            <link>https://blog.wenqi.icu/2025/12/09/016/</link>
+            <category>Esxi</category>
+            <category>VMware</category>
+            <category>虚拟机</category>
+            <pubDate>Tue, 09 Dec 2025 00:58:00 +0800</pubDate>
+            <description><![CDATA[ &lt;link rel=&#34;stylesheet&#34; class=&#34;aplayer-secondary-style-marker&#34; href=&#34;\assets\css\APlayer.min.css&#34;&gt;&lt;script src=&#34;\assets\js\APlayer.min.js&#34; class=&#34;aplayer-secondary-script-marker&#34;&gt;&lt;/script&gt;&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;本文实验的环境基于Esxi 8.0，理论配置方案适用于Esxi 6.x 7.x 8.x等&lt;/strong&gt;&lt;br&gt;解决方案可以直接跳转 &lt;a href=&#34;#%E8%A7%A3%E5%86%B3%E6%AD%A5%E9%AA%A4&#34;&gt;解决步骤&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h1 id=&#34;前言&#34;&gt;&lt;a href=&#34;#前言&#34; class=&#34;headerlink&#34; title=&#34;前言&#34;&gt;&lt;/a&gt;前言&lt;/h1&gt;&lt;p&gt;事情起源于某天，某咕咕在忍受不了&lt;/p&gt;
+&lt;h1 id=&#34;正文&#34;&gt;&lt;a href=&#34;#正文&#34; class=&#34;headerlink&#34; title=&#34;正文&#34;&gt;&lt;/a&gt;正文&lt;/h1&gt;&lt;h2 id=&#34;实验设备&#34;&gt;&lt;a href=&#34;#实验设备&#34; class=&#34;headerlink&#34; title=&#34;实验设备&#34;&gt;&lt;/a&gt;实验设备&lt;/h2&gt;&lt;h2 id=&#34;问题浮现&#34;&gt;&lt;a href=&#34;#问题浮现&#34; class=&#34;headerlink&#34; title=&#34;问题浮现&#34;&gt;&lt;/a&gt;问题浮现&lt;/h2&gt;&lt;h2 id=&#34;解决步骤&#34;&gt;&lt;a href=&#34;#解决步骤&#34; class=&#34;headerlink&#34; title=&#34;解决步骤&#34;&gt;&lt;/a&gt;解决步骤&lt;/h2&gt;&lt;h2 id=&#34;总结&#34;&gt;&lt;a href=&#34;#总结&#34; class=&#34;headerlink&#34; title=&#34;总结&#34;&gt;&lt;/a&gt;总结&lt;/h2&gt; ]]></description>
+        </item>
         <item>
             <guid isPermalink="true">https://blog.wenqi.icu/2023/08/11/012/</guid>
             <title>STUDY WITH MIKU</title>
